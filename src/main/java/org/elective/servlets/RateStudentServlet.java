@@ -57,7 +57,9 @@ public class RateStudentServlet extends HttpServlet {
 
         } catch (DBException | Exception e) {
             logger.error(e);
-            e.printStackTrace();
+            req.setAttribute("message", e.getMessage());
+            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            rd.forward(req, resp);
             return;
         }
         List<StudentsSubtopic> finishedSubtopics = studentsSubtopics.stream()
@@ -72,7 +74,6 @@ public class RateStudentServlet extends HttpServlet {
                 logger.debug("setting new garde: {}", grade);
             } catch (DBException | Exception e) {
                 logger.error(e);
-                e.printStackTrace();
                 req.setAttribute("message", e.getMessage());
                 RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
                 rd.forward(req, resp);
@@ -81,9 +82,10 @@ public class RateStudentServlet extends HttpServlet {
             resp.sendRedirect(req.getContextPath() + "/view_course");
 
         } else {
-            PrintWriter out = resp.getWriter();
-                out.println("This student did not complete course yet");
             logger.debug("This student did not complete course yet");
+            req.setAttribute("message", "This student did not complete course yet");
+            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            rd.forward(req, resp);
         }
 
     }

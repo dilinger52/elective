@@ -35,7 +35,7 @@ public class CreateCourseServlet extends HttpServlet {
         session.removeAttribute("course");
         session.removeAttribute("selected");
         List<User> teachers;
-        try(Connection con = DBUtils.getInstance().getConnection();) {
+        try(Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             UserDAO userDAO = daoFactory.getUserDAO();
             teachers = userDAO.getAllTeachers(con);
@@ -43,6 +43,9 @@ public class CreateCourseServlet extends HttpServlet {
         } catch (DBException | Exception e) {
             logger.error(e);
             e.printStackTrace();
+            req.setAttribute("message", e.getMessage());
+            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            rd.forward(req, resp);
             return;
         }
         if (req.getParameter("courseId") != null) {
