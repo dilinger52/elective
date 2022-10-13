@@ -52,9 +52,8 @@ public class ContentRedactorServlet extends HttpServlet {
             for (int i = 0; i < subtopics.size(); i++) {
                 pages.put(i, subtopics.get(i));
             }
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
@@ -89,9 +88,8 @@ public class ContentRedactorServlet extends HttpServlet {
             subtopic.setSubtopicContent(subtopicContent);
             subtopicDAO.update(con, subtopic);
             logger.debug("subtopic properties: {}", subtopic);
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.debug(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);

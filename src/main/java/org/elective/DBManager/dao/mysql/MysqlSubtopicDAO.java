@@ -38,7 +38,7 @@ public class MysqlSubtopicDAO implements SubtopicDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while adding subtopic", e);
+            throw new DBException("ABigMistakeAddingSubtopic", e);
         } finally {
             close(stmt);
         }
@@ -56,7 +56,7 @@ public class MysqlSubtopicDAO implements SubtopicDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding subtopic", e);
+            throw new DBException("ABigMistakeWhileFindingSubtopic", e);
         }
         return subtopic;
     }
@@ -73,7 +73,7 @@ public class MysqlSubtopicDAO implements SubtopicDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while updating subtopic", e);
+            throw new DBException("ABigMistakeWhileUpdatingSubtopic", e);
         } finally {
             close(stmt);
         }
@@ -88,7 +88,7 @@ public class MysqlSubtopicDAO implements SubtopicDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while deleting subtopic", e);
+            throw new DBException("ABigMistakeWhileDeletingSubtopic", e);
         } finally {
             close(stmt);
         }
@@ -106,7 +106,7 @@ public class MysqlSubtopicDAO implements SubtopicDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding courses", e);
+            throw new DBException("ABigMistakeWhileFindingCourses", e);
         }
         return subtopics;
     }

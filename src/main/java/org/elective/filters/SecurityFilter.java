@@ -37,7 +37,7 @@ public class SecurityFilter implements Filter {
         User user = (User) session.getAttribute("user");
         if (user.isBlocked().equals("true")) {
             logger.debug("User " + user + " is blocked");
-            req.setAttribute("message", "Sorry, but your account was blocked. For detail information head toward administrator.");
+            req.setAttribute("message", "AccountWasBlocked");
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
@@ -49,7 +49,7 @@ public class SecurityFilter implements Filter {
                         req.getServletPath().equals("/create_teacher") ||
                         req.getServletPath().equals("/delete_course"))) {
             logger.debug("User " + user + " is not admin");
-            req.setAttribute("message", "This page only for administrator");
+            req.setAttribute("message", "OnlyForAdministrator");
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
@@ -60,7 +60,7 @@ public class SecurityFilter implements Filter {
                         req.getServletPath().equals("/new_subtopic") ||
                         req.getServletPath().equals("/rate"))) {
             logger.debug("User " + user + " is not teacher");
-            req.setAttribute("message", "This page only for teachers");
+            req.setAttribute("message", "OnlyForTeachers");
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;

@@ -148,6 +148,7 @@ INSERT INTO user (id, role_id, first_name, last_name, password, email, blocked) 
 INSERT INTO user (id, role_id, first_name, last_name, password, email, blocked) VALUES (DEFAULT, "3", 'ivan', 'petrov', '333', 'ivan_petrov@test.org', 'false');
 INSERT INTO user (id, role_id, first_name, last_name, password, email, blocked) VALUES (DEFAULT, "3", 'petr', 'ivanov', '444', 'petr_ivanov@test.org', 'false');
 INSERT INTO user (id, role_id, first_name, last_name, password, email, blocked) VALUES (DEFAULT, "3", 'student', 'test', 'student', 'student@test.org', 'false');
+INSERT INTO user (id, role_id, first_name, last_name, password, email, blocked) VALUES (DEFAULT, "2", 'teacher', 'test', 'teacher', 'teacher@test.org', 'false');
 
 INSERT INTO course (id, teacher_id, name, topic, duration, description) VALUES (DEFAULT, "2", 'Full Java Course For Beginners', 'it', '120', 'Learn Java from basics and became High-end developer');
 INSERT INTO course (id, teacher_id, name, topic, duration, description) VALUES (DEFAULT, "2", 'Game Dev C# Developer Course', 'it', '190', 'The full course that you need to create you first game on Unity');

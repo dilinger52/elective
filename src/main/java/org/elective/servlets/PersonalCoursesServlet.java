@@ -84,9 +84,8 @@ public class PersonalCoursesServlet extends HttpServlet {
             session.setAttribute("coursesGrade", coursesGrade);
             session.setAttribute("pages", pages);
             session.setAttribute("pageKey", 0);
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);

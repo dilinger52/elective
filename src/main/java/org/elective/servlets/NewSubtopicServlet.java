@@ -54,10 +54,9 @@ public class NewSubtopicServlet extends HttpServlet {
             }
             con.commit();
             logger.debug("Created subtopic: {}; for course id: {}", subtopic, courseId);
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             rollback(con);
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);

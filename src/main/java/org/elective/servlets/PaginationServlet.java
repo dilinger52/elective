@@ -34,7 +34,7 @@ public class PaginationServlet extends HttpServlet {
     private static final Logger logger = LogManager.getLogger(PaginationServlet.class);
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.debug("Change page...");
         HttpSession session = req.getSession();
         int newPageKey = Integer.parseInt(req.getParameter("new_page_key"));
@@ -54,24 +54,22 @@ public class PaginationServlet extends HttpServlet {
             try(Connection con = DBUtils.getInstance().getConnection();) {
                 DAOFactory daoFactory = DAOFactory.getInstance();
                 StudentsSubtopicDAO studentsSubtopicDAO = daoFactory.getStudentsSubtopicDAO();
-
+                StudentsSubtopic studentsSubtopic = studentsSubtopicDAO.read(con, subtopic.getId(), student.getId());
+                if (!studentsSubtopic.getCompletion().equals(String.valueOf(COMPLETED))) {
+                    studentsSubtopic.setCompletion(String.valueOf(COMPLETED));
+                    studentsSubtopicDAO.update(con, studentsSubtopic);
+                }
                 SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
                 List<Subtopic> subtopics = subtopicDAO.findSubtopicsByCourse(con, course.getId());
                 int i = 0;
                 for (Subtopic s :
                         subtopics) {
                     pages.put(i, s);
-                    subtopicCompletion.put(i, studentsSubtopicDAO.read(con, subtopic.getId(), student.getId()).getCompletion());
+                    subtopicCompletion.put(i, studentsSubtopicDAO.read(con, s.getId(), student.getId()).getCompletion());
                     i++;
                 }
-                StudentsSubtopic studentsSubtopic = studentsSubtopicDAO.read(con, subtopic.getId(), student.getId());
-                if (!studentsSubtopic.getCompletion().equals(String.valueOf(COMPLETED))) {
-                    studentsSubtopic.setCompletion(String.valueOf(COMPLETED));
-                    studentsSubtopicDAO.update(con, studentsSubtopic);
-                }
-            } catch (DBException | Exception e) {
+            } catch (Exception e) {
                 logger.error(e);
-                e.printStackTrace();
                 req.setAttribute("message", e.getMessage());
                 RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
                 rd.forward(req, resp);
@@ -81,9 +79,7 @@ public class PaginationServlet extends HttpServlet {
         }
         logger.debug("new page key: {}", newPageKey);
         session.setAttribute("pageKey", newPageKey);
-        RequestDispatcher rd = req.getRequestDispatcher(path);
         session.setAttribute("path", path);
-            rd.forward(req, resp);
-
+        resp.sendRedirect(req.getContextPath() + "/" + path);
     }
 }

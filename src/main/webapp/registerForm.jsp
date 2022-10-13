@@ -1,3 +1,5 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <c:set var="language" value="${not empty param.language ? param.language : not empty language ? language : pageContext.request.locale}" scope="session" />
 <fmt:setLocale value="${language}" />
@@ -42,15 +44,15 @@
     <div class="filter">
         <input class="checkbox" type="checkbox" onclick="showPassword()"/>
         <p class="log_in_text"><fmt:message key="login.checkbox" /></p>
-
+    </div>
 
 </form>
-<c:if test="user.roleId != 1" >
+<c:if test="${user.roleId != 1}" >
     <p class="log_in_text">
         <fmt:message key="registerForm.login.label" /> <a class="log_in_ref" href="/elective/authorisation"><fmt:message key="registerForm.login.submit" /></a>
     </p>
 </c:if>
-    </div>
+
 
 <script>
     function showPassword() {

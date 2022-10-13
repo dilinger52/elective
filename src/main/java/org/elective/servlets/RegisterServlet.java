@@ -31,7 +31,7 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher rd = req.getRequestDispatcher("/registration.jsp");
+        RequestDispatcher rd = req.getRequestDispatcher("registration.jsp");
             rd.forward(req, resp);
 
     }
@@ -45,6 +45,12 @@ public class RegisterServlet extends HttpServlet {
         String password = req.getParameter("password");
         String confpass = req.getParameter("confpass");
         String email = req.getParameter("email");
+
+        session.removeAttribute("email");
+        session.removeAttribute("firstName");
+        session.removeAttribute("lastName");
+        session.removeAttribute("password");
+        session.removeAttribute("confpass");
 
         if (!firstName.matches("[A-Z][a-z]+")) {
             session.setAttribute("firstName", "firstName must starts with uppercase");
@@ -86,9 +92,8 @@ public class RegisterServlet extends HttpServlet {
                 resp.sendRedirect(req.getContextPath() + "/registration");
                 return;
             }
-        } catch (Exception | DBException e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
@@ -126,10 +131,9 @@ public class RegisterServlet extends HttpServlet {
             Transport.send(message);
             logger.debug("message send");
             session.setAttribute("email", email);
-            resp.sendRedirect(req.getContextPath() + "confirmEmail.jsp");
+            resp.sendRedirect(req.getContextPath() + "/" + "confirmEmail.jsp");
         } catch (MessagingException e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);

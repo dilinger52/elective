@@ -2,7 +2,6 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
 import org.elective.DBManager.DBUtils;
 import org.elective.DBManager.dao.DAOFactory;
 import org.elective.DBManager.dao.UserDAO;
@@ -35,12 +34,12 @@ public class ConfirmEmailServlet extends HttpServlet {
         User user = new User(firstName, lastName, password, 3, email);
 
         logger.debug("User properties {}", user);
-        try (Connection con = DBUtils.getInstance().getConnection();) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             UserDAO userDAO = daoFactory.getUserDAO();
             userDAO.create(con, user);
             logger.debug("User created successfully");
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");

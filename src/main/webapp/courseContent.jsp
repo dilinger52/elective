@@ -59,7 +59,7 @@
             <p class="subtopic_content">
                 ${sessionScope.pages[pageKey].subtopicContent}
             </p>
-            <form method="get" action="pagination" class="navigation_panel">
+            <form method="post" action="pagination" class="navigation_panel">
 
                     <button class="navigation_button" name="new_page_key" value="${sessionScope.pageKey - 1}">
                         <fmt:message key="pagination.previous" />

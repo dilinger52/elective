@@ -37,7 +37,16 @@ public class RateStudentServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         int studentId = Integer.parseInt(req.getParameter("student"));
-        int grade = Integer.parseInt(req.getParameter("grade"));
+        int grade;
+        if (req.getParameter("grade") != null) {
+            grade = Integer.parseInt(req.getParameter("grade"));
+        } else {
+            logger.error("Choose valid grade");
+            req.setAttribute("message", "ChooseValidGrade");
+            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            rd.forward(req, resp);
+            return;
+        }
         HttpSession session = req.getSession();
         Course course = (Course) session.getAttribute("course");
         logger.debug("Updating student(id={}) rating for course: {}", studentId, course);
@@ -55,7 +64,7 @@ public class RateStudentServlet extends HttpServlet {
                 studentsSubtopics.add(studentsSubtopicDAO.read(con, subtopic.getId(), studentId));
             }
 
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
@@ -72,7 +81,7 @@ public class RateStudentServlet extends HttpServlet {
                 StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
                 studentsCourseDAO.update(con, studentsCourse);
                 logger.debug("setting new garde: {}", grade);
-            } catch (DBException | Exception e) {
+            } catch (Exception e) {
                 logger.error(e);
                 req.setAttribute("message", e.getMessage());
                 RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
@@ -83,7 +92,7 @@ public class RateStudentServlet extends HttpServlet {
 
         } else {
             logger.debug("This student did not complete course yet");
-            req.setAttribute("message", "This student did not complete course yet");
+            req.setAttribute("message", "ThisStudentDidNotCompleteCourseYet");
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
         }

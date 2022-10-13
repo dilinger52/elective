@@ -86,9 +86,8 @@ public class StudentsPageServlet extends HttpServlet {
                 studentsGrade.put(student.getId(), checked);
             }
             logger.debug("Searched students: " + students);
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
@@ -117,9 +116,8 @@ public class StudentsPageServlet extends HttpServlet {
             student.setBlocked(!student.isBlocked().equals("true"));
             userDAO.update(con, student);
             logger.debug("Student blocked");
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);

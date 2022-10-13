@@ -31,7 +31,7 @@ public class MysqlRoleDAO implements RoleDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while adding role", e);
+            throw new DBException("ABigMistakeWhileAddingRole", e);
         } finally {
             close(stmt);
         }
@@ -50,7 +50,7 @@ public class MysqlRoleDAO implements RoleDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding role", e);
+            throw new DBException("ABigMistakeWhileFindingRole", e);
         }
         return role;
     }
@@ -68,7 +68,7 @@ public class MysqlRoleDAO implements RoleDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while updating role", e);
+            throw new DBException("ABigMistakeWhileUpdatingRole", e);
         } finally {
             close(stmt);
         }
@@ -84,7 +84,7 @@ public class MysqlRoleDAO implements RoleDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while deleting role", e);
+            throw new DBException("ABigMistakeWhileDeletingRole", e);
         } finally {
             close(stmt);
         }

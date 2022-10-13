@@ -38,9 +38,8 @@ public class SearchServlet extends HttpServlet {
             CourseDAO courseDAO = daoFactory.getCourseDAO();
             courses = courseDAO.findByName(con, pattern);
             logger.debug("Searched courses: {}", courses);
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);

@@ -25,7 +25,7 @@ public class DBUtils {
             Context envContext  = (Context)initContext.lookup("java:/comp/env");
             ds = (DataSource)envContext.lookup("jdbc/elective");
         } catch (NamingException ex) {
-            throw new IllegalStateException("Cannot obtain a data source", ex);
+            throw new IllegalStateException("CannotObtainADataSource", ex);
         }
     }
 
@@ -34,7 +34,7 @@ public class DBUtils {
         try {
             con = ds.getConnection();
         } catch (SQLException ex) {
-            throw new IllegalStateException("Cannot obtain a connection", ex);
+            throw new IllegalStateException("CannotObtainAConnection", ex);
         }
         return con;
     }

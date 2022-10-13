@@ -40,9 +40,8 @@ public class CreateCourseServlet extends HttpServlet {
             UserDAO userDAO = daoFactory.getUserDAO();
             teachers = userDAO.getAllTeachers(con);
             logger.debug("teachers: {}", teachers);
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
@@ -56,7 +55,7 @@ public class CreateCourseServlet extends HttpServlet {
                 CourseDAO courseDAO = daoFactory.getCourseDAO();
                 course = courseDAO.read(con, courseId);
                 logger.debug("course: {}", course);
-            } catch (DBException | Exception e) {
+            } catch (Exception e) {
                 logger.error(e);
                 e.printStackTrace();
                 req.setAttribute("message", e.getMessage());
@@ -103,9 +102,11 @@ public class CreateCourseServlet extends HttpServlet {
                 course.setDuration(duration);
                 courseDAO.update(con, course);
                 logger.debug("course: {}", course);
-            } catch (DBException | Exception e) {
+            } catch (Exception e) {
                 logger.error(e);
-                e.printStackTrace();
+                req.setAttribute("message", e.getMessage());
+                RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+                rd.forward(req, resp);
                 return;
             }
         } else {
@@ -115,9 +116,8 @@ public class CreateCourseServlet extends HttpServlet {
                 CourseDAO courseDAO = daoFactory.getCourseDAO();
                 courseDAO.create(con, course);
                 logger.debug("course: {}", course);
-            } catch (DBException | Exception e) {
+            } catch (Exception e) {
                 logger.error(e);
-                e.printStackTrace();
                 req.setAttribute("message", e.getMessage());
                 RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
                 rd.forward(req, resp);

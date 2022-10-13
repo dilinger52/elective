@@ -72,9 +72,8 @@ public class IndexServlet extends HttpServlet {
             session.setAttribute("coursesTeacher", coursesTeacher);
             session.setAttribute("pageKey", 0);
             logger.debug("Successfully loading");
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);

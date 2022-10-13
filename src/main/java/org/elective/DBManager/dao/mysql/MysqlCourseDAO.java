@@ -40,7 +40,7 @@ public class MysqlCourseDAO implements CourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while adding course", e);
+            throw new DBException("ABigMistakeWhileAddingCourse", e);
         } finally {
             close(stmt);
         }
@@ -58,7 +58,7 @@ public class MysqlCourseDAO implements CourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding course", e);
+            throw new DBException("ABigMistakeWhileFindingCourse", e);
         }
         return course;
     }
@@ -77,7 +77,7 @@ public class MysqlCourseDAO implements CourseDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while updating course", e);
+            throw new DBException("ABigMistakeWhileUpdatingCourse", e);
         } finally {
             close(stmt);
         }
@@ -92,7 +92,7 @@ public class MysqlCourseDAO implements CourseDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while deleting course", e);
+            throw new DBException("ABigMistakeWhileDeletingCourse", e);
         } finally {
             close(stmt);
         }
@@ -110,7 +110,7 @@ public class MysqlCourseDAO implements CourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding courses", e);
+            throw new DBException("ABigMistakeWhileFindingCourses", e);
         }
         return courses;
     }
@@ -130,7 +130,7 @@ public class MysqlCourseDAO implements CourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while getting courses", e);
+            throw new DBException("ABigMistakeWhileGettingCourses", e);
         }
         return courses;
     }
@@ -148,7 +148,7 @@ public class MysqlCourseDAO implements CourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while getting topics", e);
+            throw new DBException("ABigMistakeWhileGettingTopics", e);
         }
         return topics;
     }
@@ -165,7 +165,7 @@ public class MysqlCourseDAO implements CourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding courses", e);
+            throw new DBException("ABigMistakeWhileFindingCourses", e);
         }
         return courses;
     }

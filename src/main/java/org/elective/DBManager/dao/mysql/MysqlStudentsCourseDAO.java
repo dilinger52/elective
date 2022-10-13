@@ -27,7 +27,7 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding users course", e);
+            throw new DBException("ABigMistakeWhileAddingUsersCourse", e);
         }
     }
 
@@ -45,7 +45,7 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding users course", e);
+            throw new DBException("ABigMistakeWhileFindingUsersCourse", e);
         }
         return course;
     }
@@ -62,7 +62,7 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding users course", e);
+            throw new DBException("ABigMistakeWhileUpdatingUsersCourse", e);
         }
     }
 
@@ -75,7 +75,7 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding users course", e);
+            throw new DBException("ABigMistakeWhileDeletingUsersCourse", e);
         }
     }
 
@@ -91,7 +91,7 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding courses", e);
+            throw new DBException("ABigMistakeWhileFindingUsersCourse", e);
         }
         return courses;
     }
@@ -108,7 +108,7 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DBException("A big mistake while finding courses", e);
+            throw new DBException("ABigMistakeWhileFindingUsersCourse", e);
         }
         return courses;
     }

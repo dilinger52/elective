@@ -2,7 +2,6 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
 import org.elective.DBManager.DBUtils;
 import org.elective.DBManager.dao.DAOFactory;
 import org.elective.DBManager.dao.UserDAO;
@@ -25,42 +24,33 @@ public class AuthorisationServlet extends HttpServlet {
     private static final Logger logger = LogManager.getLogger(AuthorisationServlet.class);
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         RequestDispatcher rd = req.getRequestDispatcher("authorisation.jsp");
-        try {
-            rd.forward(req, resp);
-        } catch (ServletException | IOException e) {
-            logger.error(e);
-            e.printStackTrace();
-        }
+        rd.forward(req, resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         logger.debug("Log in...");
-
         HttpSession session = req.getSession();
         String email = req.getParameter("email");
-
         logger.debug("email: {}", email);
-
         String password = req.getParameter("password");
         User user;
         try(Connection con = DBUtils.getInstance().getConnection();) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             UserDAO userDAO = daoFactory.getUserDAO();
             user = userDAO.readByEmail(con, email);
-
             logger.debug("find user: {}", user);
-        } catch (DBException | Exception e) {
+        } catch (Exception e) {
             logger.error(e);
-            e.printStackTrace();
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
         }
-
+        session.removeAttribute("email");
+        session.removeAttribute("password");
             if (user == null) {
                 session.setAttribute("email", "invalid email");
                 logger.debug("invalid email");

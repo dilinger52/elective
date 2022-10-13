@@ -35,7 +35,7 @@
                 <p class="log_in_input_alert">${password}</p>
             </c:if>
         </div>
-        <input class="log_in_button" type="submit" value="Log in"/>
+        <input class="log_in_button" type="submit" value='<fmt:message key="login.submit" />'/>
         <div class="filter">
             <input class="checkbox" type="checkbox" onclick="showPassword()"/>
             <p class="log_in_text"><fmt:message key="login.checkbox" /></p>

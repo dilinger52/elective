@@ -46,7 +46,7 @@
                      <textarea class="redactor_input_content" name="subtopicContent">${sessionScope.pages[pageKey].subtopicContent}</textarea>
                  </form>
             </div>
-                 <form method="get" action="pagination" class="navigation_panel redactor">
+                 <form method="post" action="pagination" class="navigation_panel redactor">
 
                          <button class="navigation_button" name="new_page_key" value="${sessionScope.pageKey - 1}">
                              <fmt:message key="pagination.previous" />
