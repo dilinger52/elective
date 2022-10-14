@@ -22,6 +22,7 @@ public class SecurityFilter implements Filter {
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
         HttpSession session = req.getSession();
         if (req.getServletPath().equals("/authorisation") ||
+                req.getServletPath().equals("/registration.jsp") ||
                 req.getServletPath().equals("/registration") ||
                 req.getServletPath().equals("/mailconfirmed") ||
                 req.getServletPath().equals("/confirmEmail.jsp") ||

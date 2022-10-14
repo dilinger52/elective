@@ -23,7 +23,7 @@
             </label>
             <input class="log_in_input" type="email" id="email" name="email" placeholder='<fmt:message key="login.email.placeholder" />' required/>
             <c:if test="${not empty email}">
-                <p class="log_in_input_alert">${email}</p>
+                <div class="log_in_input_alert"><fmt:message key="${email}" /></div>
             </c:if>
         </div>
         <div class="log_in_input_wrapper">
@@ -32,7 +32,7 @@
             </label>
             <input class="log_in_input" type="password"  name="password" id="password" placeholder='<fmt:message key="login.password.placeholder" />' required/>
             <c:if test="${not empty password}">
-                <p class="log_in_input_alert">${password}</p>
+                <div class="log_in_input_alert"><fmt:message key="${password}" /></div>
             </c:if>
         </div>
         <input class="log_in_button" type="submit" value='<fmt:message key="login.submit" />'/>

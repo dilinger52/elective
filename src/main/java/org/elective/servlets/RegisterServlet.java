@@ -31,6 +31,12 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        HttpSession session = req.getSession();
+        session.removeAttribute("email");
+        session.removeAttribute("firstName");
+        session.removeAttribute("lastName");
+        session.removeAttribute("password");
+        session.removeAttribute("confpass");
         RequestDispatcher rd = req.getRequestDispatcher("registration.jsp");
             rd.forward(req, resp);
 
@@ -53,33 +59,33 @@ public class RegisterServlet extends HttpServlet {
         session.removeAttribute("confpass");
 
         if (!firstName.matches("[A-Z][a-z]+")) {
-            session.setAttribute("firstName", "firstName must starts with uppercase");
+            session.setAttribute("firstName", "FirstNameMustStartsWithUppercase");
             logger.debug("firstName must starts with uppercase");
-            resp.sendRedirect(req.getContextPath() + "/registration");
+            resp.sendRedirect(req.getContextPath() + "/registration.jsp");
             return;
         }
         if (!lastName.matches("[A-Z][a-z]+")) {
-            session.setAttribute("lastName", "lastName must starts with uppercase");
+            session.setAttribute("lastName", "LastNameMustStartsWithUppercase");
             logger.debug("lastName must starts with uppercase");
-            resp.sendRedirect(req.getContextPath() + "/registration");
+            resp.sendRedirect(req.getContextPath() + "/registration.jsp");
             return;
         }
         if (password.length() < 8) {
-            session.setAttribute("password", "password length must be at least 8 symbols");
+            session.setAttribute("password", "PasswordLengthMustBeAtLeast8Symbols");
             logger.debug("password length must be at least 8 symbols");
-            resp.sendRedirect(req.getContextPath() + "/registration");
+            resp.sendRedirect(req.getContextPath() + "/registration.jsp");
             return;
         }
         if (!email.matches("[a-z0-9]+@[a-z]+.[a-z]+")) {
-            session.setAttribute("email", "email must contain \"@\" and \".\"");
+            session.setAttribute("email", "EmailMustContain@And.");
             logger.debug("email must contain \"@\" and \".\"");
-            resp.sendRedirect(req.getContextPath() + "/registration");
+            resp.sendRedirect(req.getContextPath() + "/registration.jsp");
             return;
         }
         if (!confpass.equals(password)) {
-            session.setAttribute("confpass", "passwords doesn't the same");
+            session.setAttribute("confpass", "PasswordsDoesn'tTheSame");
             logger.debug("passwords doesn't the same");
-            resp.sendRedirect(req.getContextPath() + "/registration");
+            resp.sendRedirect(req.getContextPath() + "/registration.jsp");
             return;
         }
         User user;
@@ -88,8 +94,8 @@ public class RegisterServlet extends HttpServlet {
             UserDAO userDAO = daoFactory.getUserDAO();
             user = userDAO.readByEmail(con, email);
             if (user != null) {
-                session.setAttribute("email", "user with this email has already registered");
-                resp.sendRedirect(req.getContextPath() + "/registration");
+                session.setAttribute("email", "UserWithThiEmailHasAlreadyRegistered");
+                resp.sendRedirect(req.getContextPath() + "/registration.jsp");
                 return;
             }
         } catch (Exception e) {

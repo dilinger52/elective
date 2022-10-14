@@ -47,31 +47,31 @@ public class CreateTeacherServlet extends HttpServlet {
         session.removeAttribute("confpass");
 
         if (!firstName.matches("[A-Z][a-z]+")) {
-            session.setAttribute("firstName", "firstName must starts with uppercase");
+            session.setAttribute("firstName", "FirstNameMustStartsWithUppercase");
             logger.debug("firstName must starts with uppercase");
             resp.sendRedirect(req.getContextPath() + "/create_teacher");
             return;
         }
         if (!lastName.matches("[A-Z][a-z]+")) {
-            session.setAttribute("lastName", "lastName must starts with uppercase");
+            session.setAttribute("lastName", "LastNameMustStartsWithUppercase");
             logger.debug("lastName must starts with uppercase");
             resp.sendRedirect(req.getContextPath() + "/create_teacher");
             return;
         }
         if (password.length() < 8) {
-            session.setAttribute("password", "password length must be at least 8 symbols");
+            session.setAttribute("password", "PasswordLengthMustBeAtLeast8Symbols");
             logger.debug("password length must be at least 8 symbols");
             resp.sendRedirect(req.getContextPath() + "/create_teacher");
             return;
         }
         if (!email.matches("[a-z0-9]+@[a-z]+.[a-z]+")) {
-            session.setAttribute("email", "email must contain \"@\" and \".\"");
+            session.setAttribute("email", "EmailMustContain@And.");
             logger.debug("email must contain \"@\" and \".\"");
             resp.sendRedirect(req.getContextPath() + "/create_teacher");
             return;
         }
         if (!confpass.equals(password)) {
-            session.setAttribute("confpass", "passwords doesn't the same");
+            session.setAttribute("confpass", "PasswordsDoesn'tTheSame");
             logger.debug("passwords doesn't the same");
             resp.sendRedirect(req.getContextPath() + "/create_teacher");
             return;
@@ -82,7 +82,7 @@ public class CreateTeacherServlet extends HttpServlet {
             UserDAO userDAO = daoFactory.getUserDAO();
             user = userDAO.readByEmail(con, email);
             if (user != null) {
-                session.setAttribute("email", "user with this email has already registered");
+                session.setAttribute("email", "UserWithThiEmailHasAlreadyRegistered");
                 resp.sendRedirect(req.getContextPath() + "/create_teacher");
                 return;
             }

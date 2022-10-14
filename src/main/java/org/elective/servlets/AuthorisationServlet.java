@@ -52,7 +52,7 @@ public class AuthorisationServlet extends HttpServlet {
         session.removeAttribute("email");
         session.removeAttribute("password");
             if (user == null) {
-                session.setAttribute("email", "invalid email");
+                session.setAttribute("email", "InvalidEmail");
                 logger.debug("invalid email");
                 resp.sendRedirect(req.getContextPath() + "/authorisation");
             } else if (password.equals(user.getPassword())){
@@ -60,7 +60,7 @@ public class AuthorisationServlet extends HttpServlet {
                 logger.debug("log in completed");
                 resp.sendRedirect(req.getContextPath());
             } else {
-                session.setAttribute("password", "invalid password");
+                session.setAttribute("password", "InvalidPassword");
                 logger.debug("invalid password");
                 resp.sendRedirect(req.getContextPath() + "/authorisation");
             }
