@@ -30,7 +30,7 @@
                     <a class="link" href="/elective/students"><fmt:message key="header.links.students" /></a>
                 </c:if>
                 <form>
-                    <select id="language" name="language" onchange="submit()">
+                    <select class="dropdown_local" id="language" name="language" onchange="submit()">
                         <option value="en" ${language == 'en' ? 'selected' : ''}>en</option>
                         <option value="ru" ${language == 'ru' ? 'selected' : ''}>ru</option>
                     </select>

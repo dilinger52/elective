@@ -2,12 +2,14 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.*;
-import org.elective.DBManager.entity.Course;
-import org.elective.DBManager.entity.Subtopic;
-import org.elective.DBManager.entity.User;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.CourseDAO;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.StudentsSubtopicDAO;
+import org.elective.database.dao.SubtopicDAO;
+import org.elective.database.entity.Course;
+import org.elective.database.entity.Subtopic;
+import org.elective.database.entity.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -22,6 +24,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Course content servlet generates student page on which he can view and study course content.
+ */
 @WebServlet("/course_content")
 public class CourseContentServlet extends HttpServlet {
 
@@ -36,7 +41,7 @@ public class CourseContentServlet extends HttpServlet {
         Map<Integer, Subtopic> pages = new HashMap<>();
         Course course;
         Map<Integer, String> subtopicCompletion = new HashMap<>();
-        try(Connection con = DBUtils.getInstance().getConnection();) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             CourseDAO courseDAO = daoFactory.getCourseDAO();
             course = courseDAO.read(con, courseId);
@@ -66,7 +71,7 @@ public class CourseContentServlet extends HttpServlet {
         session.setAttribute("path", "courseContent.jsp");
         RequestDispatcher rd = req.getRequestDispatcher("courseContent.jsp");
 
-            rd.forward(req, resp);
+        rd.forward(req, resp);
 
     }
 }

@@ -11,7 +11,6 @@
         <div class="filter_header">
             <fmt:message key="filter.header" />
         </div>
-        <input type="submit" value="search" class="clear_button">
     </div>
     <div class="filter_wrapper">
         <div class="filter_name">
@@ -19,7 +18,7 @@
         </div>
         <c:forEach var="topic" items="${sessionScope.topics}">
             <div class="filter">
-                <input type="checkbox" name="topic" value="${topic}" class="checkbox">
+                <input type="checkbox" name="topic" value="${topic}" class="checkbox" onchange="submit()" ${my:isCheck(paramValues.topic, topic)}>
                 <div class="filter_value">
                     ${topic}
                 </div>
@@ -31,7 +30,7 @@
         </div>
         <c:forEach var="teacher" items="${sessionScope.teachers}">
             <div class="filter">
-                <input type="checkbox" class="checkbox" name="teacher" value="${teacher.id}">
+                <input type="checkbox" class="checkbox" name="teacher" value="${teacher.id}" onchange="submit()" ${my:isCheck(paramValues.teacher, teacher.id)}>
                 <div class="filter_value">
                     ${teacher.firstName} ${teacher.lastName}
                 </div>
@@ -43,19 +42,19 @@
                 <fmt:message key="filter.completion" />
             </div>
                 <div class="filter">
-                    <input type="checkbox" class="checkbox" name="completion" value="0">
+                    <input type="checkbox" class="checkbox" name="completion" value="0" onchange="submit()" ${my:isCheck(paramValues.completion, 0)}>
                     <div class="filter_value">
                         <fmt:message key="filter.todo" />
                     </div>
                 </div>
             <div class="filter">
-                <input type="checkbox" class="checkbox" name="completion" value="1">
+                <input type="checkbox" class="checkbox" name="completion" value="1" onchange="submit()" ${my:isCheck(paramValues.completion, 1)}>
                 <div class="filter_value">
                     <fmt:message key="filter.inProgress" />
                 </div>
             </div>
             <div class="filter">
-                <input type="checkbox" class="checkbox" name="completion" value="2">
+                <input type="checkbox" class="checkbox" name="completion" value="2" onchange="submit()" ${my:isCheck(paramValues.completion, 2)}>
                 <div class="filter_value">
                     <fmt:message key="filter.completed" />
                 </div>

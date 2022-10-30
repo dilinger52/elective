@@ -2,10 +2,10 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.UserDAO;
-import org.elective.DBManager.entity.User;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.UserDAO;
+import org.elective.database.entity.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,16 +17,26 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Connection;
 
+/**
+ * Create teacher servlet generate page of creating teacher account by administrator. Contains validations for
+ * all inserted information.
+ */
 @WebServlet("/create_teacher")
 public class CreateTeacherServlet extends HttpServlet {
 
     private static final Logger logger = LogManager.getLogger(CreateTeacherServlet.class);
+    private static final String PASSWORD = "password";
+    private static final String CONFPASS = "confpass";
+    private static final String EMAIL = "email";
+    private static final String FIRST_NAME = "first_name";
+    private static final String LAST_NAME = "last_name";
+    private static final String CREATE_TEACHER_PAGE = "/create_teacher";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher rd = req.getRequestDispatcher("createTeacher.jsp");
 
-            rd.forward(req, resp);
+        rd.forward(req, resp);
 
     }
 
@@ -34,46 +44,46 @@ public class CreateTeacherServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         logger.debug("Creating teacher...");
         HttpSession session = req.getSession();
-        String firstName = req.getParameter("first_name");
-        String lastName = req.getParameter("last_name");
-        String password = req.getParameter("password");
-        String confpass = req.getParameter("confpass");
-        String email = req.getParameter("email");
+        String firstName = req.getParameter(FIRST_NAME);
+        String lastName = req.getParameter(LAST_NAME);
+        String password = req.getParameter(PASSWORD);
+        String confpass = req.getParameter(CONFPASS);
+        String email = req.getParameter(EMAIL);
 
-        session.removeAttribute("email");
-        session.removeAttribute("firstName");
-        session.removeAttribute("lastName");
-        session.removeAttribute("password");
-        session.removeAttribute("confpass");
+        session.removeAttribute(EMAIL);
+        session.removeAttribute(FIRST_NAME);
+        session.removeAttribute(LAST_NAME);
+        session.removeAttribute(PASSWORD);
+        session.removeAttribute(CONFPASS);
 
-        if (!firstName.matches("[A-Z][a-z]+")) {
-            session.setAttribute("firstName", "FirstNameMustStartsWithUppercase");
+        if (!firstName.matches("[A-ZА-Я][a-zа-я]+")) {
+            session.setAttribute(CreateTeacherServlet.FIRST_NAME, "FirstNameMustStartsWithUppercase");
             logger.debug("firstName must starts with uppercase");
-            resp.sendRedirect(req.getContextPath() + "/create_teacher");
+            resp.sendRedirect(req.getContextPath() + CREATE_TEACHER_PAGE);
             return;
         }
-        if (!lastName.matches("[A-Z][a-z]+")) {
+        if (!lastName.matches("[A-ZА-Я][a-zа-я]+")) {
             session.setAttribute("lastName", "LastNameMustStartsWithUppercase");
             logger.debug("lastName must starts with uppercase");
-            resp.sendRedirect(req.getContextPath() + "/create_teacher");
+            resp.sendRedirect(req.getContextPath() + CREATE_TEACHER_PAGE);
             return;
         }
         if (password.length() < 8) {
-            session.setAttribute("password", "PasswordLengthMustBeAtLeast8Symbols");
+            session.setAttribute(PASSWORD, "PasswordLengthMustBeAtLeast8Symbols");
             logger.debug("password length must be at least 8 symbols");
-            resp.sendRedirect(req.getContextPath() + "/create_teacher");
+            resp.sendRedirect(req.getContextPath() + CREATE_TEACHER_PAGE);
             return;
         }
         if (!email.matches("[a-z0-9]+@[a-z]+.[a-z]+")) {
-            session.setAttribute("email", "EmailMustContain@And.");
+            session.setAttribute(EMAIL, "EmailMustContain@And.");
             logger.debug("email must contain \"@\" and \".\"");
-            resp.sendRedirect(req.getContextPath() + "/create_teacher");
+            resp.sendRedirect(req.getContextPath() + CREATE_TEACHER_PAGE);
             return;
         }
         if (!confpass.equals(password)) {
-            session.setAttribute("confpass", "PasswordsDoesn'tTheSame");
+            session.setAttribute(CONFPASS, "PasswordsDoesn'tTheSame");
             logger.debug("passwords doesn't the same");
-            resp.sendRedirect(req.getContextPath() + "/create_teacher");
+            resp.sendRedirect(req.getContextPath() + CREATE_TEACHER_PAGE);
             return;
         }
         User user;
@@ -82,8 +92,8 @@ public class CreateTeacherServlet extends HttpServlet {
             UserDAO userDAO = daoFactory.getUserDAO();
             user = userDAO.readByEmail(con, email);
             if (user != null) {
-                session.setAttribute("email", "UserWithThiEmailHasAlreadyRegistered");
-                resp.sendRedirect(req.getContextPath() + "/create_teacher");
+                session.setAttribute(EMAIL, "UserWithThiEmailHasAlreadyRegistered");
+                resp.sendRedirect(req.getContextPath() + CREATE_TEACHER_PAGE);
                 return;
             }
         } catch (Exception e) {
@@ -95,7 +105,7 @@ public class CreateTeacherServlet extends HttpServlet {
         }
 
         user = new User(firstName, lastName, password, 2, email);
-        try (Connection con = DBUtils.getInstance().getConnection();) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             UserDAO userDAO = daoFactory.getUserDAO();
             userDAO.create(con, user);
@@ -108,7 +118,7 @@ public class CreateTeacherServlet extends HttpServlet {
             return;
         }
 
-            resp.sendRedirect(req.getContextPath() + "/create_course");
+        resp.sendRedirect(req.getContextPath() + "/create_course");
 
     }
 }

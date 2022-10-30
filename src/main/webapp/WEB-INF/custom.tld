@@ -7,7 +7,6 @@
         <name>MapSize</name>
         <tag-class>org.elective.tags.MapSizeTag</tag-class>
         <body-content>scriplets</body-content>
-
         <attribute>
             <name>map</name>
             <type>java.util.Map</type>
@@ -15,4 +14,10 @@
         </attribute>
     </tag>
 
+    <function>
+        <name>isCheck</name>
+        <function-class>org.elective.tags.IsCheckFunction</function-class>
+        <function-signature>java.lang.String isCheck(java.lang.String[], java.lang.String)</function-signature>
+    </function>
 </taglib>
+

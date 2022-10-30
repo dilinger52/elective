@@ -2,10 +2,10 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.*;
-import org.elective.DBManager.entity.*;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.*;
+import org.elective.database.entity.*;
+import org.elective.utils.Pagination;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -19,8 +19,12 @@ import java.sql.Connection;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static org.elective.DBManager.entity.StudentsSubtopic.completion.COMPLETED;
+import static org.elective.database.entity.StudentsSubtopic.completion.COMPLETED;
 
+/**
+ * Personal courses servlet generates page that show all courses on which current student has registered.
+ * On this page student can sort, filter and search courses by name.
+ */
 @WebServlet("/personal_courses")
 public class PersonalCoursesServlet extends HttpServlet {
 
@@ -42,7 +46,7 @@ public class PersonalCoursesServlet extends HttpServlet {
         HttpSession session = req.getSession();
         User student = (User) session.getAttribute("user");
         logger.debug("Loading personal courses for student: {}", student);
-        try(Connection con = DBUtils.getInstance().getConnection()) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             CourseDAO courseDAO = daoFactory.getCourseDAO();
             UserDAO userDAO = daoFactory.getUserDAO();
@@ -62,7 +66,7 @@ public class PersonalCoursesServlet extends HttpServlet {
                 List<Subtopic> subtopics = subtopicDAO.findSubtopicsByCourse(con, course.getCourseId());
                 List<StudentsSubtopic> studentsSubtopics = new ArrayList<>();
                 for (Subtopic subtopic : subtopics) {
-                     studentsSubtopics.add(studentsSubtopicDAO.read(con, subtopic.getId(), student.getId()));
+                    studentsSubtopics.add(studentsSubtopicDAO.read(con, subtopic.getId(), student.getId()));
                 }
                 List<StudentsSubtopic> finishedSubtopics = studentsSubtopics.stream()
                         .filter(s -> s.getCompletion().equals(COMPLETED.toString()))
@@ -93,6 +97,6 @@ public class PersonalCoursesServlet extends HttpServlet {
         }
         session.setAttribute("path", "personalCourses.jsp");
         RequestDispatcher rd = req.getRequestDispatcher("personalCourses.jsp");
-            rd.forward(req, resp);
+        rd.forward(req, resp);
     }
 }

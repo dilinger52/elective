@@ -1,0 +1,1357 @@
+15:17:17.383 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+15:18:59.507 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:18:59.514 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:18:59.664 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:19:16.063 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:19:16.064 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:19:16.409 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:19:16.409 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:19:16.409 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:19:16.425 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:12.883 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:12.883 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+15:20:12.986 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+15:20:29.585 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+15:20:29.608 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+15:20:29.660 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:29.661 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+15:20:30.685 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+15:20:34.109 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:34.325 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:34.794 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:35.049 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:35.054 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:20:35.118 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:21:56.021 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:21:56.054 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:21:56.054 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:21:56.058 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:21:56.122 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:21:56.123 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:21:56.297 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:20.064 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:20.065 [http-nio-8080-exec-5] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+15:22:20.065 [http-nio-8080-exec-5] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+15:22:20.070 [http-nio-8080-exec-5] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+15:22:20.070 [http-nio-8080-exec-5] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+15:22:20.081 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:20.081 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+15:22:20.153 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+15:22:22.819 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:22.858 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:22.858 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:22:22.862 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:22.945 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:22.945 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:22:22.982 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:25.418 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:26.445 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:26.446 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:22:26.803 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:31.144 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:31.198 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:31.198 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:22:31.246 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:38.183 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:38.184 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+15:22:38.184 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+15:22:38.188 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+15:22:38.189 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+15:22:38.200 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:38.200 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+15:22:38.246 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+15:22:40.073 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:40.073 [http-nio-8080-exec-10] DEBUG org.elective.servlets.StudentsPageServlet - Loading students page...
+15:22:40.409 [http-nio-8080-exec-10] DEBUG org.elective.servlets.StudentsPageServlet - Searched students: [User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}, User{id=5, firstName='petr', lastName='ivanov', roleId=3, email='petr_ivanov@test.org', blocked=false}, User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}]
+15:22:47.594 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:47.605 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:47.607 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:22:47.612 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:47.692 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:22:47.693 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:22:47.729 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:13.961 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:14.899 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:14.899 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:26:14.917 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:14.917 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:26:15.401 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:15.404 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:33.324 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:33.324 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+15:26:33.324 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+15:26:33.327 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+15:26:33.328 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+15:26:33.342 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:33.343 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+15:26:33.433 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+15:26:33.560 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:36.256 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:36.257 [http-nio-8080-exec-2] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+15:26:36.292 [http-nio-8080-exec-2] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+15:26:39.065 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:39.066 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+15:26:39.097 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+15:26:42.692 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:42.700 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:42.701 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:26:42.705 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:42.773 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:42.774 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:26:42.811 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:56.602 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:56.655 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:56.656 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:26:56.667 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:56.668 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:26:56.678 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:26:56.680 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:37.437 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:38.525 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:38.526 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:38.536 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:38.537 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:38.563 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:38.574 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:41.367 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:41.518 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:41.520 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:41.523 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:41.524 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:41.530 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:41.541 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:43.906 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:43.968 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:43.969 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:43.975 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:43.975 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:43.992 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:43.997 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:49.574 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:49.574 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+15:27:49.574 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+15:27:49.577 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+15:27:49.577 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+15:27:49.588 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:49.588 [http-nio-8080-exec-2] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+15:27:49.643 [http-nio-8080-exec-2] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+15:27:49.726 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:53.209 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:53.218 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:53.218 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:53.223 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:53.308 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:53.308 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:53.342 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:56.862 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:56.923 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:27:56.923 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:27:56.963 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:38.633 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:39.904 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:39.907 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:28:39.928 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:39.929 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:28:39.948 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:39.948 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:43.241 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:43.305 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:43.305 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:28:43.311 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:43.311 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:28:43.322 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:43.328 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:45.257 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:45.304 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:45.304 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:28:45.307 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:45.307 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:28:45.332 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:28:45.338 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:15:24.716 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:16:50.969 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:16:55.510 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:16:55.511 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:16:55.597 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:16:55.598 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:16:55.618 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:16:55.639 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:17:03.022 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:17:03.023 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:17:03.037 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:17:15.233 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:17:15.284 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:17:15.308 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:17:15.308 [http-nio-8080-exec-2] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:17:15.523 [http-nio-8080-exec-2] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:17:22.706 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:00.595 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:00.611 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:00.612 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:18:00.670 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:00.760 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:00.760 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:18:00.884 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:07.229 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:07.339 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:07.339 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:18:07.424 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:12.723 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:13.200 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:13.201 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:18:13.226 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:43.846 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:43.846 [http-nio-8080-exec-3] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:18:43.846 [http-nio-8080-exec-3] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:18:43.851 [http-nio-8080-exec-3] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:18:43.854 [http-nio-8080-exec-3] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:18:43.867 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:43.867 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:18:44.483 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:18:46.740 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:46.741 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:18:46.788 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:18:49.237 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:49.239 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:49.241 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:49.422 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:49.422 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:18:49.422 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:21:37.739 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:21:37.740 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:21:37.993 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:21:39.563 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:21:39.565 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:21:39.579 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:21:39.583 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:21:39.601 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:21:39.605 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:47.605 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:47.605 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:23:47.703 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:23:48.941 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.943 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.952 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.953 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.953 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.953 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:55.216 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:55.216 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:23:55.258 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:23:55.335 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:56.914 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:56.915 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:23:56.960 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:23:57.027 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:30.086 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:30.086 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:24:30.148 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:24:30.236 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:30.278 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:30.279 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:30.281 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:30.283 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:30.287 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:24:45.934 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:28:30.196 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:28:30.196 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:28:30.264 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:28:30.343 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:28:30.404 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:28:30.404 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:28:30.411 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:28:30.411 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:28:30.412 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:57.194 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:57.194 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:30:57.235 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:30:57.315 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:57.380 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:57.391 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:57.393 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:57.394 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:57.398 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:41.024 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:41.024 [http-nio-8080-exec-10] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:31:41.077 [http-nio-8080-exec-10] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:31:41.233 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:41.298 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:41.298 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:41.313 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:41.313 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:41.316 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:34:34.743 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:34:34.743 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:34:34.876 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:34:35.146 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:34:35.451 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:34:35.451 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:34:35.455 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:34:35.456 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:34:35.459 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:36:17.498 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:36:17.499 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:36:17.590 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:36:17.814 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:03.848 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:04.007 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:04.007 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:39:04.074 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:06.179 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:06.179 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:39:06.259 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:06.259 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:06.260 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:39:06.478 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:12.983 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:39:12.984 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:39:12.988 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:01.934 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:01.935 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:40:02.075 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:40:02.166 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:40:02.196 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:40:02.208 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:02.208 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:40:02.264 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:40:02.393 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:03.756 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:03.781 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:03.781 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:40:03.785 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:03.928 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:03.929 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:40:03.991 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:40.532 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:40.666 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:40.666 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:40:40.672 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:40.672 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:40:40.994 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:40:40.994 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:41:08.675 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:41:08.740 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:41:08.741 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:41:08.779 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:41:08.780 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:41:08.834 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:41:08.842 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:41:09.072 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:41:09.072 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:41:09.076 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:42:08.815 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:42:10.004 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:42:10.004 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:42:10.018 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:42:10.018 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:42:10.086 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:42:10.133 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:42:10.236 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:42:10.237 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:42:10.242 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:20.862 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:22.229 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:22.229 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:22.254 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:22.255 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:22.259 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:22.266 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:22.442 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:22.442 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:22.447 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:29.521 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:29.522 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:43:29.522 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:43:29.524 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:43:29.525 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:43:29.583 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:29.583 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:43:29.635 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:43:29.779 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:31.156 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:31.174 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:31.174 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:31.181 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:31.268 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:31.268 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:31.318 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:31.318 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:31.368 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:31.419 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:37.355 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:37.355 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:43:37.355 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:43:37.358 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:43:37.359 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:43:37.370 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:37.370 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:43:37.402 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:43:37.575 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.215 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.237 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.237 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:43.242 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.307 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.307 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:43.330 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.330 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:43.348 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.354 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.459 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:43:43.459 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:43:43.462 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:01.195 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:01.195 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:44:01.196 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:44:01.198 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:44:01.336 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:44:01.371 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:01.372 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:44:01.403 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:44:01.505 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:30.519 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:30.548 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:30.548 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:30.555 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:30.644 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:30.644 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:30.946 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:30.947 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:31.026 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:31.035 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:32.447 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:32.494 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:32.494 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:32.518 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:32.518 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:32.527 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:32.544 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:32.727 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:32.727 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:32.732 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:33.378 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:33.431 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:33.431 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:33.458 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:33.458 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:33.461 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:33.469 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:33.726 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:33.726 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:33.739 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.106 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.162 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.163 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:34.192 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.192 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:34.194 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.199 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.330 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.331 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:34.335 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.833 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.893 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.893 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:34.918 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.919 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:34.923 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:34.927 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.106 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.106 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:35.115 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.563 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.617 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.617 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:35.642 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.642 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:35.650 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.658 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.769 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:35.769 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:35.774 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.074 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.129 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.129 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.162 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.163 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.163 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.195 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.241 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.424 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.425 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.454 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.456 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.456 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.506 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.511 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.521 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.533 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.643 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.643 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.683 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.730 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.721 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.718 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.754 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.818 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.818 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.865 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.865 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:36.865 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:36.883 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.054 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.348 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.419 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.436 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.436 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:37.438 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.438 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:37.466 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.476 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.500 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.522 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.527 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.528 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.551 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.569 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.709 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.709 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.740 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.813 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.835 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.850 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.855 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.913 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:37.921 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.006 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.017 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.018 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.036 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.036 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.047 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.057 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.060 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.124 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.124 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.219 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.219 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.290 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.339 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.343 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.368 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.407 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.483 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.483 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.523 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.523 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.525 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.530 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.585 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.598 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.663 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.708 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.708 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.748 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.748 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.778 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.906 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.906 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.906 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.906 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.906 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:38.911 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:38.913 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.036 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.083 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:39.077 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.102 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:39.155 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.192 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.193 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.196 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.319 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.366 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.418 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.427 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.477 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.539 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.540 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:39.563 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.563 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:39.576 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.581 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.593 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.659 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.660 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:39.678 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.679 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:39.686 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.692 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:39.914 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.034 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.035 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:40.057 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.064 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.072 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.078 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.143 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.143 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:40.163 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.192 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.192 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:40.205 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.274 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.282 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.354 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.354 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:40.381 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.382 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:40.393 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.419 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.427 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.496 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.528 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.593 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.594 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:40.609 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.609 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:40.616 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.616 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.709 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.741 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.984 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:40.984 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.025 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.030 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.031 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.136 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.142 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.224 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.224 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.315 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.350 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.379 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.390 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.418 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.484 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.484 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.501 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.501 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.509 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.539 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.550 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.625 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.626 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.639 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.639 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.647 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.649 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.756 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.789 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.790 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.792 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.803 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.861 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.861 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.880 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.880 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:41.911 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:41.912 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.047 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.145 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.146 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.146 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:42.152 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.208 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.208 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:42.251 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.251 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:42.288 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.293 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.299 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.306 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.536 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.589 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.589 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:42.590 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.590 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:42.595 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.698 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.774 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.777 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.780 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.926 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.928 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.938 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.947 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:42.963 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.024 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.024 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.064 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.097 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.097 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.097 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.098 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.111 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.171 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.172 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.191 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.192 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.199 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.204 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.336 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.359 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.359 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.359 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.364 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.419 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.419 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.447 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.447 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.452 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.461 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.624 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.625 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.626 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.693 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.694 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.754 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.754 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.767 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.767 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.767 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.773 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.943 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.944 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.961 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.961 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:43.974 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:43.977 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.103 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.199 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.199 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.199 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:44.267 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.270 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.277 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.332 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.333 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:44.355 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.355 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:44.444 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.449 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.464 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.600 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.612 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.762 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.812 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.843 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.849 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.929 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.930 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:44.989 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.991 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:44.991 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.027 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.028 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.030 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.092 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.093 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.117 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.118 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.124 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.124 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.361 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.367 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.367 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.421 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.422 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.440 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.440 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.440 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.450 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.642 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.656 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.721 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.721 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.733 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.734 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.747 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.751 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.864 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:44:45.865 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:44:45.873 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:14.447 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:14.447 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:45:14.447 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:45:14.532 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:45:14.533 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:45:14.543 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:14.544 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:45:14.575 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:45:14.725 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:17.433 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:17.433 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:45:17.538 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:45:18.969 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:19.004 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:19.004 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:45:19.009 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:19.103 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:45:19.103 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:45:19.141 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:49.168 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:50.561 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:50.562 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:48:50.634 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:50.635 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:48:50.641 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:50.652 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:56.602 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:56.602 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+16:48:56.603 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+16:48:56.607 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:48:56.607 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:48:56.619 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:56.619 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+16:48:56.823 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+16:48:56.938 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:58.089 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:58.124 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:58.125 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:48:58.132 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:58.202 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:48:58.203 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:48:58.251 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:50:56.959 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:50:57.616 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:50:57.616 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:50:57.636 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:50:57.636 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:50:57.643 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:50:57.646 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:51:09.605 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:51:10.923 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:51:10.924 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:51:10.989 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:51:10.989 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:51:10.992 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:51:11.047 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:53:23.762 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:53:33.501 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:54:28.758 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:55:23.067 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:55:35.510 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:55:42.600 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:55:42.601 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:55:42.633 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:55:42.633 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:55:42.708 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:55:42.709 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:56:04.484 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:56:04.484 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:56:04.490 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:56:05.945 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:56:05.946 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:56:05.952 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:56:05.952 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:56:05.955 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:56:05.962 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:00:26.869 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:00:26.869 [http-nio-8080-exec-2] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:00:26.921 [http-nio-8080-exec-2] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:00:30.318 [http-nio-8080-exec-2] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:00:30.344 [http-nio-8080-exec-2] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:00:30.358 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:00:30.358 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:00:30.517 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:00:33.970 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:01.353 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:01.353 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:01:01.484 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:01:03.855 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:03.857 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:01:03.920 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:01:04.819 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:04.851 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:04.851 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:01:04.855 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:05.021 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:05.021 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:01:05.048 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:09.542 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:09.619 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:09.620 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:01:09.660 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:12.677 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:12.740 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:12.740 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:01:12.789 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:01:51.153 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:02:11.973 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:02:15.726 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:02:15.727 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:02:15.751 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:02:15.752 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:02:15.770 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:02:15.828 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:02:53.539 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:02:53.539 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:02:53.585 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:02:56.000 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:02:56.031 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:02:56.049 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:02:56.049 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:02:56.218 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:02:59.734 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:03:05.517 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:03:05.527 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:03:05.527 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:03:05.528 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:03:05.559 [http-nio-8080-exec-9] ERROR org.elective.servlets.IndexServlet - java.lang.NullPointerException
+17:03:08.673 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:03:08.695 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:03:08.695 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:03:08.695 [http-nio-8080-exec-2] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:03:08.701 [http-nio-8080-exec-2] ERROR org.elective.servlets.IndexServlet - java.lang.NullPointerException
+17:04:14.588 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:05:12.297 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:05:12.299 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:05:12.313 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:05:14.154 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:05:14.186 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:05:14.217 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:06:11.277 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:08:45.824 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:08:48.065 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:11:45.109 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:11:45.109 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:11:45.119 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:11:46.772 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:11:46.801 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:11:46.823 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:12:14.245 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:12.800 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:13:32.373 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:32.375 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:13:34.331 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:13:43.997 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:43.999 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:44.004 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:44.005 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:44.007 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:44.010 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:14:34.842 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:14:34.857 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:14:34.858 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:14:34.866 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:14:36.124 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:14:36.124 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:14:36.545 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:02.857 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:02.943 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:02.944 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:16:03.003 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:03.004 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:16:03.006 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:03.052 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:11.446 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:11.446 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:16:11.509 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:16:11.522 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:16:11.561 [http-nio-8080-exec-8] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:16:11.576 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:11.577 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:16:11.647 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:16:11.826 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.059 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.070 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.070 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:16:14.075 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.186 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.187 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:16:14.193 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.194 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:16:14.218 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.219 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:20.087 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:20.088 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:16:20.088 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:16:20.091 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:16:20.092 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:16:20.105 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:20.105 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:16:20.157 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:16:20.281 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:31.423 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:31.473 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:31.473 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:31.482 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:33.122 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:33.122 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:33.122 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:33.122 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:33.197 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:33.226 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:36.073 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:36.121 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:36.122 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:36.149 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:36.149 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:36.158 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:36.160 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:41.738 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:41.738 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:17:41.739 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:17:41.744 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:17:41.745 [http-nio-8080-exec-6] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:17:41.763 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:41.764 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:17:41.843 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:17:41.971 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:44.738 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:44.749 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:44.749 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:44.754 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:44.823 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:44.823 [http-nio-8080-exec-5] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:44.851 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:44.851 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:44.861 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:44.870 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:50.071 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:50.071 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:17:50.072 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:17:50.074 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:17:50.075 [http-nio-8080-exec-1] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:17:50.085 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:50.086 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:17:50.162 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:17:50.265 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:51.988 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:51.989 [http-nio-8080-exec-6] DEBUG org.elective.servlets.StudentsPageServlet - Loading students page...
+17:17:52.442 [http-nio-8080-exec-6] DEBUG org.elective.servlets.StudentsPageServlet - Searched students: [User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}, User{id=5, firstName='petr', lastName='ivanov', roleId=3, email='petr_ivanov@test.org', blocked=false}, User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}]
+17:17:53.163 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:55.305 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:55.318 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:55.318 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:55.323 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:55.406 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:55.407 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:55.409 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:55.409 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:17:55.431 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:55.431 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:18:17.779 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:18:17.779 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:18:17.783 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:07.982 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:07.982 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:19:07.982 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:19:07.987 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:19:07.988 [http-nio-8080-exec-9] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:19:08.003 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:08.003 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:19:08.088 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:19:08.202 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:11.813 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:11.813 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:19:11.854 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:19:13.012 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:13.023 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:13.024 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:19:13.030 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:13.107 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:13.107 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:19:13.149 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:58.182 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:59.544 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:59.545 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:19:59.549 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:59.549 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:19:59.585 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:59.602 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:08.219 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:08.219 [http-nio-8080-exec-7] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:20:08.220 [http-nio-8080-exec-7] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:20:08.223 [http-nio-8080-exec-7] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:20:08.224 [http-nio-8080-exec-7] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:20:08.237 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:08.237 [http-nio-8080-exec-10] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:20:08.274 [http-nio-8080-exec-10] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:20:08.380 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:10.240 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:10.241 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:20:10.283 [http-nio-8080-exec-6] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:20:11.376 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:11.389 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:11.389 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:20:11.394 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:11.460 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:11.461 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:20:11.563 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:22.762 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:22.863 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:22.863 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:20:22.913 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:29.171 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:29.252 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:29.252 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:20:29.293 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:29.294 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:20:29.304 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:29.318 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:29.442 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:29.442 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:20:29.450 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:29:18.344 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:31:05.189 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:08.767 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:08.774 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:31:08.790 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:08.790 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:31:08.828 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:08.832 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:30.813 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:30.814 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:31:30.873 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:31:34.347 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:31:34.375 [http-nio-8080-exec-10] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:31:34.393 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:34.393 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:31:34.557 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:31:38.014 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:44.620 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:44.620 [http-nio-8080-exec-6] DEBUG org.elective.servlets.StudentsPageServlet - Loading students page...
+17:31:45.366 [http-nio-8080-exec-6] DEBUG org.elective.servlets.StudentsPageServlet - Searched students: [User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}, User{id=5, firstName='petr', lastName='ivanov', roleId=3, email='petr_ivanov@test.org', blocked=false}, User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}]
+17:31:51.090 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:51.091 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:31:51.163 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:31:56.783 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:56.784 [http-nio-8080-exec-1] DEBUG org.elective.servlets.FilterServlet - Starting filtering...
+17:31:56.789 [http-nio-8080-exec-1] DEBUG org.elective.servlets.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='punch', duration=100}]
+17:31:56.983 [http-nio-8080-exec-1] DEBUG org.elective.servlets.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=11, teacherId=8, name='Русский курс', topic='punch', duration=100}]
+17:32:04.628 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:32:04.628 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:32:04.635 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:32:04.643 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}
+17:32:05.439 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:32:16.513 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:32:16.513 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:32:16.554 [http-nio-8080-exec-9] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:32:18.564 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:32:18.564 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:32:18.569 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:32:20.399 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:32:20.399 [http-nio-8080-exec-10] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:32:20.445 [http-nio-8080-exec-10] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:32:24.385 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:32:24.386 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:32:24.391 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:32:24.394 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:33:20.010 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:33:20.010 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:33:20.016 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:33:20.021 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:33:21.368 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:33:21.376 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:03.541 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:03.541 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:35:03.595 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:35:03.705 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:07.418 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:07.444 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:07.444 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:35:07.449 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:14.416 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:24.441 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:39.982 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:40.127 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:40.127 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:35:40.191 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:40.191 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:35:40.309 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:35:40.331 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:38:34.823 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:38:34.958 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:38:34.958 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:38:35.000 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:38:35.001 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:38:35.090 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:38:35.099 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:39:08.256 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:39:08.256 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+17:39:08.257 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - email: admin@test.org
+17:39:08.260 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+17:39:08.260 [http-nio-8080-exec-4] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+17:39:08.273 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:39:08.274 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+17:39:08.311 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+17:39:08.401 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:39:15.386 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:39:15.387 [http-nio-8080-exec-9] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:39:15.430 [http-nio-8080-exec-9] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:39:15.434 [http-nio-8080-exec-9] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:39:15.494 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:45:56.977 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:46:53.755 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:46:53.757 [http-nio-8080-exec-1] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:46:56.259 [http-nio-8080-exec-1] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:46:56.292 [http-nio-8080-exec-1] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:47:00.242 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:47:00.243 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:48:40.523 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:48:40.524 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:48:40.534 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:48:40.543 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:48:42.663 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:48:42.789 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:49:14.830 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:49:14.830 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:49:14.839 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:49:14.845 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:49:16.126 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:49:16.139 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:48.192 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:48.192 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:51:48.199 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:51:48.204 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:51:49.086 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:49.093 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:44.448 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:44.449 [http-nio-8080-exec-6] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:53:44.460 [http-nio-8080-exec-6] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:53:44.465 [http-nio-8080-exec-6] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:53:44.574 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:44.601 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:59.158 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:59.159 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+17:53:59.209 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+17:53:59.213 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+17:53:59.269 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:59.305 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:00:01.390 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:00:01.391 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:00:01.402 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:00:01.407 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:00:01.640 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:00:01.642 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:11.370 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:11.371 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:01:11.379 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:01:11.385 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:01:11.538 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:11.540 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:07:42.222 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:07:42.222 [http-nio-8080-exec-9] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:07:42.268 [http-nio-8080-exec-9] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:07:42.273 [http-nio-8080-exec-9] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:07:43.073 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:07:43.156 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:08:09.677 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:08:09.677 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:08:09.683 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:08:09.686 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:08:09.797 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:08:09.799 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:19:23.587 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+18:21:23.388 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:21:23.391 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:22:13.475 [http-nio-8080-exec-2] ERROR org.elective.servlets.CreateCourseServlet - java.lang.IllegalStateException: CannotObtainAConnection
+18:24:35.534 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:24:50.082 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:24:55.791 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:25:28.192 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:25:28.192 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:25:29.638 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:25:29.638 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:25:45.516 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:25:45.516 [http-nio-8080-exec-4] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:27:20.464 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:27:20.465 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:27:20.680 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:27:20.970 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:27:21.906 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:27:48.368 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:27:48.368 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - Saving course...
+18:27:56.035 [http-nio-8080-exec-2] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='it', duration=110}
+18:27:56.113 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:27:56.113 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:27:56.221 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:28:27.461 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:28:27.461 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:28:27.469 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:28:27.476 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='it', duration=110}
+18:30:55.965 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:33:10.167 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:33:10.167 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:33:15.588 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:33:15.597 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='it', duration=110}
+18:33:29.953 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:33:30.786 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:35:46.957 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:35:46.957 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:35:46.966 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:35:46.972 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='it', duration=110}
+18:35:48.627 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:35:48.638 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:35:56.807 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:35:56.807 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:35:57.027 [http-nio-8080-exec-5] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:36:01.182 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:01.183 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:36:01.218 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:36:01.222 [http-nio-8080-exec-4] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='it', duration=110}
+18:36:06.768 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:06.769 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:36:06.954 [http-nio-8080-exec-8] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:36:17.118 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:17.119 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:36:17.169 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:36:17.811 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:17.920 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:17.963 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:17.966 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:17.991 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:18.527 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:21.606 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:36:21.606 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:36:21.612 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:36:21.617 [http-nio-8080-exec-7] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='it', duration=110}
+18:38:54.205 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:38:54.206 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - Saving course...
+18:38:54.496 [http-nio-8080-exec-5] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:38:54.509 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:38:54.509 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:38:54.559 [http-nio-8080-exec-3] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:39:00.727 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:39:00.727 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:39:00.734 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:39:00.739 [http-nio-8080-exec-8] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:41:30.404 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:41:30.404 [http-nio-8080-exec-6] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:41:30.411 [http-nio-8080-exec-6] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:41:30.419 [http-nio-8080-exec-6] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:41:31.959 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:41:32.006 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:42:41.269 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:42:41.269 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:42:41.275 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:42:41.295 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:42:43.510 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:42:43.597 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:42:43.597 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:42:47.760 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:42:47.761 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:42:47.866 [http-nio-8080-exec-1] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:43:03.777 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:43:03.777 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:43:03.789 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:43:03.793 [http-nio-8080-exec-3] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}
+18:43:33.211 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:43:33.212 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Loading catalog...
+18:43:33.292 [http-nio-8080-exec-7] DEBUG org.elective.servlets.IndexServlet - Successfully loading
+18:43:36.745 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:43:36.746 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - Loading course redactor page...
+18:43:36.750 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}]; topics: [it, punch]
+18:43:36.754 [http-nio-8080-exec-10] DEBUG org.elective.servlets.CreateCourseServlet - course: Course{id=7, teacherId=3, name='c++', topic='it', duration=140}

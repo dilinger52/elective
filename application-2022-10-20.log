@@ -1,0 +1,37 @@
+14:06:17.793 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:06:17.825 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:06:17.894 [main] ERROR org.elective.servlets.AuthorisationServlet - java.lang.IllegalStateException: CannotObtainADataSource
+14:22:24.662 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:22:24.740 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:22:24.759 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+14:26:16.173 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:26:16.193 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:26:16.209 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+14:26:16.210 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+14:27:48.639 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:27:48.659 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:27:48.674 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+14:27:48.676 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+14:33:50.346 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:33:50.367 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:33:50.380 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+14:33:50.382 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+14:35:29.272 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:35:29.299 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:35:29.313 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+14:35:29.315 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+14:37:01.866 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:37:01.890 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:37:01.907 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+14:37:01.908 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+14:37:30.118 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:37:30.137 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:37:30.151 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+14:37:30.152 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+14:59:36.492 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+14:59:36.616 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+14:59:36.626 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+18:56:01.162 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+18:56:01.227 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+18:56:01.232 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+18:56:01.235 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed

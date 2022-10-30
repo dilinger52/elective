@@ -1,0 +1,25 @@
+13:11:56.013 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
+13:11:56.192 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
+13:11:56.196 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+13:11:56.198 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+16:36:02.170 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:38:18.866 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:39:16.249 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:46:21.743 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:47:19.994 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:49:59.400 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:53:26.759 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:54:29.322 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:55:02.530 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:55:26.526 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:57:18.281 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:58:10.489 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:59:00.382 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:08:22.562 [main] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:13:26.963 [main] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:14:33.149 [main] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:19:38.793 [main] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:02.374 [main] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:26:25.244 [main] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:31:26.425 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:42:40.921 [main] DEBUG org.elective.listeners.AppContextListener - Application started

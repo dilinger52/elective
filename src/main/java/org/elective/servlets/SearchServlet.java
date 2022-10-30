@@ -2,11 +2,11 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.CourseDAO;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.entity.Course;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.CourseDAO;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.entity.Course;
+import org.elective.utils.Pagination;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -20,6 +20,9 @@ import java.sql.Connection;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Search servlet realizes mechanism of search string and searching courses by name.
+ */
 @WebServlet("/search_by_name")
 public class SearchServlet extends HttpServlet {
 
@@ -33,7 +36,7 @@ public class SearchServlet extends HttpServlet {
         String pattern = req.getParameter("pattern");
         logger.debug("Searching by pattern: {}", pattern);
         List<Course> courses;
-        try(Connection con = DBUtils.getInstance().getConnection()) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             CourseDAO courseDAO = daoFactory.getCourseDAO();
             courses = courseDAO.findByName(con, pattern);
@@ -50,7 +53,7 @@ public class SearchServlet extends HttpServlet {
         session.setAttribute("pageKey", 0);
         RequestDispatcher rd = req.getRequestDispatcher(path);
         session.setAttribute("path", path);
-            rd.forward(req, resp);
+        rd.forward(req, resp);
 
     }
 }

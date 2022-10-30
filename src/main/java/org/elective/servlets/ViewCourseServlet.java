@@ -2,10 +2,9 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.*;
-import org.elective.DBManager.entity.*;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.*;
+import org.elective.database.entity.*;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -22,8 +21,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static org.elective.DBManager.entity.StudentsSubtopic.completion.COMPLETED;
+import static org.elective.database.entity.StudentsSubtopic.completion.COMPLETED;
 
+/**
+ * View course servlet generates teacher page on which he can view all students registered on current course,
+ * their progress and change grade of students that completed that course. Also, from this page teacher can go
+ * to content redactor page.
+ */
 @WebServlet("/view_course")
 public class ViewCourseServlet extends HttpServlet {
 
@@ -46,7 +50,7 @@ public class ViewCourseServlet extends HttpServlet {
         Map<Integer, Integer> studentsCoursesNum = new HashMap<>();
         Map<Integer, Integer> finishedCoursesNum = new HashMap<>();
 
-        try(Connection con = DBUtils.getInstance().getConnection()) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             CourseDAO courseDAO = daoFactory.getCourseDAO();
             StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
@@ -55,7 +59,7 @@ public class ViewCourseServlet extends HttpServlet {
             StudentsSubtopicDAO studentsSubtopicDAO = daoFactory.getStudentsSubtopicDAO();
             course = courseDAO.read(con, courseId);
             coursesStudents = studentsCourseDAO.findCoursesByCourseId(con, courseId);
-            for (StudentsCourse coursesStudent: coursesStudents) {
+            for (StudentsCourse coursesStudent : coursesStudents) {
                 students.add(userDAO.read(con, coursesStudent.getStudentId()));
                 List<Subtopic> subtopics = subtopicDAO.findSubtopicsByCourse(con, course.getId());
                 List<StudentsSubtopic> studentsSubtopics = new ArrayList<>();
@@ -68,14 +72,14 @@ public class ViewCourseServlet extends HttpServlet {
                 finishedCoursesNum.put(coursesStudent.getStudentId(), finishedSubtopics.size());
                 studentsCoursesNum.put(coursesStudent.getStudentId(), studentsSubtopics.size());
                 Map<String, String> checked = new HashMap<>();
-                    for (int i = 1; i <= 5; i++) {
-                        if (coursesStudent.getGrade() == i) {
-                            checked.put("i" + i, "checked");
-                        } else {
-                            checked.put("i" + i, "");
-                        }
-
+                for (int i = 1; i <= 5; i++) {
+                    if (coursesStudent.getGrade() == i) {
+                        checked.put("i" + i, "checked");
+                    } else {
+                        checked.put("i" + i, "");
                     }
+
+                }
 
                 studentsGrade.put(coursesStudent.getStudentId(), checked);
                 logger.debug("Loading successfully");
@@ -93,7 +97,7 @@ public class ViewCourseServlet extends HttpServlet {
         session.setAttribute("studentsCoursesNum", studentsCoursesNum);
         session.setAttribute("studentsGrade", studentsGrade);
         RequestDispatcher rd = req.getRequestDispatcher("teacherCoursePage.jsp");
-            rd.forward(req, resp);
+        rd.forward(req, resp);
 
     }
 }

@@ -2,10 +2,10 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.UserDAO;
-import org.elective.DBManager.entity.User;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.UserDAO;
+import org.elective.database.entity.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,6 +17,9 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Connection;
 
+/**
+ * Confirm email servlet finish registration of student account. It launches from link in email letter.
+ */
 @WebServlet("/mailconfirmed")
 public class ConfirmEmailServlet extends HttpServlet {
 

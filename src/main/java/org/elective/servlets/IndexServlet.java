@@ -2,15 +2,15 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.CourseDAO;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.StudentsCourseDAO;
-import org.elective.DBManager.dao.UserDAO;
-import org.elective.DBManager.entity.Course;
-import org.elective.DBManager.entity.StudentsCourse;
-import org.elective.DBManager.entity.User;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.CourseDAO;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.StudentsCourseDAO;
+import org.elective.database.dao.UserDAO;
+import org.elective.database.entity.Course;
+import org.elective.database.entity.StudentsCourse;
+import org.elective.database.entity.User;
+import org.elective.utils.Pagination;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -21,9 +21,17 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Connection;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * Index servlet generate catalog page that show all courses to user. Courses can be sorted, filtered and
+ * searched by name. Students can register to course and don't see courses that they are already registered.
+ * Teachers can go to students page. Administrator can edit or create courses.
+ */
 @WebServlet("/index.jsp")
 public class IndexServlet extends HttpServlet {
 
@@ -39,7 +47,7 @@ public class IndexServlet extends HttpServlet {
         Map<Integer, String> coursesTeacher = new HashMap<>();
         HttpSession session = req.getSession();
         User user = (User) session.getAttribute("user");
-        try(Connection con = DBUtils.getInstance().getConnection();) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             CourseDAO courseDAO = daoFactory.getCourseDAO();
             UserDAO userDAO = daoFactory.getUserDAO();
@@ -81,12 +89,9 @@ public class IndexServlet extends HttpServlet {
         }
         session.setAttribute("path", "catalog.jsp");
         RequestDispatcher rd = req.getRequestDispatcher("catalog.jsp");
-            rd.forward(req, resp);
+        rd.forward(req, resp);
 
     }
-
-
-
 
 
 }

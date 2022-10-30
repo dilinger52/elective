@@ -1,0 +1,5 @@
+14:12:36.839 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+15:43:39.174 [main] ERROR org.elective.servlets.FilterServlet - java.lang.NullPointerException
+15:45:38.406 [main] ERROR org.elective.servlets.FilterServlet - java.lang.NullPointerException
+16:07:56.587 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:17:48.711 [main] DEBUG org.elective.listeners.AppContextListener - Application started

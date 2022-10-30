@@ -2,13 +2,12 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.CourseDAO;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.SubtopicDAO;
-import org.elective.DBManager.entity.Course;
-import org.elective.DBManager.entity.Subtopic;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.CourseDAO;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.SubtopicDAO;
+import org.elective.database.entity.Course;
+import org.elective.database.entity.Subtopic;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -23,6 +22,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Content redactor servlet generate page of redacting subtopics for teachers. Also, from this page teacher
+ * can create and delete subtopics.
+ */
 @WebServlet("/content_redactor")
 public class ContentRedactorServlet extends HttpServlet {
 
@@ -69,7 +72,7 @@ public class ContentRedactorServlet extends HttpServlet {
         session.setAttribute("path", "courseContentRedactor.jsp");
         RequestDispatcher rd = req.getRequestDispatcher("courseContentRedactor.jsp");
 
-            rd.forward(req, resp);
+        rd.forward(req, resp);
 
 
     }
@@ -80,7 +83,7 @@ public class ContentRedactorServlet extends HttpServlet {
         int subtopicId = Integer.parseInt(req.getParameter("subtopicId"));
         String subtopicName = req.getParameter("subtopicName");
         String subtopicContent = req.getParameter("subtopicContent");
-        try(Connection con = DBUtils.getInstance().getConnection();) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
             Subtopic subtopic = subtopicDAO.read(con, subtopicId);
@@ -95,7 +98,7 @@ public class ContentRedactorServlet extends HttpServlet {
             rd.forward(req, resp);
             return;
         }
-            resp.sendRedirect(req.getContextPath() + "/content_redactor");
+        resp.sendRedirect(req.getContextPath() + "/content_redactor");
 
     }
 }

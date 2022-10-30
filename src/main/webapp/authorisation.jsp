@@ -4,8 +4,10 @@
 <c:set var="language" value="${not empty param.language ? param.language : not empty language ? language : pageContext.request.locale}" scope="session" />
 <fmt:setLocale value="${language}" />
 <fmt:setBundle basename="text" />
-<html>
+<!DOCTYPE html>
+<html lang="${language}">
 <head>
+    <title>Good courses</title>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,14 +40,22 @@
         <input class="log_in_button" type="submit" value='<fmt:message key="login.submit" />'/>
         <div class="filter">
             <input class="checkbox" type="checkbox" onclick="showPassword()"/>
-            <p class="log_in_text"><fmt:message key="login.checkbox" /></p>
+            <div class="filter_value"><fmt:message key="login.checkbox" /></div>
         </div>
     </form>
     <p class="log_in_text">
         <fmt:message key="login.signup.label" /> <a class="log_in_ref" href="/elective/registration"><fmt:message key="login.signup.submit" /></a>
     </p>
 </div>
-
+<div class="footer">
+    <hr class="separator"/>
+    <form class="local_dropdown">
+        <select class="dropdown_local" id="language" name="language" onchange="submit()">
+            <option value="en" ${language == 'en' ? 'selected' : ''}>English</option>
+            <option value="ru" ${language == 'ru' ? 'selected' : ''}>Russian</option>
+        </select>
+    </form>
+</div>
 <script>
     function showPassword() {
     var x = document.getElementById("password");

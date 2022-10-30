@@ -2,16 +2,14 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.StudentsCourseDAO;
-import org.elective.DBManager.dao.StudentsSubtopicDAO;
-import org.elective.DBManager.dao.SubtopicDAO;
-import org.elective.DBManager.entity.StudentsCourse;
-import org.elective.DBManager.entity.StudentsSubtopic;
-import org.elective.DBManager.entity.Subtopic;
-
+import org.elective.database.DBUtils;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.StudentsCourseDAO;
+import org.elective.database.dao.StudentsSubtopicDAO;
+import org.elective.database.dao.SubtopicDAO;
+import org.elective.database.entity.StudentsCourse;
+import org.elective.database.entity.StudentsSubtopic;
+import org.elective.database.entity.Subtopic;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -24,9 +22,12 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.util.List;
 
-import static org.elective.DBManager.DBUtils.close;
-import static org.elective.DBManager.DBUtils.rollback;
+import static org.elective.database.DBUtils.close;
+import static org.elective.database.DBUtils.rollback;
 
+/**
+ * New subtopic servlet uses on content redactor page and create new subtopic with default name.
+ */
 @WebServlet("/new_subtopic")
 public class NewSubtopicServlet extends HttpServlet {
 
@@ -64,7 +65,7 @@ public class NewSubtopicServlet extends HttpServlet {
             close(con);
         }
         session.setAttribute("path", "new_subtopic");
-            resp.sendRedirect(req.getContextPath() + "/content_redactor");
+        resp.sendRedirect(req.getContextPath() + "/content_redactor");
 
     }
 }

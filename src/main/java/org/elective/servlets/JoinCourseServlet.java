@@ -2,16 +2,15 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.StudentsCourseDAO;
-import org.elective.DBManager.dao.StudentsSubtopicDAO;
-import org.elective.DBManager.dao.SubtopicDAO;
-import org.elective.DBManager.entity.StudentsCourse;
-import org.elective.DBManager.entity.StudentsSubtopic;
-import org.elective.DBManager.entity.Subtopic;
-import org.elective.DBManager.entity.User;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.StudentsCourseDAO;
+import org.elective.database.dao.StudentsSubtopicDAO;
+import org.elective.database.dao.SubtopicDAO;
+import org.elective.database.entity.StudentsCourse;
+import org.elective.database.entity.StudentsSubtopic;
+import org.elective.database.entity.Subtopic;
+import org.elective.database.entity.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -25,9 +24,12 @@ import java.sql.Connection;
 import java.util.Date;
 import java.util.List;
 
-import static org.elective.DBManager.DBUtils.close;
-import static org.elective.DBManager.DBUtils.rollback;
+import static org.elective.database.DBUtils.close;
+import static org.elective.database.DBUtils.rollback;
 
+/**
+ * Join course servlet assigned student to course and all subtopics of this course.
+ */
 @WebServlet("/join_course")
 public class JoinCourseServlet extends HttpServlet {
 
@@ -71,7 +73,7 @@ public class JoinCourseServlet extends HttpServlet {
             close(con);
         }
 
-            resp.sendRedirect(req.getContextPath());
+        resp.sendRedirect(req.getContextPath());
 
     }
 }

@@ -2,7 +2,7 @@ package org.elective.filters;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.entity.User;
+import org.elective.database.entity.User;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -11,14 +11,19 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ * Security filter checks if user in session have access to current page.
+ */
 @WebFilter("/*")
 public class SecurityFilter implements Filter {
 
     private static final Logger logger = LogManager.getLogger(SecurityFilter.class);
+    private static final String ERROR_PAGE = "error.jsp";
+    private static final String MESSAGE = "message";
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        HttpServletRequest req =  (HttpServletRequest) servletRequest;
+        HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
         HttpSession session = req.getSession();
         if (req.getServletPath().equals("/authorisation") ||
@@ -37,9 +42,9 @@ public class SecurityFilter implements Filter {
         }
         User user = (User) session.getAttribute("user");
         if (user.isBlocked().equals("true")) {
-            logger.debug("User " + user + " is blocked");
-            req.setAttribute("message", "AccountWasBlocked");
-            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            logger.debug("User {} is blocked", user);
+            req.setAttribute(MESSAGE, "AccountWasBlocked");
+            RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
             return;
         }
@@ -49,9 +54,9 @@ public class SecurityFilter implements Filter {
                         req.getServletPath().equals("/create_course") ||
                         req.getServletPath().equals("/create_teacher") ||
                         req.getServletPath().equals("/delete_course"))) {
-            logger.debug("User " + user + " is not admin");
-            req.setAttribute("message", "OnlyForAdministrator");
-            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            logger.debug("User {} is not admin", user);
+            req.setAttribute(MESSAGE, "OnlyForAdministrator");
+            RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
             return;
         }
@@ -60,13 +65,12 @@ public class SecurityFilter implements Filter {
                         req.getServletPath().equals("/delete_subtopic") ||
                         req.getServletPath().equals("/new_subtopic") ||
                         req.getServletPath().equals("/rate"))) {
-            logger.debug("User " + user + " is not teacher");
-            req.setAttribute("message", "OnlyForTeachers");
-            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            logger.debug("User {} is not teacher", user);
+            req.setAttribute(MESSAGE, "OnlyForTeachers");
+            RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
             return;
         }
         filterChain.doFilter(servletRequest, servletResponse);
-
     }
 }

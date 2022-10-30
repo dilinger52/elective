@@ -8,10 +8,18 @@ import java.util.List;
 import java.util.Map;
 
 
+/**
+ * The tag that uses to count total length of lists in inserted map
+ */
 public class MapSizeTag extends SimpleTagSupport {
 
     private Map<?, List<?>> map;
 
+    /**
+     * Sets map.
+     *
+     * @param map the map
+     */
     public void setMap(Map<?, List<?>> map) {
         this.map = map;
     }

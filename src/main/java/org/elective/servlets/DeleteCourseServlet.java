@@ -2,10 +2,9 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.CourseDAO;
-import org.elective.DBManager.dao.DAOFactory;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.CourseDAO;
+import org.elective.database.dao.DAOFactory;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,6 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Connection;
 
+/**
+ * Delete course servlet realizes mechanism deleting course at course redactor page.
+ */
 @WebServlet("/delete_course")
 public class DeleteCourseServlet extends HttpServlet {
 
@@ -25,7 +27,7 @@ public class DeleteCourseServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         logger.debug("Deleting course...");
         int courseId = Integer.parseInt(req.getParameter("courseId"));
-        try(Connection con = DBUtils.getInstance().getConnection();) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             CourseDAO courseDAO = daoFactory.getCourseDAO();
             courseDAO.delete(con, courseId);
@@ -37,7 +39,7 @@ public class DeleteCourseServlet extends HttpServlet {
             rd.forward(req, resp);
             return;
         }
-            resp.sendRedirect(req.getContextPath() + "index.jsp");
+        resp.sendRedirect(req.getContextPath() + "/index.jsp");
 
     }
 }

@@ -2,16 +2,15 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.StudentsCourseDAO;
-import org.elective.DBManager.dao.StudentsSubtopicDAO;
-import org.elective.DBManager.dao.SubtopicDAO;
-import org.elective.DBManager.entity.Course;
-import org.elective.DBManager.entity.StudentsCourse;
-import org.elective.DBManager.entity.StudentsSubtopic;
-import org.elective.DBManager.entity.Subtopic;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.StudentsCourseDAO;
+import org.elective.database.dao.StudentsSubtopicDAO;
+import org.elective.database.dao.SubtopicDAO;
+import org.elective.database.entity.Course;
+import org.elective.database.entity.StudentsCourse;
+import org.elective.database.entity.StudentsSubtopic;
+import org.elective.database.entity.Subtopic;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -21,18 +20,22 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.elective.DBManager.entity.StudentsSubtopic.completion.COMPLETED;
+import static org.elective.database.entity.StudentsSubtopic.completion.COMPLETED;
 
+/**
+ * Rate student servlet that realized functionality to change students grade by teacher on students page.
+ */
 @WebServlet("/rate")
 public class RateStudentServlet extends HttpServlet {
 
     private static final Logger logger = LogManager.getLogger(RateStudentServlet.class);
+    private static final String ERROR_PAGE = "error.jsp";
+    private static final String MESSAGE = "message";
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
@@ -42,8 +45,8 @@ public class RateStudentServlet extends HttpServlet {
             grade = Integer.parseInt(req.getParameter("grade"));
         } else {
             logger.error("Choose valid grade");
-            req.setAttribute("message", "ChooseValidGrade");
-            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            req.setAttribute(MESSAGE, "ChooseValidGrade");
+            RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
             return;
         }
@@ -52,7 +55,7 @@ public class RateStudentServlet extends HttpServlet {
         logger.debug("Updating student(id={}) rating for course: {}", studentId, course);
         StudentsCourse studentsCourse;
         List<StudentsSubtopic> studentsSubtopics;
-        try(Connection con = DBUtils.getInstance().getConnection();) {
+        try (Connection con = DBUtils.getInstance().getConnection()) {
             DAOFactory daoFactory = DAOFactory.getInstance();
             StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
             SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
@@ -66,8 +69,8 @@ public class RateStudentServlet extends HttpServlet {
 
         } catch (Exception e) {
             logger.error(e);
-            req.setAttribute("message", e.getMessage());
-            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            req.setAttribute(MESSAGE, e.getMessage());
+            RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
             return;
         }
@@ -83,8 +86,8 @@ public class RateStudentServlet extends HttpServlet {
                 logger.debug("setting new garde: {}", grade);
             } catch (Exception e) {
                 logger.error(e);
-                req.setAttribute("message", e.getMessage());
-                RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+                req.setAttribute(MESSAGE, e.getMessage());
+                RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
                 rd.forward(req, resp);
                 return;
             }
@@ -92,8 +95,8 @@ public class RateStudentServlet extends HttpServlet {
 
         } else {
             logger.debug("This student did not complete course yet");
-            req.setAttribute("message", "ThisStudentDidNotCompleteCourseYet");
-            RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
+            req.setAttribute(MESSAGE, "ThisStudentDidNotCompleteCourseYet");
+            RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
         }
 

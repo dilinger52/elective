@@ -18,21 +18,20 @@
         </div>
         <form action="search_by_name" method="get" id="search">
             <input class="search_input" type="search" placeholder='<fmt:message key="catalog.search.placeholder" />' name="pattern"/>
-            <!--<input class="search_button" type="submit" value="Search"/> -->
         </form>
     </div>
     <div class="content">
         <jsp:include page="filter.jsp" />
         <div class="main_information">
             <div class="sorting_wrapper">
-                <select name="sorting_pattern" class="dropdown" form="filter" >
+                <select name="sorting_pattern" class="dropdown" form="filter" onchange="submit()">
                     <option class="option" value="0"><fmt:message key="sorting.default" /></option>
-                    <option class="option" value="1"><fmt:message key="sorting.studentsL-H" /></option>
-                    <option class="option" value="2"><fmt:message key="sorting.studentsH-L" /></option>
-                    <option class="option" value="3"><fmt:message key="sorting.A-Z" /></option>
-                    <option class="option" value="4"><fmt:message key="sorting.Z-A" /></option>
-                    <option class="option" value="5"><fmt:message key="sorting.durationL-H" /></option>
-                    <option class="option" value="6"><fmt:message key="sorting.durationH-L" /></option>
+                    <option class="option" value="1" ${param.sorting_pattern == 1 ? 'selected' : ''}><fmt:message key="sorting.studentsL-H" /></option>
+                    <option class="option" value="2" ${param.sorting_pattern == 2 ? 'selected' : ''}><fmt:message key="sorting.studentsH-L" /></option>
+                    <option class="option" value="3" ${param.sorting_pattern == 3 ? 'selected' : ''}><fmt:message key="sorting.A-Z" /></option>
+                    <option class="option" value="4" ${param.sorting_pattern == 4 ? 'selected' : ''}><fmt:message key="sorting.Z-A" /></option>
+                    <option class="option" value="5" ${param.sorting_pattern == 5 ? 'selected' : ''}><fmt:message key="sorting.durationL-H" /></option>
+                    <option class="option" value="6" ${param.sorting_pattern == 6 ? 'selected' : ''}><fmt:message key="sorting.durationH-L" /></option>
                 </select>
                 <div class="info_count">
                     <my:MapSize map="${sessionScope.pages}" /> <fmt:message key="courseCount" />
@@ -50,17 +49,17 @@
                             <div class="course_icon"></div>
                         </div>
                         <div class="text_container">
-                            <div class="course_title">
+                            <div class="course_title" title="Title">
                                 ${course.name}
                             </div>
-                            <div class="course_description">
+                            <div class="course_description" title="Description">
                                 ${course.description}
                             </div>
-                            <div class="course_detail">
+                            <div class="course_detail" title="topic">
                                 <div class="course_tag">
                                     ${course.topic}
                                 </div>
-                                <div class="teacher">
+                                <div class="teacher" title="Teacher">
                                     <img src="images/Teacher.svg" class="course_pic">
                                     <c:if test="${sessionScope.user.roleId == 2}" >
                                         <fmt:message key="catalog.you" />
@@ -69,11 +68,11 @@
                                         ${coursesTeacher[course.id]}
                                     </c:if>
                                 </div>
-                                <div class="teacher">
+                                <div class="teacher" title="Number of students">
                                     <img src="images/Users.svg" class="course_pic">
                                     ${coursesStudents[course.id]}
                                 </div>
-                                <div class="teacher">
+                                <div class="teacher" title="Course duration">
                                     <img src="images/Clock.svg" class="course_pic">
                                     ${course.duration}
                                 </div>

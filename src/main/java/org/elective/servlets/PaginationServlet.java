@@ -2,15 +2,14 @@ package org.elective.servlets;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.DBManager.DBException;
-import org.elective.DBManager.DBUtils;
-import org.elective.DBManager.dao.DAOFactory;
-import org.elective.DBManager.dao.StudentsSubtopicDAO;
-import org.elective.DBManager.dao.SubtopicDAO;
-import org.elective.DBManager.entity.Course;
-import org.elective.DBManager.entity.StudentsSubtopic;
-import org.elective.DBManager.entity.Subtopic;
-import org.elective.DBManager.entity.User;
+import org.elective.database.DBUtils;
+import org.elective.database.dao.DAOFactory;
+import org.elective.database.dao.StudentsSubtopicDAO;
+import org.elective.database.dao.SubtopicDAO;
+import org.elective.database.entity.Course;
+import org.elective.database.entity.StudentsSubtopic;
+import org.elective.database.entity.Subtopic;
+import org.elective.database.entity.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -25,9 +24,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.elective.DBManager.entity.StudentsSubtopic.completion.COMPLETED;
+import static org.elective.database.entity.StudentsSubtopic.completion.COMPLETED;
 
 
+/**
+ * Pagination servlet changes page key.
+ */
 @WebServlet("/pagination")
 public class PaginationServlet extends HttpServlet {
 
@@ -51,7 +53,7 @@ public class PaginationServlet extends HttpServlet {
             int key = (int) session.getAttribute("pageKey");
             User student = (User) session.getAttribute("user");
             Subtopic subtopic = pages.get(key);
-            try(Connection con = DBUtils.getInstance().getConnection();) {
+            try (Connection con = DBUtils.getInstance().getConnection()) {
                 DAOFactory daoFactory = DAOFactory.getInstance();
                 StudentsSubtopicDAO studentsSubtopicDAO = daoFactory.getStudentsSubtopicDAO();
                 StudentsSubtopic studentsSubtopic = studentsSubtopicDAO.read(con, subtopic.getId(), student.getId());

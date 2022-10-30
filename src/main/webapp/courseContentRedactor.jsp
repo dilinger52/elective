@@ -30,28 +30,28 @@
         </div>
         <div class="redactor_content">
             <hr class="separator">
-            <div class="redactor_row">
+            <c:if test="${pages.size() >= 1}">
+                <div class="redactor_row">
                     <p class="redactor_row_header">
                         <fmt:message key="courseContentRedactor.subtopicTitle" />
                     </p>
                     <input class="redactor_input_title" form="redactor" name="subtopicName" value="${sessionScope.pages[pageKey].subtopicName}"/>
-            </div>
-            <hr class="separator">
-            <div class="redactor_row">
-                <p class="redactor_row_header">
-                    <fmt:message key="courseContentRedactor.subtopicContent" />
-                </p>
-                 <form action="content_redactor" method="post" id="redactor">
-                     <input type="hidden" name="subtopicId" value="${sessionScope.pages[pageKey].id}"/>
-                     <textarea class="redactor_input_content" name="subtopicContent">${sessionScope.pages[pageKey].subtopicContent}</textarea>
-                 </form>
-            </div>
+                </div>
+                <hr class="separator">
+                <div class="redactor_row">
+                    <p class="redactor_row_header">
+                        <fmt:message key="courseContentRedactor.subtopicContent" />
+                    </p>
+                    <form action="content_redactor" method="post" id="redactor">
+                        <input type="hidden" name="subtopicId" value="${sessionScope.pages[pageKey].id}"/>
+                        <textarea class="redactor_input_content" name="subtopicContent">${sessionScope.pages[pageKey].subtopicContent}</textarea>
+                    </form>
+                </div>
+            </c:if>
                  <form method="post" action="pagination" class="navigation_panel redactor">
-
                          <button class="navigation_button" name="new_page_key" value="${sessionScope.pageKey - 1}">
                              <fmt:message key="pagination.previous" />
                          </button>
-
                      <div class="page_number_wrapper">
                          <c:forEach var="page" items="${sessionScope.pages}">
                              <button class="navigation_button" name="new_page_key" value="${page.key}">
@@ -64,15 +64,14 @@
                              <fmt:message key="pagination.next" />
                          </button>
                      </c:if>
-                     <c:if test="${sessionScope.pageKey == sessionScope.pages.size() - 1}">
-                         <form method="post" action="new_subtopic">
-                             <input type="hidden" name="courseId" value="${course.id}">
-                             <input class="navigation_button" type="submit" value='<fmt:message key="courseContentRedactor.createNew" />'/>
-                         </form>
+                     <c:if test="${sessionScope.pageKey >= sessionScope.pages.size() - 1}">
+                         <input form="newsub" class="navigation_button" type="submit" value='<fmt:message key="courseContentRedactor.createNew" />'/>
                      </c:if>
-
                  </form>
+            <form method="post" action="new_subtopic" id="newsub">
+                <input type="hidden" name="courseId" value="${course.id}">
+            </form>
              </div>
     </div>
-
+</div>
     <jsp:include page="footer.jsp" />
