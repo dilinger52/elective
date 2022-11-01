@@ -1,7 +1,7 @@
-13:11:56.013 [main] DEBUG org.elective.servlets.AuthorisationServlet - Log in...
-13:11:56.192 [main] DEBUG org.elective.servlets.AuthorisationServlet - email: example@email.org
-13:11:56.196 [main] DEBUG org.elective.servlets.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
-13:11:56.198 [main] DEBUG org.elective.servlets.AuthorisationServlet - log in completed
+13:11:56.013 [main] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+13:11:56.192 [main] DEBUG org.elective.controller.AuthorisationServlet - email: example@email.org
+13:11:56.196 [main] DEBUG org.elective.controller.AuthorisationServlet - find user: User{id=1, firstName='Pasha', lastName='Moiseev', roleId=1, email='example@email.org', blocked=false}
+13:11:56.198 [main] DEBUG org.elective.controller.AuthorisationServlet - log in completed
 16:36:02.170 [main] DEBUG org.elective.listeners.AppContextListener - Application started
 16:38:18.866 [main] DEBUG org.elective.listeners.AppContextListener - Application started
 16:39:16.249 [main] DEBUG org.elective.listeners.AppContextListener - Application started

@@ -25,7 +25,7 @@
                     <input type="hidden" name="subtopicId" value="${sessionScope.pages[pageKey].id}"/>
                     <input class="primary_button" type="submit" value='<fmt:message key="courseContentRedactor.delete" />'/>
                 </form>
-                <input class="primary_button" type="submit" value='<fmt:message key="courseContentRedactor.save" />' form="redactor">
+                <input class="secondary_button" type="submit" value='<fmt:message key="courseContentRedactor.save" />' form="redactor">
             </div>
         </div>
         <div class="redactor_content">

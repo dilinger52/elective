@@ -5,177 +5,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68598ab2-23cb-4f4e-9c56-fa64ccef8fc4" name="Changes" comment="4">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18d87c86530683a959e5e5498382978a7dfbcd24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/203641a1f89780c4c276526895b285db67adcce7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d9c46b7b33a222f24fa6dac6b3dd59863ac491f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36f88552c362110f311075ef5ab435f37d0662c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3819c16e4a27752a128752c506287183b0c69775" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4dc8bc31e001260cbf60f89f09c1316f5121d814" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53249aa8b813d992f273d7a068b14e2c0ad6a823" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54f4510b91c2683595ce2e8f36b90b301f51d8d3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6141bc12f2830b62cf241d411a9fcab2924c1b44" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66b51dd5ae6dca3327763cb932d7399f04faf27b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f5b8251b03fbf8f4a8767b14006eaa5202d5907" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70b87bba91c13eed6810e203f3be426622709c44" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/768a298153671b6184031c424028466edc4eb796" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e69b87b88e663fcb7bc4a58a333f050f5afb68e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa8f1b2e02dcfdf1eb5ad25dc886cb7b381392f5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b80f545591d8b4533ea98063a0d74eba9f1b8b76" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8d96649614bd84192f3496ef7d33bab1d1e5ec1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cba3df22242d379bdb72d00919d2e8d49101d1bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbfb0d2e9b2b9fbf9d54374577c894a38643c6d0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd51f7041d5a8d7bb17c79a85099a350e198ae09" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dffaba98bb943da6609a9cc891082f047c178096" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4a14a9f9d9be23db6a58806537944e8bbbb31a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f044972571740760ee8ee4714675213c44e57edf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f95aad1d0d89a287088724309e348c538d492856" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-10-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-10-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-10-23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-10-24.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-10-25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-10-27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-10-28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/tags/IsCheckFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/utils/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlCourseDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlRoleDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlStudentsCourseDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlStudentsSubtopicDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlSubtopicDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlUserDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elective/servlets/FilterServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application-2022-10-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application-2022-11-01.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3819c16e4a27752a128752c506287183b0c69775" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53249aa8b813d992f273d7a068b14e2c0ad6a823" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f5b8251b03fbf8f4a8767b14006eaa5202d5907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b80f545591d8b4533ea98063a0d74eba9f1b8b76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cba3df22242d379bdb72d00919d2e8d49101d1bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd51f7041d5a8d7bb17c79a85099a350e198ae09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4a14a9f9d9be23db6a58806537944e8bbbb31a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f044972571740760ee8ee4714675213c44e57edf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f95aad1d0d89a287088724309e348c538d492856" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/elective.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/DBException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/DBException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/CourseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/DAOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/RoleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/RoleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/StudentsCourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/StudentsCourseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/StudentsSubtopicDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/StudentsSubtopicDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/SubtopicDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/SubtopicDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/mysql/MysqlCourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlCourseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/mysql/MysqlDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlDAOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/mysql/MysqlRoleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlRoleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/mysql/MysqlStudentsCourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlStudentsCourseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/mysql/MysqlStudentsSubtopicDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlStudentsSubtopicDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/mysql/MysqlSubtopicDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlSubtopicDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/dao/mysql/MysqlUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/entity/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/entity/StudentsCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/entity/StudentsCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/entity/StudentsSubtopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/entity/StudentsSubtopic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/entity/Subtopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/entity/Subtopic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/DBManager/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/filters/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/filters/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-12.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-13.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-20.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-21.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-21.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-25.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-25.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-27.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-2022-10-28.log" beforeDir="false" afterPath="$PROJECT_DIR$/application-2022-10-28.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlCourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlCourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlRoleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlRoleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlStudentsCourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlStudentsCourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlStudentsSubtopicDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlStudentsSubtopicDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlSubtopicDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlSubtopicDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/database/dao/mysql/MysqlUserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/filters/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/filters/SecurityFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/listeners/AppContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/listeners/AppContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/AuthorisationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/AuthorisationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ConfirmEmailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ConfirmEmailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ContentRedactorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ContentRedactorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CourseContentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CourseContentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CreateCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CreateCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CreateTeacherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CreateTeacherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/DeleteCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/DeleteCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/DeleteSubtopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/DeleteSubtopicServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/FilterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/FilterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/JoinCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/JoinCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/LogOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/LogOutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/NewSubtopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/NewSubtopicServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/utils/Pagination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/PaginationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/PaginationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/PersonalCoursesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/PersonalCoursesServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/RateStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/RateStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/SearchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/StudentsPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/StudentsPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ViewCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ViewCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/tags/MapSizeTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/tags/MapSizeTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/AuthorisationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/AuthorisationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ConfirmEmailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/ConfirmEmailServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ContentRedactorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/ContentRedactorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CourseContentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/CourseContentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CreateCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/CreateCourseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/CreateTeacherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/CreateTeacherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/DeleteCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/DeleteCourseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/DeleteSubtopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/DeleteSubtopicServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/FilterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/FilterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/JoinCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/JoinCourseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/LogOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/LogOutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/NewSubtopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/NewSubtopicServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/PaginationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/PaginationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/PersonalCoursesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/PersonalCoursesServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/RateStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/RateStudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/SearchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/StudentsPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/StudentsPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/servlets/ViewCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/ViewCourseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/text_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/custom.tld" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/custom.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/adminStudentsPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/adminStudentsPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/authorisation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/authorisation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/catalog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/catalog.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/confirmEmail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/confirmEmail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/courseContentRedactor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/courseContentRedactor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/createCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/createCourse.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/filter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/filter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/DBException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/DBUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/CourseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/DAOFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/RoleDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/StudentsCourseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/StudentsSubtopicDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/SubtopicDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/mysql/MysqlCourseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/mysql/MysqlDAOFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/mysql/MysqlRoleDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/mysql/MysqlStudentsCourseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/mysql/MysqlStudentsSubtopicDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/mysql/MysqlSubtopicDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/dao/mysql/MysqlUserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/StudentsCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/StudentsSubtopic$completion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/StudentsSubtopic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/Subtopic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/DBManager/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/filters/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/filters/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/personalCourses.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/personalCourses.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registerForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherCoursePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherCoursePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlCourseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlCourseDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlStudentsCourseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlStudentsCourseDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/elective/servlets/FilterServletTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elective/controller/FilterServletTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlCourseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlCourseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlRoleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlRoleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlStudentsCourseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlStudentsCourseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlStudentsSubtopicDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlStudentsSubtopicDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlSubtopicDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlSubtopicDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/database/dao/mysql/MysqlUserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/elective/filters/SecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/filters/SecurityFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/listeners/AppContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/listeners/AppContextListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/AuthorisationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/AuthorisationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/ConfirmEmailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/ConfirmEmailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/ContentRedactorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/ContentRedactorServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/CourseContentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/CourseContentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/CreateCourseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/CreateCourseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/CreateTeacherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/CreateTeacherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/DeleteCourseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/DeleteCourseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/DeleteSubtopicServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/DeleteSubtopicServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/FilterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/FilterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/JoinCourseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/JoinCourseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/LogOutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/LogOutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/NewSubtopicServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/NewSubtopicServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/Pagination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/PaginationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/PaginationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/PersonalCoursesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/PersonalCoursesServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/RateStudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/RateStudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/RegisterServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/RegisterServlet$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/SearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/StudentsPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/StudentsPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/ViewCourseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/servlets/ViewCourseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/tags/MapSizeTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/tags/MapSizeTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/AuthorisationServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/ConfirmEmailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/ContentRedactorServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/CourseContentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/CreateCourseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/CreateTeacherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/DeleteCourseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/DeleteSubtopicServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/FilterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/IndexServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/JoinCourseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/LogOutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/NewSubtopicServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/PaginationServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/PersonalCoursesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/RateStudentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/RegisterServlet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/SearchServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/StudentsPageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/servlets/ViewCourseServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/text_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/elective/database/dao/mysql/MysqlCourseDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/elective/database/dao/mysql/MysqlCourseDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/elective/database/dao/mysql/MysqlStudentsCourseDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/elective/database/dao/mysql/MysqlStudentsCourseDAOTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +165,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -262,6 +193,11 @@
     </key>
   </component>
   <component name="RunManager" selected="Smart Tomcat.Tomcat">
+    <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
+      <option name="passParentEnvironments" value="true" />
+      <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="FilterServletTest.testFilterCompletions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elective" />
       <extension name="coverage">
@@ -271,7 +207,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.elective.servlets" />
-      <option name="MAIN_CLASS_NAME" value="org.elective.servlets.FilterServletTest" />
+      <option name="MAIN_CLASS_NAME" value="org.elective.controller.FilterServletTest" />
       <option name="METHOD_NAME" value="testFilterCompletions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -287,7 +223,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.elective.servlets" />
-      <option name="MAIN_CLASS_NAME" value="org.elective.servlets.FilterServletTest" />
+      <option name="MAIN_CLASS_NAME" value="org.elective.controller.FilterServletTest" />
       <option name="METHOD_NAME" value="testFilterTeachersBadCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -303,7 +239,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.elective.servlets" />
-      <option name="MAIN_CLASS_NAME" value="org.elective.servlets.FilterServletTest" />
+      <option name="MAIN_CLASS_NAME" value="org.elective.controller.FilterServletTest" />
       <option name="METHOD_NAME" value="testFilterTopicBadCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -362,7 +298,7 @@
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/9.0.65" />
-          <option name="path" value="D:/Programs/apache-tomcat-9.0.65" />
+          <option name="path" value="E:/Programs/apache-tomcat-9.0.65" />
           <option name="version" value="9.0.65.0" />
         </TomcatInfo>
       </option>
@@ -402,8 +338,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MysqlStudentsCourseDAOTest" />
         <item itemvalue="JUnit.MysqlStudentsCourseDAOTest.testFindCoursesByStudentId" />
+        <item itemvalue="JUnit.MysqlStudentsCourseDAOTest" />
         <item itemvalue="JUnit.FilterServletTest.testFilterTopicBadCase" />
         <item itemvalue="JUnit.FilterServletTest.testFilterTeachersBadCase" />
         <item itemvalue="JUnit.FilterServletTest.testFilterCompletions" />
@@ -485,19 +421,19 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/elective$MysqlStudentsCourseDAOTest.ic" NAME="MysqlStudentsCourseDAOTest Coverage Results" MODIFIED="1666609618878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/elective$MysqlUserDAOTest_testGetAllTeachers.ic" NAME="MysqlUserDAOTest.testGetAllTeachers Coverage Results" MODIFIED="1666355779753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/elective$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1666078669659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/elective$PaginationTest_testPageConstructor.ic" NAME="PaginationTest.testPageConstructor Coverage Results" MODIFIED="1666363271815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.elective.servlets.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/elective$MysqlCourseDAOTest.ic" NAME="MysqlCourseDAOTest Coverage Results" MODIFIED="1666260449561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/elective$Test.ic" NAME="Test Coverage Results" MODIFIED="1666611796497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/elective$Test.ic" NAME="Test Coverage Results" MODIFIED="1667319816797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/elective$MysqlStudentsCourseDAOTest.ic" NAME="MysqlStudentsCourseDAOTest Coverage Results" MODIFIED="1666609618878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/elective$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1666078669659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/elective$MysqlUserDAOTest_testGetAllTeachers.ic" NAME="MysqlUserDAOTest.testGetAllTeachers Coverage Results" MODIFIED="1666355779753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
+    </SUITE>
   </component>
 </project>

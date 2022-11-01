@@ -7,6 +7,7 @@
 <fmt:setBundle basename="text" />
 <jsp:include page="header.jsp" />
 <div class="page">
+    <form id="clear"></form>
     <div class="heading_container">
         <div class="headings">
             <h1 class="heading1">
@@ -16,23 +17,17 @@
                 <fmt:message key="personalCourses.head.description" />
             </p>
         </div>
-        <form action="search_by_name" method="get" id="search">
-            <input class="search_input" type="search" placeholder='<fmt:message key="catalog.search.placeholder" />' name="pattern"/>
-            <!--<input class="search_button" type="submit" value="Search"/> -->
-        </form>
     </div>
     <div class="content">
         <jsp:include page="filter.jsp" />
         <div class="main_information">
             <div class="sorting_wrapper">
-                <select name="sorting_pattern" class="dropdown" form="filter" >
+                <select name="sorting_pattern" class="dropdown" form="filter" onchange="submit()">
                     <option class="option" value="0"><fmt:message key="sorting.default" /></option>
-                    <option class="option" value="1"><fmt:message key="sorting.studentsL-H" /></option>
-                    <option class="option" value="2"><fmt:message key="sorting.studentsH-L" /></option>
-                    <option class="option" value="3"><fmt:message key="sorting.A-Z" /></option>
-                    <option class="option" value="4"><fmt:message key="sorting.Z-A" /></option>
-                    <option class="option" value="5"><fmt:message key="sorting.durationL-H" /></option>
-                    <option class="option" value="6"><fmt:message key="sorting.durationH-L" /></option>
+                    <option class="option" value="3" ${param.sorting_pattern == 3 ? 'selected' : ''}><fmt:message key="sorting.A-Z" /></option>
+                    <option class="option" value="4" ${param.sorting_pattern == 4 ? 'selected' : ''}><fmt:message key="sorting.Z-A" /></option>
+                    <option class="option" value="5" ${param.sorting_pattern == 5 ? 'selected' : ''}><fmt:message key="sorting.durationL-H" /></option>
+                    <option class="option" value="6" ${param.sorting_pattern == 6 ? 'selected' : ''}><fmt:message key="sorting.durationH-L" /></option>
                 </select>
                 <div class="info_count">
                     <my:MapSize map="${sessionScope.pages}" /> <fmt:message key="courseCount" />
@@ -41,30 +36,27 @@
             <div class="info_wrapper">
                 <c:forEach var="course" items="${sessionScope.pages[pageKey]}">
                     <div class="course_card">
-                        <div class="left_content">
-                            <div class="course_icon"></div>
-                        </div>
                         <div class="text_container">
-                            <div class="course_title">
+                            <div class="course_title" title="<fmt:message key="catalog.title.title" />">
                                 ${course.name}
                             </div>
-                            <div class="course_detail">
+                            <div class="course_detail" title="<fmt:message key="catalog.topic.title" />">
                                 <div class="course_tag">
                                     ${course.topic}
                                 </div>
-                                <div class="teacher">
+                                <div class="teacher" title="<fmt:message key="catalog.teacher.title" />">
                                     <img src="images/Teacher.svg" class="course_pic">
                                     ${sessionScope.coursesTeacher[course.id]}
                                 </div>
-                                <div class=teacher">
+                                <div class="teacher" title="<fmt:message key="personalCourses.registrationDate.title" />">
                                     ${sessionScope.coursesRegistrationDate[course.id]}
                                 </div>
-                                <div class=teacher">
+                                <div class="teacher" title="<fmt:message key="personalCourses.progress.title" />">
                                     <progress value="${sessionScope.finishedCoursesNum[course.id]}" max="${sessionScope.studentsCoursesNum[course.id]}">  </progress>
                                     ${sessionScope.finishedCoursesNum[course.id]} / ${sessionScope.studentsCoursesNum[course.id]}
                                 </div>
                                 <c:if test="${sessionScope.coursesGrade[course.id]} != 0}">
-                                    <div class=teacher">
+                                    <div class="teacher" title="<fmt:message key="personalCourses.garde.title" />">
                                         ${sessionScope.coursesGrade[course.id]}
                                     </div>
                                 </c:if>

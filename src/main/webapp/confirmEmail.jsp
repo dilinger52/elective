@@ -15,6 +15,5 @@
         <fmt:message key="confirmEmail.description2" />
     </p>
 </div>
-
 </body>
 </html>

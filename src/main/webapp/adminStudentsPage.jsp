@@ -67,15 +67,15 @@
                     <form method="post" action="students" class="rating_form">
                         <input type="hidden" name="student" value="${student.id}" />
                         <div class="rating">
-                            <input id="radio1${student.id}" type="radio" name="grade" value="5" class="star" ${studentsGrade[student.id].i5}/>
+                            <input id="radio1${student.id}" type="radio" name="grade" value="5" class="star" ${studentsGrade[student.id] == 5 ? 'checked' : ''}/>
                             <label for="radio1${student.id}">&#9733;</label>
-                            <input id="radio2${student.id}" type="radio" name="grade" value="4" class="star" ${studentsGrade[student.id].i4}/>
+                            <input id="radio2${student.id}" type="radio" name="grade" value="4" class="star" ${studentsGrade[student.id] == 4 ? 'checked' : ''}/>
                             <label for="radio2${student.id}">&#9733;</label>
-                            <input id="radio3${student.id}" type="radio" name="grade" value="3" class="star" ${studentsGrade[student.id].i3}/>
+                            <input id="radio3${student.id}" type="radio" name="grade" value="3" class="star" ${studentsGrade[student.id] == 3 ? 'checked' : ''}/>
                             <label for="radio3${student.id}">&#9733;</label>
-                            <input id="radio4${student.id}" type="radio" name="grade" value="2" class="star" ${studentsGrade[student.id].i2}/>
+                            <input id="radio4${student.id}" type="radio" name="grade" value="2" class="star" ${studentsGrade[student.id] == 2 ? 'checked' : ''}/>
                             <label for="radio4${student.id}">&#9733;</label>
-                            <input id="radio5${student.id}" type="radio" name="grade" value="1" class="star" ${studentsGrade[student.id].i1}/>
+                            <input id="radio5${student.id}" type="radio" name="grade" value="1" class="star" ${studentsGrade[student.id] == 1 ? 'checked' : ''}/>
                             <label for="radio5${student.id}">&#9733;</label>
                         </div>
                         <c:if test="${student.isBlocked() == 'true'}" >

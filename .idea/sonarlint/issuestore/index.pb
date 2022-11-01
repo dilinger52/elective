@@ -1,10 +1,4 @@
 
-U
-%src/main/webapp/adminStudentsPage.jsp,5\3\53249aa8b813d992f273d7a068b14e2c0ad6a823
-U
-%src/main/webapp/teacherCoursePage.jsp,6\f\6f5b8251b03fbf8f4a8767b14006eaa5202d5907
-P
- src/main/webapp/registration.jsp,d\d\dd51f7041d5a8d7bb17c79a85099a350e198ae09
 l
 <.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml,6\1\6141bc12f2830b62cf241d411a9fcab2924c1b44
 t
@@ -27,27 +21,13 @@ l
 <.idea/libraries/Maven__javax_activation_activation_1_1_1.xml,7\0\70b87bba91c13eed6810e203f3be426622709c44
 `
 0.idea/libraries/Maven__javax_mail_mail_1_4_7.xml,a\a\aa8f1b2e02dcfdf1eb5ad25dc886cb7b381392f5
-J
-application-2022-10-13.log,3\6\36f88552c362110f311075ef5ab435f37d0662c5
 ;
 DBStart.sql,2\d\2d9c46b7b33a222f24fa6dac6b3dd59863ac491f
-Q
-!src/main/webapp/courseContent.jsp,b\8\b80f545591d8b4533ea98063a0d74eba9f1b8b76
-I
-src/main/webapp/error.jsp,c\b\cba3df22242d379bdb72d00919d2e8d49101d1bf
-S
-#src/main/webapp/personalCourses.jsp,f\0\f044972571740760ee8ee4714675213c44e57edf
-Q
-!src/main/webapp/createTeacher.jsp,e\4\e4a14a9f9d9be23db6a58806537944e8bbbb31a2
-J
-application-2022-10-14.log,d\f\dffaba98bb943da6609a9cc891082f047c178096
-P
- src/main/webapp/registerForm.jsp,f\9\f95aad1d0d89a287088724309e348c538d492856
 p
 @src/test/java/org/elective/listeners/AppContextListenerTest.java,4\1\41b9a7443654c58e68326f51398b562dfcc0efc7
 a
 1src/test/java/org/elective/utils/SortingTest.java,f\9\f9f8f302a9e7c5335cc9fe48ffce2d93cb2b2483
-J
-src/main/webapp/footer.jsp,3\8\3819c16e4a27752a128752c506287183b0c69775
-T
-$src/main/webapp/META-INF/context.xml,c\b\cbfb0d2e9b2b9fbf9d54374577c894a38643c6d0
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+m
+=src/main/java/org/elective/servlets/AuthorisationServlet.java,6\2\62aff26699d2eef3ee6694a32107e19b8252701a

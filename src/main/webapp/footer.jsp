@@ -10,8 +10,16 @@
         <p class="text">
             <fmt:message key="footer.copyright" />
         </p>
-        <button class="navigation_button"><fmt:message key="footer.action" /><img src="images/ArrowUp.svg" class="navigation_ico"/></button>
+        <button class="navigation_button" id="scroll" onclick="topFunction()"><fmt:message key="footer.action" /><img src="images/ArrowUp.svg" class="navigation_ico"/></button>
     </div>
 </div>
 </body>
 </html>
+
+<script>
+    let mybutton = document.getElementById("scroll");
+    function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>

@@ -1,3 +1,8 @@
+
+
+
+
+
 body {
     background: #FBFAF5;
 }
@@ -61,6 +66,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     padding: 0px;
+    text-decoration: none;
 
 
     /* Link text */
@@ -77,12 +83,17 @@ width: 100%;
     color: #2D2F31;
 }
 
+.link:hover, .link:active {
+/* Primary/Base */
+color: #7D4EDC;
+}
+
 .actions {
     /* Auto layout */
 
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 12px;
 
@@ -121,7 +132,26 @@ width: 100%;
     /* Neutrals/Gray 500 */
     color: #2D2F31;
 }
+.primary_button:hover {
+cursor: pointer;
+/* Neutrals/Gray 50 */
+background: #F9F9F9;
+}
 
+.primary_button:active {
+/* Neutrals/Gray 100 */
+background: #F2F3F4;
+}
+.primary_button:focus {
+/* Neutrals/Gray 50 */
+
+background: #F9F9F9;
+/* Neutrals/Gray 200 */
+
+border: 1px solid #DADDE0;
+box-shadow: 0px 0px 0px 4px #E7DEF9;
+border-radius: 6px;
+}
 .secondary_button {
     /* Auto layout */
 
@@ -151,7 +181,25 @@ width: 100%;
     color: #FFFFFF;
 }
 
+.secondary_button:hover {
+cursor: pointer;
+/* Primary/Darker */
 
+background: #3C01B6;
+}
+
+.secondary_button:active {
+/* Primary/Darker */
+
+background: #3C01B6;
+}
+.secondary_button:focus {
+/* Primary/Darker */
+
+background: #3C01B6;
+box-shadow: 0px 0px 0px 6px #E7DEF9;
+border-radius: 6px;
+}
 .footer {
 width: 100%;
 height: 97px;
@@ -283,8 +331,7 @@ border-radius: 16px;
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: right;
+    justify-content: space-between;
     padding: 0px;
     width: 1184px;
     gap: 56px;
@@ -354,6 +401,26 @@ line-height: 18px;
 color: #6C747B;
 }
 
+.clear_button:hover {
+cursor: pointer;
+/* Neutrals/Gray 100 */
+
+background: #F2F3F4;
+border-radius: 6px;
+}
+.clear_button:active {
+/* Neutrals/Gray 100 */
+
+background: #F2F3F4;
+}
+
+.clear_button:focus {
+/* Neutrals/Gray 100 */
+
+background: #F2F3F4;
+box-shadow: 0px 0px 0px 4px #E7DEF9;
+border-radius: 6px;
+}
 .filter_name {
 font-family: 'Inter', sans-serif;
 font-style: normal;
@@ -365,7 +432,8 @@ line-height: 22px;
 
 /* Neutrals/Gray 500 */
 
-color: #2D2F31;}
+color: #2D2F31;
+}
 
 .filter_wrapper {
 display: flex;
@@ -489,7 +557,7 @@ box-sizing: border-box;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-justify-content: space-between;
+justify-content: space-around;
 padding: 24px;
 
 
@@ -582,6 +650,12 @@ color: #B64201;
 }
 
 .teacher {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -614,7 +688,7 @@ width: 850px;
 /* Auto layout */
 
 display: flex;
-flex-direction: column;
+flex-direction: row;
 padding: 10px 16px;
 gap: 8px;
 
@@ -639,6 +713,26 @@ color: #6C747B;
 /* Neutrals / White */
 
 background: #FFFFFF;
+}
+.navigation_button:hover {
+cursor: pointer;
+/* Neutrals/Gray 100 */
+
+background: #F2F3F4;
+border-radius: 6px;
+}
+.navigation_button:active {
+/* Neutrals/Gray 100 */
+
+background: #F2F3F4;
+}
+
+.navigation_button:focus {
+/* Neutrals/Gray 100 */
+
+background: #F2F3F4;
+box-shadow: 0px 0px 0px 4px #E7DEF9;
+border-radius: 6px;
 }
 
 .page_number_wrapper {
@@ -682,6 +776,7 @@ padding: 0px;
 
 .table {
 box-sizing: border-box;
+border-collapse: collapse;
 
 /* Auto layout */
 
@@ -691,7 +786,6 @@ align-items: flex-start;
 margin-top: 24px;
 
 border: 1px solid #DADDE0;
-border-radius: 16px;
 }
 
 .table_header {
@@ -782,7 +876,6 @@ align-items: flex-start;
 padding: 0px 24px;
 gap: 2px;
 
-width: 162px;
 height: 36px;
 }
 
@@ -890,7 +983,19 @@ line-height: 18px;
 
 color: #6C747B;
 }
+.log_in_text2 {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
 
+
+/* Neutrals/Gray 400 */
+
+color: #6C747B;
+}
 .log_in_form {
 display: flex;
 flex-direction: column;
@@ -977,7 +1082,25 @@ line-height: 18px;
 
 color: #FFFFFF;
 }
+.log_in_button:hover {
+cursor: pointer;
+/* Primary/Darker */
 
+background: #3C01B6;
+}
+
+.log_in_button:active {
+/* Primary/Darker */
+
+background: #3C01B6;
+}
+.log_in_button:focus {
+/* Primary/Darker */
+
+background: #3C01B6;
+box-shadow: 0px 0px 0px 6px #E7DEF9;
+border-radius: 6px;
+}
 .log_in_ref{
 font-family: 'Inter', sans-serif;
 font-style: normal;

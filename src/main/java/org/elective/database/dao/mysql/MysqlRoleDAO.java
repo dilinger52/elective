@@ -29,7 +29,6 @@ public class MysqlRoleDAO implements RoleDAO {
                 role.setId(rs.getInt(1));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileAddingRole", e);
         } finally {
             close(stmt);
@@ -48,7 +47,6 @@ public class MysqlRoleDAO implements RoleDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileFindingRole", e);
         }
         return role;
@@ -65,7 +63,6 @@ public class MysqlRoleDAO implements RoleDAO {
             stmt.setInt(++k, role.getId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileUpdatingRole", e);
         } finally {
             close(stmt);
@@ -81,7 +78,6 @@ public class MysqlRoleDAO implements RoleDAO {
             stmt.setInt(++k, roleId);
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileDeletingRole", e);
         } finally {
             close(stmt);

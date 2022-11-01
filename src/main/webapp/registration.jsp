@@ -20,5 +20,14 @@
     <form class="log_in_form" action="registration" method="post">
     <jsp:include page="registerForm.jsp" />
     </div>
+    <div class="footer">
+        <hr class="separator"/>
+        <form class="local_dropdown">
+            <select class="dropdown_local" id="language" name="language" onchange="submit()">
+                <option value="en" ${language == 'en' ? 'selected' : ''}>English</option>
+                <option value="ru" ${language == 'ru' ? 'selected' : ''}>Russian</option>
+            </select>
+        </form>
+    </div>
 </body>
 </html>

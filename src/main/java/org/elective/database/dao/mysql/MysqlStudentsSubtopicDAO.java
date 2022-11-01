@@ -24,7 +24,6 @@ public class MysqlStudentsSubtopicDAO implements StudentsSubtopicDAO {
             stmt.executeUpdate();
             subtopic.setCompletion("uncompleted");
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeAddingSubtopic", e);
         }
 
@@ -42,7 +41,6 @@ public class MysqlStudentsSubtopicDAO implements StudentsSubtopicDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileFindingSubtopic", e);
         }
         return subtopic;
@@ -56,7 +54,6 @@ public class MysqlStudentsSubtopicDAO implements StudentsSubtopicDAO {
             stmt.setInt(++k, subtopic.getStudentId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileUpdatingSubtopic", e);
         }
     }
@@ -68,7 +65,6 @@ public class MysqlStudentsSubtopicDAO implements StudentsSubtopicDAO {
             stmt.setInt(++k, subtopic.getSubtopicId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileDeletingSubtopic", e);
         }
     }

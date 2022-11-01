@@ -37,7 +37,6 @@ public class MysqlCourseDAO implements CourseDAO {
                 course.setId(rs.getInt(1));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileAddingCourse", e);
         } finally {
             close(stmt);
@@ -73,7 +72,7 @@ public class MysqlCourseDAO implements CourseDAO {
             stmt.setInt(++k, course.getId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+
             throw new DBException("ABigMistakeWhileUpdatingCourse", e);
         } finally {
             close(stmt);
@@ -88,7 +87,6 @@ public class MysqlCourseDAO implements CourseDAO {
             stmt.setInt(++k, courseId);
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileDeletingCourse", e);
         } finally {
             close(stmt);
@@ -106,7 +104,6 @@ public class MysqlCourseDAO implements CourseDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileFindingCourses", e);
         }
         return courses;
@@ -126,7 +123,6 @@ public class MysqlCourseDAO implements CourseDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileGettingCourses", e);
         }
         return courses;
@@ -144,7 +140,6 @@ public class MysqlCourseDAO implements CourseDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileGettingTopics", e);
         }
         return topics;
@@ -161,7 +156,6 @@ public class MysqlCourseDAO implements CourseDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileFindingCourses", e);
         }
         return courses;

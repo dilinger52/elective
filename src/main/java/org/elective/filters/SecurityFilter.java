@@ -14,7 +14,9 @@ import java.io.IOException;
 /**
  * Security filter checks if user in session have access to current page.
  */
-@WebFilter("/*")
+@WebFilter({"/content_redactor", "/create_teacher", "/course_content", "/create_course", "/delete_course", "/delete_subtopic",
+        "/filter", "/index.jsp", "/join_course", "/new_subtopic", "/pagination", "/personal_courses", "/rate", "/search_by_name",
+        "/students", "/view_course"})
 public class SecurityFilter implements Filter {
 
     private static final Logger logger = LogManager.getLogger(SecurityFilter.class);
@@ -26,7 +28,7 @@ public class SecurityFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
         HttpSession session = req.getSession();
-        if (req.getServletPath().equals("/authorisation") ||
+        /*if (req.getServletPath().equals("/authorisation") ||
                 req.getServletPath().equals("/registration.jsp") ||
                 req.getServletPath().equals("/registration") ||
                 req.getServletPath().equals("/mailconfirmed") ||
@@ -34,7 +36,7 @@ public class SecurityFilter implements Filter {
                 req.getServletPath().equals("/log_out")) {
             filterChain.doFilter(servletRequest, servletResponse);
             return;
-        }
+        }*/
         if (session.getAttribute("user") == null) {
             logger.debug("No one is authorised");
             resp.sendRedirect(req.getContextPath() + "/authorisation");

@@ -31,17 +31,34 @@
                 </c:if>
                 <form>
                     <select class="dropdown_local" id="language" name="language" onchange="submit()">
-                        <option value="en" ${language == 'en' ? 'selected' : ''}>en</option>
                         <option value="ru" ${language == 'ru' ? 'selected' : ''}>ru</option>
+                        <option value="en" ${language == 'en' ? 'selected' : ''}>en</option>
                     </select>
+                    <input type="hidden" name="pattern" value="${param.pattern}">
+                    <input type="hidden" name="courseId" value="${not empty param.courseId ? param.courseId : course.id}">
+                    <c:forEach var="t" items="${paramValues.topic}">
+                        <input type="hidden" name="topic" value="${t}">
+                    </c:forEach>
+                    <c:forEach var="t" items="${paramValues.teacher}">
+                        <input type="hidden" name="teacher" value="${t}">
+                    </c:forEach>
+                    <c:forEach var="c" items="${paramValues.completion}">
+                        <input type="hidden" name="completion" value="${c}">
+                    </c:forEach>
                 </form>
-                <div class="link">
-                    ${sessionScope.user.firstName} ${sessionScope.user.lastName}
-                </div>
+
             </div>
             <div class="actions">
+                <div class="student_info">
+                    <div class="student_name">
+                        ${user.firstName} ${user.lastName}
+                    </div>
+                    <div class="student_email">
+                        ${user.email}
+                    </div>
+                </div>
                 <form action="log_out" method="post">
-                    <input type="submit" value=<fmt:message key="header.button.submit" /> class="primary_button"/>
+                    <input type="submit" value="<fmt:message key="header.button.submit" />" class="primary_button"/>
                 </form>
             </div>
         </div>

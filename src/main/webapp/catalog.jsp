@@ -7,6 +7,7 @@
 <fmt:setBundle basename="text" />
 <jsp:include page="header.jsp" />
 <div class="page">
+    <form id="clear" aria-disabled="true"></form>
     <div class="heading_container">
         <div class="headings">
             <h1 class="heading1">
@@ -45,21 +46,18 @@
             <div class="info_wrapper">
                 <c:forEach var="course" items="${sessionScope.pages[pageKey]}">
                     <div class="course_card">
-                        <div class="left_content">
-                            <div class="course_icon"></div>
-                        </div>
                         <div class="text_container">
-                            <div class="course_title" title="Title">
+                            <div class="course_title" title="<fmt:message key="catalog.title.title" />">
                                 ${course.name}
                             </div>
-                            <div class="course_description" title="Description">
+                            <div class="course_description" title="<fmt:message key="catalog.description.title" />">
                                 ${course.description}
                             </div>
-                            <div class="course_detail" title="topic">
+                            <div class="course_detail" title="<fmt:message key="catalog.topic.title" />">
                                 <div class="course_tag">
                                     ${course.topic}
                                 </div>
-                                <div class="teacher" title="Teacher">
+                                <div class="teacher" title="<fmt:message key="catalog.teacher.title" />">
                                     <img src="images/Teacher.svg" class="course_pic">
                                     <c:if test="${sessionScope.user.roleId == 2}" >
                                         <fmt:message key="catalog.you" />
@@ -68,11 +66,11 @@
                                         ${coursesTeacher[course.id]}
                                     </c:if>
                                 </div>
-                                <div class="teacher" title="Number of students">
+                                <div class="teacher" title="<fmt:message key="catalog.students.title" />">
                                     <img src="images/Users.svg" class="course_pic">
                                     ${coursesStudents[course.id]}
                                 </div>
-                                <div class="teacher" title="Course duration">
+                                <div class="teacher" title="<fmt:message key="catalog.duration.title" />">
                                     <img src="images/Clock.svg" class="course_pic">
                                     ${course.duration}
                                 </div>

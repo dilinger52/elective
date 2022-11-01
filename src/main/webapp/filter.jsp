@@ -11,6 +11,7 @@
         <div class="filter_header">
             <fmt:message key="filter.header" />
         </div>
+        <input class="clear_button" type="submit" value="<fmt:message key="filter.clear" />" form="clear">
     </div>
     <div class="filter_wrapper">
         <div class="filter_name">
@@ -62,3 +63,4 @@
         </c:if>
     </div>
 </form>
+

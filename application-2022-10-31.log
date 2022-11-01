@@ -1,0 +1,455 @@
+17:15:23.599 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:15:29.642 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:29.643 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:15:29.654 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:31.020 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:31.020 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:15:31.052 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:31.053 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:31.053 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:15:31.064 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:32.740 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:32.740 [http-nio-8080-exec-9] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:15:32.790 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:32.790 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+17:15:32.790 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:32.799 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:40.577 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:40.577 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+17:15:40.581 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - email: student@test.org
+17:15:41.239 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - find user: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:15:41.247 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - log in completed
+17:15:41.274 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:41.274 [http-nio-8080-exec-6] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:15:41.305 [http-nio-8080-exec-6] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:15:42.152 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:42.166 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:42.166 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:42.167 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:42.167 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:15:42.170 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:09.803 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:09.803 [http-nio-8080-exec-10] DEBUG org.elective.controller.SearchServlet - Searching by pattern: sag
+17:16:09.806 [http-nio-8080-exec-10] DEBUG org.elective.controller.SearchServlet - Searched courses: []
+17:16:14.562 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:14.562 [http-nio-8080-exec-8] DEBUG org.elective.controller.SearchServlet - Searching by pattern: c
+17:16:14.563 [http-nio-8080-exec-8] DEBUG org.elective.controller.SearchServlet - Searched courses: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+17:16:25.919 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:25.919 [http-nio-8080-exec-7] DEBUG org.elective.controller.SearchServlet - Searching by pattern: null
+17:16:25.923 [http-nio-8080-exec-7] ERROR org.elective.controller.SearchServlet - java.lang.NullPointerException
+17:16:28.708 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:28.709 [http-nio-8080-exec-9] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:16:28.733 [http-nio-8080-exec-9] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:16:31.529 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:31.529 [http-nio-8080-exec-5] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:16:31.541 [http-nio-8080-exec-5] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:16:40.263 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:40.263 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:16:40.279 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:16:43.390 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:43.390 [http-nio-8080-exec-3] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:16:43.400 [http-nio-8080-exec-3] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:16:54.546 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:54.547 [http-nio-8080-exec-6] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:16:54.560 [http-nio-8080-exec-6] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:16:56.007 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:56.007 [http-nio-8080-exec-10] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:16:56.021 [http-nio-8080-exec-10] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:16:58.193 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:16:58.194 [http-nio-8080-exec-8] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:16:58.207 [http-nio-8080-exec-8] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:17:01.201 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:01.201 [http-nio-8080-exec-7] DEBUG org.elective.controller.SearchServlet - Searching by pattern: c
+17:17:01.203 [http-nio-8080-exec-7] DEBUG org.elective.controller.SearchServlet - Searched courses: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+17:17:03.931 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:03.931 [http-nio-8080-exec-9] DEBUG org.elective.controller.SearchServlet - Searching by pattern: null
+17:17:03.933 [http-nio-8080-exec-9] ERROR org.elective.controller.SearchServlet - java.lang.NullPointerException
+17:17:20.217 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:20.217 [http-nio-8080-exec-5] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:17:20.226 [http-nio-8080-exec-5] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:17:30.310 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:30.310 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:17:30.311 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+17:17:30.331 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:32.246 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:32.246 [http-nio-8080-exec-4] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:17:32.247 [http-nio-8080-exec-4] DEBUG org.elective.controller.PaginationServlet - new page key: 2
+17:17:32.262 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:35.143 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:35.143 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:17:35.143 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - new page key: 3
+17:17:35.153 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:39.151 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:39.152 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:17:39.152 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:17:39.166 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - courses: []
+17:17:42.214 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:42.214 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:17:42.222 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:17:43.835 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:43.835 [http-nio-8080-exec-5] DEBUG org.elective.controller.JoinCourseServlet - Joining course...
+17:17:43.858 [http-nio-8080-exec-5] DEBUG org.elective.controller.JoinCourseServlet - User: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false} Joined course: StudentsCourse{studentId=6, courseId=7, registrationDate=2022-10-31, grade=0}
+17:17:43.885 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:43.885 [http-nio-8080-exec-3] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:17:43.892 [http-nio-8080-exec-3] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:17:45.565 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:45.565 [http-nio-8080-exec-4] DEBUG org.elective.controller.JoinCourseServlet - Joining course...
+17:17:45.570 [http-nio-8080-exec-4] DEBUG org.elective.controller.JoinCourseServlet - User: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false} Joined course: StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-31, grade=0}
+17:17:45.588 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:45.588 [http-nio-8080-exec-10] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:17:45.594 [http-nio-8080-exec-10] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:17:50.914 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:50.914 [http-nio-8080-exec-8] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:17:50.914 [http-nio-8080-exec-8] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:17:50.923 [http-nio-8080-exec-8] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:17:58.773 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:17:58.774 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:17:58.776 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:17:58.799 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:18:00.682 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:18:00.682 [http-nio-8080-exec-9] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:18:00.686 [http-nio-8080-exec-9] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:18:00.688 [http-nio-8080-exec-9] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:18:02.576 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:18:02.576 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:18:02.579 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:18:02.583 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:18:12.966 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:18:12.966 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:18:12.969 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:18:12.970 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:20:12.797 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:12.797 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:20:12.800 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:20:12.803 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:20:14.627 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:14.627 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:20:14.629 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:20:14.630 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:20:16.062 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:16.062 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:20:16.065 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:20:16.067 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+17:20:18.877 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:18.877 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:20:18.880 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:20:18.880 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:20:25.373 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:25.373 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:20:25.375 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:20:25.378 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:20:27.668 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:27.668 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:20:27.670 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:20:27.670 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}]
+17:20:35.804 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:35.805 [http-nio-8080-exec-6] DEBUG org.elective.controller.SearchServlet - Searching by pattern: c
+17:20:35.807 [http-nio-8080-exec-6] DEBUG org.elective.controller.SearchServlet - Searched courses: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+17:20:43.786 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:43.786 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:20:43.787 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+17:20:43.800 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:52.210 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:20:52.210 [http-nio-8080-exec-7] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:20:52.210 [http-nio-8080-exec-7] DEBUG org.elective.controller.PaginationServlet - new page key: 0
+17:20:52.224 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:23:58.910 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:23:59.233 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:23:59.235 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:23:59.798 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:24:01.393 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:01.431 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:01.446 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:01.450 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:01.451 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:01.477 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:30.638 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:30.638 [http-nio-8080-exec-2] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:24:30.643 [http-nio-8080-exec-2] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:24:30.663 [http-nio-8080-exec-2] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:24:42.614 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:24:42.614 [http-nio-8080-exec-1] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:24:42.614 [http-nio-8080-exec-1] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:24:42.625 [http-nio-8080-exec-1] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:35:18.665 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:37:03.472 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:37:03.472 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:37:03.472 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:37:03.482 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:37:03.696 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:37:03.723 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:37:03.723 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:37:03.724 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:41:14.105 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:41:14.106 [http-nio-8080-exec-6] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:41:14.106 [http-nio-8080-exec-6] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:41:14.115 [http-nio-8080-exec-6] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:41:14.152 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:41:14.175 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:41:14.175 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:41:14.175 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:41:50.513 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:43:28.824 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:43:28.824 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:43:28.824 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:43:28.832 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:43:28.867 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:43:28.893 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:43:28.893 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:43:28.894 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:37.386 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:37.387 [http-nio-8080-exec-6] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:44:37.387 [http-nio-8080-exec-6] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:44:37.396 [http-nio-8080-exec-6] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:44:37.438 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:37.462 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:37.462 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:37.462 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:55.838 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:55.839 [http-nio-8080-exec-4] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:44:55.839 [http-nio-8080-exec-4] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:44:55.848 [http-nio-8080-exec-4] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:44:55.881 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:55.906 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:55.906 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:55.906 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:59.873 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:59.873 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:44:59.884 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:44:59.922 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:59.922 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:44:59.953 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:45:08.718 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:45:08.719 [http-nio-8080-exec-4] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:45:08.719 [http-nio-8080-exec-4] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:45:08.726 [http-nio-8080-exec-4] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:45:08.766 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:45:17.959 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:45:17.959 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:45:17.967 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:45:18.005 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:50:50.992 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+17:50:58.821 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:50:58.823 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:50:58.891 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:50:59.626 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:51:19.987 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:19.987 [http-nio-8080-exec-6] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:51:19.994 [http-nio-8080-exec-6] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+17:51:20.015 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:28.732 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:28.733 [http-nio-8080-exec-8] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:51:28.733 [http-nio-8080-exec-8] DEBUG org.elective.controller.PaginationServlet - new page key: 2
+17:51:28.746 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:32.062 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:32.063 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - Change page...
+17:51:32.063 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+17:51:32.076 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:34.300 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:34.301 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:34.306 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:34.318 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:34.858 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:34.858 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:34.861 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:34.861 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:35.339 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:35.339 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:35.341 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:35.342 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:36.396 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:36.396 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:36.399 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:36.399 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:36.427 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:37.195 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:37.195 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:37.196 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:37.196 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:39.637 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:39.637 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:39.639 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:39.640 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:54.342 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:54.342 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:54.346 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:54.347 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}]
+17:51:56.198 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:56.200 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:56.203 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:56.204 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}]
+17:51:57.607 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:57.607 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:57.611 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:57.613 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}]
+17:51:59.924 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:51:59.924 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:51:59.929 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:51:59.929 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:03.012 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:03.012 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:03.013 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:03.013 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:04.681 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:04.682 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:04.685 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:04.685 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:06.594 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:06.595 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:06.598 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:06.599 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}]
+17:52:09.040 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:09.040 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:09.044 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:09.044 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:13.641 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:13.641 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:13.645 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:13.645 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:15.267 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:15.268 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:15.271 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:15.271 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:17.430 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:17.431 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:17.434 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:17.434 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}]
+17:52:21.213 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:21.213 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:52:21.216 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:21.216 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:52:21.253 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:29.282 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:29.282 [http-nio-8080-exec-1] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:52:29.282 [http-nio-8080-exec-1] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:52:29.307 [http-nio-8080-exec-1] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:52:57.219 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:57.219 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:52:57.219 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:52:57.229 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:52:57.270 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:57.271 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:57.272 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:52:57.272 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:42.209 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:42.209 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:53:42.209 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:53:42.224 [http-nio-8080-exec-7] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:53:44.766 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:44.767 [http-nio-8080-exec-8] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses...
+17:53:44.767 [http-nio-8080-exec-8] DEBUG org.elective.controller.PersonalCoursesServlet - Loading personal courses for student: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+17:53:44.782 [http-nio-8080-exec-8] DEBUG org.elective.controller.PersonalCoursesServlet - courses: [Course{id=1, teacherId=2, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}]
+17:53:50.625 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:53:50.625 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+17:53:50.639 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Successfully loading
+17:53:50.690 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:54:32.432 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:54:32.433 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:54:32.436 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:54:32.437 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+17:54:32.478 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:54:32.480 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:54:36.065 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:54:36.065 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:54:36.068 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:54:36.068 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:58:06.592 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:06.592 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:58:06.594 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:58:06.594 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:58:06.838 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:06.879 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:06.880 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:06.880 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:06.880 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:06.882 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:13.472 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:13.472 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:58:13.475 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:58:13.476 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:58:16.764 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:16.765 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:58:16.768 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:58:16.768 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}]
+17:58:19.141 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:58:19.141 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:58:19.144 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:58:19.144 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:59:10.845 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:59:10.845 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+17:59:10.847 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:59:10.847 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+17:59:10.879 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:59:10.904 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:59:10.905 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:59:10.906 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:59:10.906 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+17:59:10.906 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:38.378 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:38.378 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+18:01:38.381 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses before filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+18:01:38.381 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=5, teacherId=2, name='boxing', topic='punch', duration=110}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+18:01:38.412 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:38.445 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:38.446 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:38.446 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:38.446 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:38.446 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:01:51.824 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:13.454 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:13.490 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:13.490 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:02:13.501 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:13.809 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:13.809 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:13.809 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:02:13.809 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:02:13.860 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:13.865 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:40.436 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:40.474 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:40.474 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:40.474 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:02:40.474 [http-nio-8080-exec-7] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:02:40.503 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:40.506 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:52.292 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:52.293 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+18:02:52.293 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - email: student@test.org
+18:02:52.299 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - find user: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+18:02:52.299 [http-nio-8080-exec-3] DEBUG org.elective.controller.AuthorisationServlet - log in completed
+18:02:52.322 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:02:52.322 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+18:02:52.329 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Successfully loading
+18:02:52.374 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:09.915 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:09.940 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:09.940 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:03:09.956 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:09.989 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:09.989 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:09.989 [http-nio-8080-exec-3] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:03:09.989 [http-nio-8080-exec-8] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:03:10.016 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:10.018 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:16.797 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:16.797 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:03:16.800 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:30.676 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:30.676 [http-nio-8080-exec-10] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:03:30.687 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:30.720 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:30.720 [http-nio-8080-exec-6] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:03:30.742 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:30.742 [http-nio-8080-exec-1] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+18:03:30.748 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:30.749 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:57.840 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:57.840 [http-nio-8080-exec-4] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+18:03:57.840 [http-nio-8080-exec-4] DEBUG org.elective.controller.AuthorisationServlet - email: student@test.org
+18:03:57.843 [http-nio-8080-exec-4] DEBUG org.elective.controller.AuthorisationServlet - find user: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+18:03:57.843 [http-nio-8080-exec-4] DEBUG org.elective.controller.AuthorisationServlet - log in completed
+18:03:57.871 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+18:03:57.872 [http-nio-8080-exec-10] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+18:03:57.884 [http-nio-8080-exec-10] DEBUG org.elective.controller.IndexServlet - Successfully loading
+18:03:57.937 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set

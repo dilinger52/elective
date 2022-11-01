@@ -40,7 +40,7 @@
         <input class="log_in_button" type="submit" value='<fmt:message key="login.submit" />'/>
         <div class="filter">
             <input class="checkbox" type="checkbox" onclick="showPassword()"/>
-            <div class="filter_value"><fmt:message key="login.checkbox" /></div>
+            <div class="log_in_text2"><fmt:message key="login.checkbox" /></div>
         </div>
     </form>
     <p class="log_in_text">

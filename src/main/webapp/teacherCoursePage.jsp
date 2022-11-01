@@ -20,18 +20,18 @@
             </p>
             <div class="course_detail_wrapper">
                 <div class="course_detail additional">
-                    <div class="course_tag">
+                    <div class="course_tag" title="<fmt:message key="catalog.topic.title" />">
                         ${sessionScope.course.topic}
                     </div>
-                    <div class="teacher">
+                    <div class="teacher" title="<fmt:message key="catalog.teacher.title" />">
                         <img src="images/Teacher.svg" class="course_pic">
                         <fmt:message key="catalog.you" />
                     </div>
-                    <div class="teacher">
+                    <div class="teacher" title="<fmt:message key="catalog.students.title" />">
                         <img src="images/Users.svg" class="course_pic">
                         ${students.size()}
                     </div>
-                    <div class="teacher">
+                    <div class="teacher" title="<fmt:message key="catalog.duration.title" />">
                         <img src="images/Clock.svg" class="course_pic">
                         ${course.duration}
                     </div>

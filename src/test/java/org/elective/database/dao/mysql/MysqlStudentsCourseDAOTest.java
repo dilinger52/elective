@@ -173,7 +173,9 @@ public class MysqlStudentsCourseDAOTest {
 
 
         List<StudentsCourse> result = courseDAO.findCoursesByStudentId(con, courses.get(1).getStudentId());
-        List<StudentsCourse> expected = courses.values().stream().filter(v -> v.getStudentId() == courses.get(1).getStudentId()).collect(Collectors.toList());
+        List<StudentsCourse> expected = courses.values().stream()
+                .filter(v -> v.getStudentId() == courses.get(1).getStudentId())
+                .collect(Collectors.toList());
         Assertions.assertTrue(new ReflectionEquals(expected).matches(result));
     }
 

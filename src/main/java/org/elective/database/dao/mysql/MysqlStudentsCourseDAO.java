@@ -27,7 +27,6 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             stmt.setDate(++k, course.getRegistrationDate());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileAddingUsersCourse", e);
         }
     }
@@ -45,7 +44,6 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException(MISTAKE_WHILE_FINDING_USERS_COURSE, e);
         }
         return course;
@@ -62,7 +60,6 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             stmt.setInt(++k, course.getCourseId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileUpdatingUsersCourse", e);
         }
     }
@@ -75,7 +72,6 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
             stmt.setInt(++k, course.getCourseId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileDeletingUsersCourse", e);
         }
     }
@@ -91,7 +87,6 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException(MISTAKE_WHILE_FINDING_USERS_COURSE, e);
         }
         return courses;
@@ -108,7 +103,6 @@ public class MysqlStudentsCourseDAO implements StudentsCourseDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException(MISTAKE_WHILE_FINDING_USERS_COURSE, e);
         }
         return courses;

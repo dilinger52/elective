@@ -39,7 +39,6 @@ public class MysqlUserDAO implements UserDAO {
                 user.setId(rs.getInt(1));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileAddingUser", e);
         } finally {
             close(stmt);
@@ -57,7 +56,6 @@ public class MysqlUserDAO implements UserDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException(MISTAKE_WHILE_FINDING_USER, e);
         }
         return user;
@@ -74,7 +72,6 @@ public class MysqlUserDAO implements UserDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException(MISTAKE_WHILE_FINDING_USER, e);
         }
         return user;
@@ -91,7 +88,6 @@ public class MysqlUserDAO implements UserDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException(MISTAKE_WHILE_FINDING_USER, e);
         }
         return user;
@@ -112,7 +108,6 @@ public class MysqlUserDAO implements UserDAO {
             stmt.setInt(++k, user.getId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileUpdatingUser", e);
         } finally {
             close(stmt);
@@ -128,7 +123,6 @@ public class MysqlUserDAO implements UserDAO {
             stmt.setInt(++k, user.getId());
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileDeletingUser", e);
         } finally {
             close(stmt);
@@ -145,7 +139,6 @@ public class MysqlUserDAO implements UserDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileGettingStudents", e);
         }
         return students;
@@ -161,7 +154,6 @@ public class MysqlUserDAO implements UserDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
             throw new DBException("ABigMistakeWhileGettingTeachers", e);
         }
         return teachers;
