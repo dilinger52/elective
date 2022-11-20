@@ -26,6 +26,7 @@ import java.util.List;
 
 import static org.elective.database.DBUtils.close;
 import static org.elective.database.DBUtils.rollback;
+import static org.elective.logic.StudentsCourseManager.addCourseToStudent;
 
 /**
  * Join course servlet assigned student to course and all subtopics of this course.
@@ -38,42 +39,20 @@ public class JoinCourseServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         logger.debug("Joining course...");
+
         HttpSession session = req.getSession();
         User student = (User) session.getAttribute("user");
         int courseId = Integer.parseInt(req.getParameter("course"));
-        StudentsCourse course = new StudentsCourse();
-        course.setStudentId(student.getId());
-        course.setCourseId(courseId);
-        java.util.Date date = new Date();
-        java.sql.Date dateSql = new java.sql.Date(date.getYear(), date.getMonth(), date.getDate());
-        course.setRegistrationDate(dateSql);
-        Connection con = null;
+
         try {
-            con = DBUtils.getInstance().getConnection();
-            con.setAutoCommit(false);
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
-            SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
-            StudentsSubtopicDAO studentsSubtopicDAO = daoFactory.getStudentsSubtopicDAO();
-            studentsCourseDAO.create(con, course);
-            List<Subtopic> subtopicList = subtopicDAO.findSubtopicsByCourse(con, course.getCourseId());
-            for (Subtopic s : subtopicList) {
-                StudentsSubtopic ss = new StudentsSubtopic(student.getId(), s.getId());
-                studentsSubtopicDAO.create(con, ss);
-            }
-            con.commit();
-            logger.debug("User: {} Joined course: {}", student, course);
+            addCourseToStudent(student, courseId);
         } catch (Exception e) {
-            rollback(con);
-            logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
-        } finally {
-            close(con);
         }
 
-        resp.sendRedirect(req.getContextPath());
+        resp.sendRedirect(req.getContextPath() + "/personal_courses");
 
     }
 }

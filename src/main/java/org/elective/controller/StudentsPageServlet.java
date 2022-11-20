@@ -25,6 +25,11 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static org.elective.database.entity.StudentsSubtopic.completion.COMPLETED;
+import static org.elective.logic.StudentsCourseManager.findCoursesByStudent;
+import static org.elective.logic.StudentsSubtopicManager.findStudentsSubtopic;
+import static org.elective.logic.SubtopicManager.findSubtopicsByCourse;
+import static org.elective.logic.UserManager.blockStudent;
+import static org.elective.logic.UserManager.findAllStudents;
 
 /**
  * Students page servlet generates administrator page on which he can view all students, their progress
@@ -38,37 +43,37 @@ public class StudentsPageServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.debug("Loading students page...");
+
         HttpSession session = req.getSession();
+
         List<User> students;
         Map<Integer, List<StudentsCourse>> registeredCourses = new HashMap<>();
         Map<Integer, List<StudentsCourse>> startedCourses = new HashMap<>();
         Map<Integer, List<StudentsCourse>> finishedCourses = new HashMap<>();
         Map<Integer, Integer> studentsGrade = new HashMap<>();
-        try (Connection con = DBUtils.getInstance().getConnection()) {
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            UserDAO userDAO = daoFactory.getUserDAO();
-            StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
-            SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
-            StudentsSubtopicDAO studentsSubtopicDAO = daoFactory.getStudentsSubtopicDAO();
-            students = userDAO.getAllStudents(con);
+
+        try {
+            students = findAllStudents();
             for (User student : students) {
-                List<StudentsCourse> studentsCourse = studentsCourseDAO.findCoursesByStudentId(con, student.getId());
+                List<StudentsCourse> studentsCourse = findCoursesByStudent(student.getId());
                 List<StudentsCourse> rc = new ArrayList<>();
                 List<StudentsCourse> sc = new ArrayList<>();
                 List<StudentsCourse> fc = new ArrayList<>();
                 for (StudentsCourse course : studentsCourse) {
-                    List<Subtopic> subtopics = subtopicDAO.findSubtopicsByCourse(con, course.getCourseId());
+                    List<Subtopic> subtopics = findSubtopicsByCourse(course.getCourseId());
+
                     List<StudentsSubtopic> studentsSubtopics = new ArrayList<>();
                     for (Subtopic subtopic : subtopics) {
-                        studentsSubtopics.add(studentsSubtopicDAO.read(con, subtopic.getId(), student.getId()));
+                        studentsSubtopics.add(findStudentsSubtopic(subtopic.getId(), student.getId()));
                     }
+
                     List<StudentsSubtopic> finishedSubtopics = studentsSubtopics.stream()
                             .filter(s -> s.getCompletion().equals(COMPLETED.toString()))
                             .collect(Collectors.toList());
 
                     if (finishedSubtopics.size() == studentsSubtopics.size()) {
                         fc.add(course);
-                    } else if (finishedSubtopics.size() == 0) {
+                    } else if (finishedSubtopics.isEmpty()) {
                         rc.add(course);
                     } else {
                         sc.add(course);
@@ -77,25 +82,18 @@ public class StudentsPageServlet extends HttpServlet {
                 registeredCourses.put(student.getId(), rc);
                 startedCourses.put(student.getId(), sc);
                 finishedCourses.put(student.getId(), fc);
-                //Map<String, String> checked = new HashMap<>();
+
                 int averageGrade = (int) (fc.stream().mapToInt(c -> (int) c.getGrade()).average()).orElse(-1);
-                /*for (int i = 1; i <= 5; i++) {
-                    if (averageGrade == i) {
-                        checked.put("i" + i, "checked");
-                    } else {
-                        checked.put("i" + i, "");
-                    }
-                }*/
                 studentsGrade.put(student.getId(), averageGrade);
             }
-            logger.debug("Searched students: {}", students);
+
         } catch (Exception e) {
-            logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
         }
+
         session.setAttribute("students", students);
         session.setAttribute("registeredCourses", registeredCourses);
         session.setAttribute("startedCourses", startedCourses);
@@ -111,21 +109,16 @@ public class StudentsPageServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int studentId = Integer.parseInt(req.getParameter("student"));
         logger.debug("Blocking student id={}", studentId);
-        User student;
-        try (Connection con = DBUtils.getInstance().getConnection()) {
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            UserDAO userDAO = daoFactory.getUserDAO();
-            student = userDAO.read(con, studentId);
-            student.setBlocked(!student.isBlocked().equals("true"));
-            userDAO.update(con, student);
-            logger.debug("Student blocked");
+
+        try {
+            blockStudent(studentId);
         } catch (Exception e) {
-            logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
         }
+
         resp.sendRedirect(req.getContextPath() + "/students");
     }
 }

@@ -1,7 +1,11 @@
 package org.elective.utils;
 
+import org.elective.database.DBException;
 import org.elective.database.entity.Course;
+import org.elective.database.entity.Subtopic;
+import org.elective.logic.SubtopicManager;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
 /**
@@ -41,4 +45,24 @@ public class Pagination {
         pages.put(pageNumber, c);
         return pages;
     }
+
+    public static Map<Integer, Subtopic> getSubtopicPages(int courseId) throws DBException {
+        Map<Integer, Subtopic> result = new HashMap<>();
+        List<Subtopic> subtopics = SubtopicManager.findSubtopicsByCourse(courseId);
+        for (int i = 0; i < subtopics.size(); i++) {
+            result.put(i, subtopics.get(i));
+        }
+        return result;
+    }
+
+    public static int getNewPageKey(HttpServletRequest req, Map<Integer, Subtopic> pages) {
+        int newPageKey = Integer.parseInt(req.getParameter("new_page_key"));
+        if (newPageKey < 0) {
+            newPageKey = 0;
+        } else if (newPageKey >= pages.size()) {
+            newPageKey = pages.size() - 1;
+        }
+        return newPageKey;
+    }
+
 }

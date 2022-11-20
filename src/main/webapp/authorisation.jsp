@@ -24,8 +24,8 @@
                 <fmt:message key="login.email.label" />
             </label>
             <input class="log_in_input" type="email" id="email" name="email" placeholder='<fmt:message key="login.email.placeholder" />' required/>
-            <c:if test="${not empty email}">
-                <div class="log_in_input_alert"><fmt:message key="${email}" /></div>
+            <c:if test="${not empty emailmes}">
+                <div class="log_in_input_alert"><fmt:message key="${emailmes}" /></div>
             </c:if>
         </div>
         <div class="log_in_input_wrapper">

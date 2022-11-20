@@ -1,0 +1,62 @@
+13:59:31.905 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+14:11:35.576 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:11:44.810 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:11:45.017 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+14:25:48.164 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:25:48.186 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='Completed'}
+14:25:48.188 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:25:48.188 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:25:48.189 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:25:48.189 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:25:48.190 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:27:29.334 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:27:29.346 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='Completed'}
+14:27:29.348 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:27:29.348 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:27:29.349 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:27:29.349 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:27:29.349 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:28:50.841 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:29:31.496 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='Completed'}
+14:31:38.706 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:38.707 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:38.707 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:38.708 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:38.708 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:42.081 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:31:42.093 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='Completed'}
+14:31:42.095 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:42.096 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:42.096 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:42.096 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:31:42.097 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:32:33.566 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:32:33.578 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='completed'}
+14:32:33.579 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:32:33.580 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:32:33.580 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:32:33.581 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:32:33.581 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:32:57.187 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:33:00.691 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='completed'}
+14:35:00.190 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:00.191 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:00.191 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:00.192 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:00.192 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:03.356 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:35:03.368 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='completed'}
+14:35:03.369 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:03.370 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:03.370 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:03.371 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:03.371 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:16.016 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:35:16.175 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=4, subtopicName='name'}]
+14:35:16.176 [main] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=1, subtopicId=4, completion='completed'}
+14:35:16.177 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:16.178 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:16.178 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:16.178 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:16.178 [main] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+14:35:16.220 [main] DEBUG org.elective.listeners.AppContextListener - Application started

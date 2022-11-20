@@ -17,6 +17,7 @@
                 <fmt:message key="personalCourses.head.description" />
             </p>
         </div>
+        <input form="filter" class="search_input" type="search" placeholder='<fmt:message key="catalog.search.placeholder" />' name="pattern"/>
     </div>
     <div class="content">
         <jsp:include page="filter.jsp" />
@@ -52,8 +53,8 @@
                                     ${sessionScope.coursesRegistrationDate[course.id]}
                                 </div>
                                 <div class="teacher" title="<fmt:message key="personalCourses.progress.title" />">
-                                    <progress value="${sessionScope.finishedCoursesNum[course.id]}" max="${sessionScope.studentsCoursesNum[course.id]}">  </progress>
-                                    ${sessionScope.finishedCoursesNum[course.id]} / ${sessionScope.studentsCoursesNum[course.id]}
+                                    <progress value="${sessionScope.finishedSubtopicsNum[course.id]}" max="${sessionScope.studentsSubtopicsNum[course.id]}">  </progress>
+                                    ${sessionScope.finishedSubtopicsNum[course.id]} / ${sessionScope.studentsSubtopicsNum[course.id]}
                                 </div>
                                 <c:if test="${sessionScope.coursesGrade[course.id]} != 0}">
                                     <div class="teacher" title="<fmt:message key="personalCourses.garde.title" />">

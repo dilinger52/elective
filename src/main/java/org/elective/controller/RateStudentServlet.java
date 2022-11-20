@@ -26,6 +26,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static org.elective.database.entity.StudentsSubtopic.completion.COMPLETED;
+import static org.elective.logic.StudentsCourseManager.findStudentsCourse;
+import static org.elective.logic.StudentsCourseManager.updateGrade;
+import static org.elective.logic.StudentsSubtopicManager.*;
+import static org.elective.logic.SubtopicManager.findSubtopicsByCourse;
 
 /**
  * Rate student servlet that realized functionality to change students grade by teacher on students page.
@@ -40,65 +44,54 @@ public class RateStudentServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         int studentId = Integer.parseInt(req.getParameter("student"));
+
         int grade;
         if (req.getParameter("grade") != null) {
             grade = Integer.parseInt(req.getParameter("grade"));
         } else {
-            logger.error("Choose valid grade");
+            logger.error("Chosen invalid grade");
             req.setAttribute(MESSAGE, "ChooseValidGrade");
             RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
             return;
         }
+
         HttpSession session = req.getSession();
         Course course = (Course) session.getAttribute("course");
-        logger.debug("Updating student(id={}) rating for course: {}", studentId, course);
-        StudentsCourse studentsCourse;
-        List<StudentsSubtopic> studentsSubtopics;
-        try (Connection con = DBUtils.getInstance().getConnection()) {
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
-            SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
-            StudentsSubtopicDAO studentsSubtopicDAO = daoFactory.getStudentsSubtopicDAO();
-            studentsCourse = studentsCourseDAO.read(con, course.getId(), studentId);
-            List<Subtopic> subtopics = subtopicDAO.findSubtopicsByCourse(con, course.getId());
-            studentsSubtopics = new ArrayList<>();
-            for (Subtopic subtopic : subtopics) {
-                studentsSubtopics.add(studentsSubtopicDAO.read(con, subtopic.getId(), studentId));
-            }
 
+        logger.debug("Updating student(id={}) rating for course: {}", studentId, course);
+
+        List<StudentsSubtopic> studentsSubtopics;
+        List<StudentsSubtopic> finishedSubtopics;
+        try {
+            studentsSubtopics = findAllStudentsSubtopic(studentId, course.getId());
+            finishedSubtopics = getFinishedSubtopics(studentId, course.getId());
         } catch (Exception e) {
-            logger.error(e);
             req.setAttribute(MESSAGE, e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
             return;
         }
-        List<StudentsSubtopic> finishedSubtopics = studentsSubtopics.stream()
-                .filter(s -> s.getCompletion().equals(COMPLETED.toString()))
-                .collect(Collectors.toList());
-        if (finishedSubtopics.size() == studentsSubtopics.size()) {
-            studentsCourse.setGrade(grade);
-            try (Connection con = DBUtils.getInstance().getConnection()) {
-                DAOFactory daoFactory = DAOFactory.getInstance();
-                StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
-                studentsCourseDAO.update(con, studentsCourse);
-                logger.debug("setting new garde: {}", grade);
-            } catch (Exception e) {
-                logger.error(e);
-                req.setAttribute(MESSAGE, e.getMessage());
-                RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
-                rd.forward(req, resp);
-                return;
-            }
-            resp.sendRedirect(req.getContextPath() + "/view_course");
 
-        } else {
+        if (finishedSubtopics.size() != studentsSubtopics.size()) {
             logger.debug("This student did not complete course yet");
             req.setAttribute(MESSAGE, "ThisStudentDidNotCompleteCourseYet");
             RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
             rd.forward(req, resp);
+            return;
         }
 
+        try {
+            updateGrade(grade, findStudentsCourse(course.getId(), studentId));
+        } catch (Exception e) {
+            req.setAttribute(MESSAGE, e.getMessage());
+            RequestDispatcher rd = req.getRequestDispatcher(ERROR_PAGE);
+            rd.forward(req, resp);
+            return;
+        }
+
+        resp.sendRedirect(req.getContextPath() + "/view_course");
     }
+
+
 }

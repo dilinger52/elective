@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Connection;
 
+import static org.elective.logic.SubtopicManager.deleteSubtopic;
+
 /**
  * Delete subtopic servlet realizes mechanism deleting subtopic at content redactor page.
  */
@@ -26,19 +28,19 @@ public class DeleteSubtopicServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         logger.debug("Deleting subtopic...");
+
         int subtopicId = Integer.parseInt(req.getParameter("subtopicId"));
-        try (Connection con = DBUtils.getInstance().getConnection()) {
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
-            subtopicDAO.delete(con, subtopicId);
-            logger.debug("Successfully deleting");
+
+        try {
+            deleteSubtopic(subtopicId);
         } catch (Exception e) {
-            logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
         }
+
+        req.getSession().setAttribute("pageKey", 0);
 
         resp.sendRedirect(req.getContextPath() + "/content_redactor");
 

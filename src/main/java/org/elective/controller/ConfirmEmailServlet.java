@@ -2,9 +2,7 @@ package org.elective.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.database.DBUtils;
-import org.elective.database.dao.DAOFactory;
-import org.elective.database.dao.UserDAO;
+import org.elective.database.DBException;
 import org.elective.database.entity.User;
 
 import javax.servlet.RequestDispatcher;
@@ -15,7 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.sql.Connection;
+
+import static org.elective.logic.UserManager.insertUser;
 
 /**
  * Confirm email servlet finish registration of student account. It launches from link in email letter.
@@ -36,19 +35,17 @@ public class ConfirmEmailServlet extends HttpServlet {
 
         User user = new User(firstName, lastName, password, 3, email);
 
-        logger.debug("User properties {}", user);
-        try (Connection con = DBUtils.getInstance().getConnection()) {
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            UserDAO userDAO = daoFactory.getUserDAO();
-            userDAO.create(con, user);
-            logger.debug("User created successfully");
-        } catch (Exception e) {
-            logger.error(e);
+        logger.debug("User properties: {}", user);
+
+        try {
+            insertUser(user);
+        } catch (DBException e) {
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
         }
+
         session.setAttribute("user", user);
 
         resp.sendRedirect(req.getContextPath());

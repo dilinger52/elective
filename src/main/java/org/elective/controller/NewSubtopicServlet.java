@@ -24,6 +24,7 @@ import java.util.List;
 
 import static org.elective.database.DBUtils.close;
 import static org.elective.database.DBUtils.rollback;
+import static org.elective.logic.SubtopicManager.addSubtopicToCourse;
 
 /**
  * New subtopic servlet uses on content redactor page and create new subtopic with default name.
@@ -36,36 +37,20 @@ public class NewSubtopicServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         logger.debug("Creating subtopic...");
+
         int courseId = Integer.parseInt(req.getParameter("courseId"));
         HttpSession session = req.getSession();
-        Subtopic subtopic = new Subtopic(courseId, "Default name");
-        Connection con = null;
+
         try {
-            con = DBUtils.getInstance().getConnection();
-            con.setAutoCommit(false);
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            SubtopicDAO subtopicDAO = daoFactory.getSubtopicDAO();
-            StudentsCourseDAO studentsCourseDAO = daoFactory.getStudentsCourseDAO();
-            StudentsSubtopicDAO studentsSubtopicDAO = daoFactory.getStudentsSubtopicDAO();
-            subtopicDAO.create(con, subtopic);
-            List<StudentsCourse> courses = studentsCourseDAO.findCoursesByCourseId(con, courseId);
-            for (StudentsCourse studentsCourse : courses) {
-                StudentsSubtopic studentsSubtopic = new StudentsSubtopic(studentsCourse.getStudentId(), subtopic.getId());
-                studentsSubtopicDAO.create(con, studentsSubtopic);
-            }
-            con.commit();
-            logger.debug("Created subtopic: {}; for course id: {}", subtopic, courseId);
+            addSubtopicToCourse(courseId);
         } catch (Exception e) {
-            rollback(con);
-            logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
-        } finally {
-            close(con);
         }
-        session.setAttribute("path", "new_subtopic");
-        resp.sendRedirect(req.getContextPath() + "/content_redactor");
 
+        session.setAttribute("path", "new_subtopic");
+
+        resp.sendRedirect(req.getContextPath() + "/content_redactor");
     }
 }

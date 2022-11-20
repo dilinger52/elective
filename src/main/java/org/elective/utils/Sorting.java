@@ -12,7 +12,9 @@ import java.util.stream.Collectors;
  * Utility class that contains method to sort courses in the list by different patterns
  */
 public class Sorting {
-    /** Private constructor that prevents creating instance of this class */
+    /**
+     * Private constructor that prevents creating instance of this class
+     */
     private Sorting() {
         throw new IllegalStateException("Utility class");
     }
@@ -32,38 +34,38 @@ public class Sorting {
      *                6 - by course duration from high to low;
      * @return inserted list sorted in specified order
      */
-    public static List<Course> sort(HttpSession session, List<Course> courses, int pattern) {
+    public static List<Course> sort(HttpSession session, List<Course> courses, String pattern) {
         switch (pattern) {
-            case 1:
+            case "1":
                 courses = courses.stream().sorted((o1, o2) -> {
                     Map<Integer, Integer> coursesStudents = (Map<Integer, Integer>) session.getAttribute("coursesStudents");
                     return coursesStudents.get(o1.getId()).compareTo(coursesStudents.get(o2.getId()));
                 }).collect(Collectors.toList());
                 break;
-            case 2:
+            case "2":
                 courses = courses.stream().sorted((o1, o2) -> {
                     Map<Integer, Integer> coursesStudents = (Map<Integer, Integer>) session.getAttribute("coursesStudents");
                     return -1 * (coursesStudents.get(o1.getId()).compareTo(coursesStudents.get(o2.getId())));
                 }).collect(Collectors.toList());
                 break;
             default:
-            case 0:
-            case 3:
+            case "0":
+            case "3":
                 courses = courses.stream()
                         .sorted((o1, o2) -> (o1.getName().compareToIgnoreCase(o2.getName())))
                         .collect(Collectors.toList());
                 break;
-            case 4:
+            case "4":
                 courses = courses.stream()
                         .sorted((o1, o2) -> -1 * (o1.getName().compareToIgnoreCase(o2.getName())))
                         .collect(Collectors.toList());
                 break;
-            case 5:
+            case "5":
                 courses = courses.stream()
                         .sorted(Comparator.comparing(Course::getDuration))
                         .collect(Collectors.toList());
                 break;
-            case 6:
+            case "6":
                 courses = courses.stream()
                         .sorted((o1, o2) -> -1 * (String.valueOf(o1.getDuration()).compareTo(String.valueOf(o2.getDuration()))))
                         .collect(Collectors.toList());

@@ -4,16 +4,18 @@
 <c:set var="language" value="${not empty param.language ? param.language : not empty language ? language : pageContext.request.locale}" scope="session" />
 <fmt:setLocale value="${language}" />
 <fmt:setBundle basename="text" />
-<html>
-<body>
-<div align="center">
-    <h2><fmt:message key="confirmEmail.header" /></h2>
-    <p>
+<jsp:include page="header.jsp" />
+<div class="page">
+<div class="heading_container">
+    <div class="headings">
+    <h2 class="heading1"><fmt:message key="confirmEmail.header" /></h2>
+    <p class="heading2">
         <fmt:message key="confirmEmail.description" />: ${email}.
     </p>
-    <p>
+    <p class="heading2">
         <fmt:message key="confirmEmail.description2" />
     </p>
+    </div>
 </div>
-</body>
-</html>
+    <div class="page">
+    <jsp:include page="footer.jsp" />

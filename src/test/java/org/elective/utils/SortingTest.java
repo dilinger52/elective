@@ -58,40 +58,40 @@ public class SortingTest {
     @Test
     public void testSortPattern1() throws Exception {
 
-        List<Course> result = sort(session, courses, 1);
+        List<Course> result = sort(session, courses, "1");
         Assertions.assertEquals(courses.get(0), result.get(0));
     }
 
     @Test
     public void testSortPattern2() throws Exception {
 
-        List<Course> result = sort(session, courses, 2);
+        List<Course> result = sort(session, courses, "2");
         Assertions.assertEquals(courses.get(5), result.get(0));
     }
 
     @Test
     public void testSortPattern3() throws Exception {
-        List<Course> result = sort(session, courses, 3);
+        List<Course> result = sort(session, courses, "3");
         Assertions.assertEquals(result.get(0), courses.get(4));
-        result = sort(session, courses, 0);
+        result = sort(session, courses, "0");
         Assertions.assertEquals(courses.get(4), result.get(0));
     }
 
     @Test
     public void testSortPattern4() throws Exception {
-        List<Course> result = sort(session, courses, 4);
+        List<Course> result = sort(session, courses, "4");
         Assertions.assertEquals(courses.get(5), result.get(0));
     }
 
     @Test
     public void testSortPattern5() throws Exception {
-        List<Course> result = sort(session, courses, 5);
+        List<Course> result = sort(session, courses, "5");
         Assertions.assertEquals(courses.get(2), result.get(0));
     }
 
     @Test
     public void testSortPattern6() throws Exception {
-        List<Course> result = sort(session, courses, 6);
+        List<Course> result = sort(session, courses, "6");
         Assertions.assertEquals(courses.get(3), result.get(0));
     }
 

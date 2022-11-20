@@ -2,10 +2,8 @@ package org.elective.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elective.database.DBUtils;
-import org.elective.database.dao.DAOFactory;
-import org.elective.database.dao.UserDAO;
 import org.elective.database.entity.User;
+import org.elective.logic.UserManager;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.sql.Connection;
 
 
 /**
@@ -25,7 +22,6 @@ import java.sql.Connection;
 public class AuthorisationServlet extends HttpServlet {
 
     private static final Logger logger = LogManager.getLogger(AuthorisationServlet.class);
-    private static final String EMAIL = "email";
     private static final String PASSWORD = "password";
 
     @Override
@@ -38,38 +34,43 @@ public class AuthorisationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         logger.debug("Log in...");
         HttpSession session = req.getSession();
-        String email = req.getParameter(EMAIL);
+        String email = req.getParameter("email");
         logger.debug("email: {}", email);
         String password = req.getParameter(PASSWORD);
+
         User user;
-        try (Connection con = DBUtils.getInstance().getConnection()) {
-            DAOFactory daoFactory = DAOFactory.getInstance();
-            UserDAO userDAO = daoFactory.getUserDAO();
-            user = userDAO.readByEmail(con, email);
-            logger.debug("find user: {}", user);
+        try {
+            user = UserManager.findUserByEmail(email);
         } catch (Exception e) {
-            logger.error(e);
             req.setAttribute("message", e.getMessage());
             RequestDispatcher rd = req.getRequestDispatcher("error.jsp");
             rd.forward(req, resp);
             return;
         }
-        session.removeAttribute(EMAIL);
+
+        session.removeAttribute("email");
         session.removeAttribute(PASSWORD);
+
         if (user == null) {
-            session.setAttribute(EMAIL, "InvalidEmail");
+            session.setAttribute("emailmes", "InvalidEmail");
             logger.debug("invalid email");
             resp.sendRedirect(req.getContextPath() + "/authorisation");
-        } else if (password.equals(user.getPassword())) {
-            session.setAttribute("user", user);
-            logger.debug("log in completed");
-            resp.sendRedirect(req.getContextPath());
-        } else {
+            return;
+        }
+
+        if (!password.equals(user.getPassword())) {
             session.setAttribute(PASSWORD, "InvalidPassword");
             logger.debug("invalid password");
             resp.sendRedirect(req.getContextPath() + "/authorisation");
+            return;
         }
 
+        session.setAttribute("user", user);
+        logger.debug("log in completed");
+        resp.sendRedirect(req.getContextPath());
 
     }
+
+
+
 }

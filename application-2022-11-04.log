@@ -1,0 +1,759 @@
+15:33:45.163 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+15:33:49.686 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:49.687 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:33:49.702 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:50.978 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:50.989 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:58.069 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:58.070 [http-nio-8080-exec-8] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+15:33:58.073 [http-nio-8080-exec-8] DEBUG org.elective.controller.AuthorisationServlet - email: admin@test.org
+15:33:58.528 [http-nio-8080-exec-8] DEBUG org.elective.logic.UserManager - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+15:33:58.536 [http-nio-8080-exec-8] DEBUG org.elective.controller.AuthorisationServlet - log in completed
+15:33:58.569 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:58.569 [http-nio-8080-exec-7] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+15:33:58.574 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+15:33:58.577 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+15:33:58.579 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+15:33:58.590 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:33:58.593 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=6, courseId=7, registrationDate=2022-10-31, grade=0}]
+15:33:58.598 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:33:58.599 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-06, grade=3}]
+15:33:58.601 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=5, courseId=2, registrationDate=2021-12-10, grade=0}]
+15:33:58.603 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:33:58.605 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:33:58.607 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=5, courseId=3, registrationDate=2021-12-21, grade=3}]
+15:33:58.609 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:33:58.610 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=4, registrationDate=2021-10-12, grade=5}]
+15:33:58.612 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=6, courseId=11, registrationDate=2022-11-03, grade=0}]
+15:33:58.613 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+15:33:58.615 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+15:33:58.617 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+15:33:58.618 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+15:33:58.620 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+15:33:58.622 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+15:33:58.624 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+15:33:58.625 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+15:33:58.627 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+15:33:58.629 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+15:33:58.631 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}
+15:33:59.536 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:59.537 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:59.538 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:59.540 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:33:59.540 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:34:05.747 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:34:05.747 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+15:34:05.748 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+15:34:05.752 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+15:34:07.591 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:34:07.591 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+15:34:07.593 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+15:34:07.594 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}]
+15:34:16.994 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:34:16.994 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+15:34:16.997 [http-nio-8080-exec-8] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+15:34:16.998 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+15:34:20.497 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:34:20.497 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+15:34:20.500 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+15:34:20.501 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+15:34:22.889 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:34:22.889 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+15:34:22.892 [http-nio-8080-exec-2] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+15:34:22.892 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+15:36:13.915 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:13.915 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+15:36:13.917 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+15:36:13.917 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+15:36:13.962 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:13.973 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:13.974 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:13.976 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:13.977 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:13.978 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:23.087 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:36:23.088 [http-nio-8080-exec-10] DEBUG org.elective.controller.SearchServlet - Searching by pattern: c++
+15:36:23.091 [http-nio-8080-exec-10] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}]
+15:36:23.135 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:37:08.571 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:37:08.571 [http-nio-8080-exec-4] DEBUG org.elective.controller.StudentsPageServlet - Loading students page...
+15:37:08.573 [http-nio-8080-exec-4] DEBUG org.elective.logic.UserManager - find students: [User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}, User{id=12, firstName='John', lastName='Connor', roleId=3, email='hobayiy282@ktasy.com', blocked=false}, User{id=5, firstName='petr', lastName='ivanov', roleId=3, email='petr_ivanov@test.org', blocked=false}, User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}, User{id=11, firstName='Ипполит', lastName='Петрович', roleId=3, email='lijalon687@keshitv.com', blocked=false}]
+15:37:08.574 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=4, registrationDate=2021-10-12, grade=5}, StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}]
+15:37:08.580 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=4, subtopicId=10, subtopicName='Ask'}, Subtopic{courseId=4, subtopicId=11, subtopicName='She'}, Subtopic{courseId=4, subtopicId=12, subtopicName='Article'}]
+15:37:08.586 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=10, completion='completed'}
+15:37:08.589 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=11, completion='completed'}
+15:37:08.590 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=12, completion='completed'}
+15:37:08.592 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:37:08.593 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=2, completion='uncompleted'}
+15:37:08.595 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=3, completion='uncompleted'}
+15:37:08.597 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=4, completion='uncompleted'}
+15:37:08.598 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=31, completion='uncompleted'}
+15:37:08.606 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:37:08.607 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=5, courseId=2, registrationDate=2021-12-10, grade=0}, StudentsCourse{studentId=5, courseId=3, registrationDate=2021-12-21, grade=3}]
+15:37:08.608 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=2, subtopicId=5, subtopicName='Surprise'}, Subtopic{courseId=2, subtopicId=6, subtopicName='As it so contrasted'}]
+15:37:08.609 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=5, completion='uncompleted'}
+15:37:08.610 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=6, completion='uncompleted'}
+15:37:08.611 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=3, subtopicId=7, subtopicName='Received'}, Subtopic{courseId=3, subtopicId=8, subtopicName='Raising'}, Subtopic{courseId=3, subtopicId=9, subtopicName='Effects'}]
+15:37:08.612 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=7, completion='completed'}
+15:37:08.614 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=8, completion='completed'}
+15:37:08.615 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=9, completion='completed'}
+15:37:08.616 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-06, grade=3}, StudentsCourse{studentId=6, courseId=7, registrationDate=2022-10-31, grade=0}, StudentsCourse{studentId=6, courseId=11, registrationDate=2022-11-03, grade=0}]
+15:37:08.617 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:37:08.618 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=2, completion='completed'}
+15:37:08.619 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+15:37:08.620 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=4, completion='completed'}
+15:37:08.621 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+15:37:08.623 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=7, subtopicId=19, subtopicName='Breakfast'}, Subtopic{courseId=7, subtopicId=20, subtopicName='Up is opinion'}, Subtopic{courseId=7, subtopicId=21, subtopicName='Up maids'}]
+15:37:08.624 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=19, completion='completed'}
+15:37:08.625 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=20, completion='completed'}
+15:37:08.626 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=21, completion='completed'}
+15:37:08.627 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+15:37:08.628 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:37:08.880 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:37:11.025 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:37:11.026 [http-nio-8080-exec-10] DEBUG org.elective.controller.StudentsPageServlet - Blocking student id=5
+15:37:11.043 [http-nio-8080-exec-10] DEBUG org.elective.logic.UserManager - Student blocked
+15:37:11.056 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:37:11.056 [http-nio-8080-exec-3] DEBUG org.elective.controller.StudentsPageServlet - Loading students page...
+15:37:11.057 [http-nio-8080-exec-3] DEBUG org.elective.logic.UserManager - find students: [User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}, User{id=12, firstName='John', lastName='Connor', roleId=3, email='hobayiy282@ktasy.com', blocked=false}, User{id=5, firstName='petr', lastName='ivanov', roleId=3, email='petr_ivanov@test.org', blocked=true}, User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}, User{id=11, firstName='Ипполит', lastName='Петрович', roleId=3, email='lijalon687@keshitv.com', blocked=false}]
+15:37:11.059 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=4, registrationDate=2021-10-12, grade=5}, StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}]
+15:37:11.060 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=4, subtopicId=10, subtopicName='Ask'}, Subtopic{courseId=4, subtopicId=11, subtopicName='She'}, Subtopic{courseId=4, subtopicId=12, subtopicName='Article'}]
+15:37:11.061 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=10, completion='completed'}
+15:37:11.062 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=11, completion='completed'}
+15:37:11.063 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=12, completion='completed'}
+15:37:11.064 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:37:11.064 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=2, completion='uncompleted'}
+15:37:11.065 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=3, completion='uncompleted'}
+15:37:11.066 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=4, completion='uncompleted'}
+15:37:11.067 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=31, completion='uncompleted'}
+15:37:11.068 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:37:11.069 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=5, courseId=2, registrationDate=2021-12-10, grade=0}, StudentsCourse{studentId=5, courseId=3, registrationDate=2021-12-21, grade=3}]
+15:37:11.070 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=2, subtopicId=5, subtopicName='Surprise'}, Subtopic{courseId=2, subtopicId=6, subtopicName='As it so contrasted'}]
+15:37:11.071 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=5, completion='uncompleted'}
+15:37:11.072 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=6, completion='uncompleted'}
+15:37:11.073 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=3, subtopicId=7, subtopicName='Received'}, Subtopic{courseId=3, subtopicId=8, subtopicName='Raising'}, Subtopic{courseId=3, subtopicId=9, subtopicName='Effects'}]
+15:37:11.074 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=7, completion='completed'}
+15:37:11.075 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=8, completion='completed'}
+15:37:11.075 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=9, completion='completed'}
+15:37:11.076 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-06, grade=3}, StudentsCourse{studentId=6, courseId=7, registrationDate=2022-10-31, grade=0}, StudentsCourse{studentId=6, courseId=11, registrationDate=2022-11-03, grade=0}]
+15:37:11.077 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:37:11.078 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=2, completion='completed'}
+15:37:11.079 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+15:37:11.080 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=4, completion='completed'}
+15:37:11.080 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+15:37:11.081 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=7, subtopicId=19, subtopicName='Breakfast'}, Subtopic{courseId=7, subtopicId=20, subtopicName='Up is opinion'}, Subtopic{courseId=7, subtopicId=21, subtopicName='Up maids'}]
+15:37:11.083 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=19, completion='completed'}
+15:37:11.084 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=20, completion='completed'}
+15:37:11.084 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=21, completion='completed'}
+15:37:11.085 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+15:37:11.086 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:37:14.011 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:37:14.012 [http-nio-8080-exec-1] DEBUG org.elective.controller.StudentsPageServlet - Blocking student id=5
+15:37:14.029 [http-nio-8080-exec-1] DEBUG org.elective.logic.UserManager - Student blocked
+15:37:14.041 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:37:14.041 [http-nio-8080-exec-7] DEBUG org.elective.controller.StudentsPageServlet - Loading students page...
+15:37:14.042 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find students: [User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}, User{id=12, firstName='John', lastName='Connor', roleId=3, email='hobayiy282@ktasy.com', blocked=false}, User{id=5, firstName='petr', lastName='ivanov', roleId=3, email='petr_ivanov@test.org', blocked=false}, User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}, User{id=11, firstName='Ипполит', lastName='Петрович', roleId=3, email='lijalon687@keshitv.com', blocked=false}]
+15:37:14.043 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=4, registrationDate=2021-10-12, grade=5}, StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}]
+15:37:14.045 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=4, subtopicId=10, subtopicName='Ask'}, Subtopic{courseId=4, subtopicId=11, subtopicName='She'}, Subtopic{courseId=4, subtopicId=12, subtopicName='Article'}]
+15:37:14.045 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=10, completion='completed'}
+15:37:14.046 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=11, completion='completed'}
+15:37:14.047 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=12, completion='completed'}
+15:37:14.048 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:37:14.049 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=2, completion='uncompleted'}
+15:37:14.049 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=3, completion='uncompleted'}
+15:37:14.050 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=4, completion='uncompleted'}
+15:37:14.051 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=31, completion='uncompleted'}
+15:37:14.052 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:37:14.053 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=5, courseId=2, registrationDate=2021-12-10, grade=0}, StudentsCourse{studentId=5, courseId=3, registrationDate=2021-12-21, grade=3}]
+15:37:14.054 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=2, subtopicId=5, subtopicName='Surprise'}, Subtopic{courseId=2, subtopicId=6, subtopicName='As it so contrasted'}]
+15:37:14.055 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=5, completion='uncompleted'}
+15:37:14.055 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=6, completion='uncompleted'}
+15:37:14.056 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=3, subtopicId=7, subtopicName='Received'}, Subtopic{courseId=3, subtopicId=8, subtopicName='Raising'}, Subtopic{courseId=3, subtopicId=9, subtopicName='Effects'}]
+15:37:14.056 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=7, completion='completed'}
+15:37:14.057 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=8, completion='completed'}
+15:37:14.057 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=5, subtopicId=9, completion='completed'}
+15:37:14.058 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-06, grade=3}, StudentsCourse{studentId=6, courseId=7, registrationDate=2022-10-31, grade=0}, StudentsCourse{studentId=6, courseId=11, registrationDate=2022-11-03, grade=0}]
+15:37:14.059 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:37:14.059 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=2, completion='completed'}
+15:37:14.060 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+15:37:14.063 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=4, completion='completed'}
+15:37:14.063 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+15:37:14.064 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=7, subtopicId=19, subtopicName='Breakfast'}, Subtopic{courseId=7, subtopicId=20, subtopicName='Up is opinion'}, Subtopic{courseId=7, subtopicId=21, subtopicName='Up maids'}]
+15:37:14.065 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=19, completion='completed'}
+15:37:14.065 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=20, completion='completed'}
+15:37:14.066 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=21, completion='completed'}
+15:37:14.066 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: []
+15:37:14.066 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+15:37:14.105 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:05.629 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:05.656 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:05.656 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+15:38:05.666 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:05.705 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:09.628 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:09.628 [http-nio-8080-exec-1] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+15:38:09.628 [http-nio-8080-exec-1] DEBUG org.elective.controller.AuthorisationServlet - email: teacher@test.org
+15:38:09.631 [http-nio-8080-exec-1] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+15:38:09.631 [http-nio-8080-exec-1] DEBUG org.elective.controller.AuthorisationServlet - log in completed
+15:38:09.661 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:09.661 [http-nio-8080-exec-6] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+15:38:09.663 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+15:38:09.664 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+15:38:09.664 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+15:38:09.665 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-06, grade=3}]
+15:38:09.666 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+15:38:17.872 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:17.872 [http-nio-8080-exec-8] DEBUG org.elective.controller.ViewCourseServlet - Loading course page...
+15:38:17.873 [http-nio-8080-exec-8] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:38:17.874 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-06, grade=3}]
+15:38:17.875 [http-nio-8080-exec-8] DEBUG org.elective.logic.UserManager - find user: User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}
+15:38:17.875 [http-nio-8080-exec-8] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:38:17.876 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=2, completion='uncompleted'}
+15:38:17.876 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=3, completion='uncompleted'}
+15:38:17.876 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=4, completion='uncompleted'}
+15:38:17.877 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=31, completion='uncompleted'}
+15:38:17.877 [http-nio-8080-exec-8] DEBUG org.elective.controller.ViewCourseServlet - Loading successfully
+15:38:17.878 [http-nio-8080-exec-8] DEBUG org.elective.logic.UserManager - find user: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+15:38:17.879 [http-nio-8080-exec-8] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:38:17.879 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=2, completion='completed'}
+15:38:17.880 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+15:38:17.880 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=4, completion='completed'}
+15:38:17.881 [http-nio-8080-exec-8] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+15:38:17.881 [http-nio-8080-exec-8] DEBUG org.elective.controller.ViewCourseServlet - Loading successfully
+15:38:18.063 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:21.331 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:21.331 [http-nio-8080-exec-9] DEBUG org.elective.controller.RateStudentServlet - Updating student(id=6) rating for course: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:38:21.334 [http-nio-8080-exec-9] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:38:21.334 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=2, completion='completed'}
+15:38:21.335 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+15:38:21.335 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=4, completion='completed'}
+15:38:21.336 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+15:38:21.337 [http-nio-8080-exec-9] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:38:21.337 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=2, completion='completed'}
+15:38:21.338 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+15:38:21.338 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=4, completion='completed'}
+15:38:21.339 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+15:38:21.340 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsCourseManager - find course: StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-06, grade=3}
+15:38:21.357 [http-nio-8080-exec-9] DEBUG org.elective.logic.StudentsCourseManager - setting new garde: 4
+15:38:21.369 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:21.369 [http-nio-8080-exec-4] DEBUG org.elective.controller.ViewCourseServlet - Loading course page...
+15:38:21.370 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:38:21.371 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+15:38:21.372 [http-nio-8080-exec-4] DEBUG org.elective.logic.UserManager - find user: User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}
+15:38:21.372 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:38:21.373 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=2, completion='uncompleted'}
+15:38:21.373 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=3, completion='uncompleted'}
+15:38:21.374 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=4, completion='uncompleted'}
+15:38:21.375 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=31, completion='uncompleted'}
+15:38:21.375 [http-nio-8080-exec-4] DEBUG org.elective.controller.ViewCourseServlet - Loading successfully
+15:38:21.375 [http-nio-8080-exec-4] DEBUG org.elective.logic.UserManager - find user: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+15:38:21.376 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:38:21.377 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=2, completion='completed'}
+15:38:21.377 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+15:38:21.378 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=4, completion='completed'}
+15:38:21.379 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+15:38:21.379 [http-nio-8080-exec-4] DEBUG org.elective.controller.ViewCourseServlet - Loading successfully
+15:38:23.835 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:23.835 [http-nio-8080-exec-2] ERROR org.elective.controller.RateStudentServlet - Chosen invalid grade
+15:38:38.558 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:38.558 [http-nio-8080-exec-3] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:38:38.559 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:38:38.560 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=4, subtopicName='Son'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:38:38.755 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:42.762 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:42.762 [http-nio-8080-exec-7] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:38:42.762 [http-nio-8080-exec-7] DEBUG org.elective.controller.PaginationServlet - new page key: 2
+15:38:42.778 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:46.317 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:46.317 [http-nio-8080-exec-8] DEBUG org.elective.controller.DeleteSubtopicServlet - Deleting subtopic...
+15:38:46.334 [http-nio-8080-exec-8] DEBUG org.elective.logic.SubtopicManager - Successfully deleting
+15:38:46.346 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:38:46.347 [http-nio-8080-exec-5] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:38:46.348 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:38:46.349 [http-nio-8080-exec-5] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=2, subtopicName='Domestic'}, Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:40:02.939 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:02.940 [http-nio-8080-exec-2] DEBUG org.elective.controller.DeleteSubtopicServlet - Deleting subtopic...
+15:40:02.954 [http-nio-8080-exec-2] DEBUG org.elective.logic.SubtopicManager - Successfully deleting
+15:40:02.967 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:02.967 [http-nio-8080-exec-10] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:40:02.968 [http-nio-8080-exec-10] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:40:02.969 [http-nio-8080-exec-10] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:40:03.008 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:06.228 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:06.229 [http-nio-8080-exec-1] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:40:06.229 [http-nio-8080-exec-1] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+15:40:06.240 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:08.503 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:08.503 [http-nio-8080-exec-6] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:40:08.503 [http-nio-8080-exec-6] DEBUG org.elective.controller.PaginationServlet - new page key: 0
+15:40:08.516 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:10.129 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:10.129 [http-nio-8080-exec-5] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:40:10.129 [http-nio-8080-exec-5] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+15:40:10.142 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:17.376 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:17.376 [http-nio-8080-exec-4] DEBUG org.elective.controller.NewSubtopicServlet - Creating subtopic...
+15:40:17.396 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - Created subtopic: Subtopic{courseId=1, subtopicId=32, subtopicName='Default name'}; for course id: 1
+15:40:17.408 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:40:17.408 [http-nio-8080-exec-2] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:40:17.409 [http-nio-8080-exec-2] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:40:17.410 [http-nio-8080-exec-2] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=32, subtopicName='Default name'}]
+15:41:49.596 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:41:49.596 [http-nio-8080-exec-1] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:41:49.598 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:41:49.599 [http-nio-8080-exec-1] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=32, subtopicName='Default name'}]
+15:41:49.648 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:41:49.661 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:41:49.661 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:36.509 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:36.510 [http-nio-8080-exec-10] DEBUG org.elective.controller.ContentRedactorServlet - Updating course content...
+15:42:36.526 [http-nio-8080-exec-10] DEBUG org.elective.logic.SubtopicManager - subtopic properties: Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}
+15:42:36.546 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:36.546 [http-nio-8080-exec-3] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:42:36.547 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:42:36.549 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=32, subtopicName='Default name'}]
+15:42:36.603 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:39.901 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:39.901 [http-nio-8080-exec-7] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:42:39.901 [http-nio-8080-exec-7] DEBUG org.elective.controller.PaginationServlet - new page key: 0
+15:42:39.919 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:41.899 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:41.899 [http-nio-8080-exec-8] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:42:41.899 [http-nio-8080-exec-8] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+15:42:41.911 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:41.950 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:43.187 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:43.188 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:42:43.188 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - new page key: 2
+15:42:43.203 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:44.429 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:44.429 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:42:44.429 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - new page key: 0
+15:42:44.442 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:54.010 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:54.010 [http-nio-8080-exec-1] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:42:54.010 [http-nio-8080-exec-1] DEBUG org.elective.controller.PaginationServlet - new page key: 2
+15:42:54.022 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:54.062 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:55.075 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:55.075 [http-nio-8080-exec-8] DEBUG org.elective.controller.DeleteSubtopicServlet - Deleting subtopic...
+15:42:55.079 [http-nio-8080-exec-8] DEBUG org.elective.logic.SubtopicManager - Successfully deleting
+15:42:55.092 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:55.092 [http-nio-8080-exec-5] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:42:55.093 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:42:55.093 [http-nio-8080-exec-5] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:42:58.051 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:42:58.051 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:42:58.051 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+15:42:58.063 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:43:02.827 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:43:02.828 [http-nio-8080-exec-10] DEBUG org.elective.controller.ContentRedactorServlet - Updating course content...
+15:43:02.831 [http-nio-8080-exec-10] DEBUG org.elective.logic.SubtopicManager - subtopic properties: Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}
+15:43:02.844 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:43:02.844 [http-nio-8080-exec-3] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:43:02.845 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:43:02.846 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:43:02.886 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:58:25.836 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+15:58:54.819 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:58:54.820 [http-nio-8080-exec-1] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:58:54.823 [http-nio-8080-exec-1] DEBUG org.elective.controller.PaginationServlet - new page key: 0
+15:58:54.845 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:58:56.174 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:58:57.907 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:58:57.908 [http-nio-8080-exec-3] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:58:57.908 [http-nio-8080-exec-3] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+15:58:57.923 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:59:03.487 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:59:03.487 [http-nio-8080-exec-6] DEBUG org.elective.controller.ContentRedactorServlet - Updating course content...
+15:59:03.930 [http-nio-8080-exec-6] DEBUG org.elective.logic.SubtopicManager - subtopic properties: Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}
+15:59:03.949 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:59:03.949 [http-nio-8080-exec-7] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:59:03.955 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:59:03.966 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+15:59:07.331 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:59:07.331 [http-nio-8080-exec-8] DEBUG org.elective.controller.NewSubtopicServlet - Creating subtopic...
+15:59:07.358 [http-nio-8080-exec-8] DEBUG org.elective.logic.SubtopicManager - Created subtopic: Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}; for course id: 1
+15:59:07.371 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:59:07.371 [http-nio-8080-exec-9] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+15:59:07.373 [http-nio-8080-exec-9] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+15:59:07.376 [http-nio-8080-exec-9] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}]
+15:59:13.898 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+15:59:13.898 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - Change page...
+15:59:13.898 [http-nio-8080-exec-10] DEBUG org.elective.controller.PaginationServlet - new page key: 2
+15:59:13.913 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:11.544 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:01:16.906 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:18.249 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:18.278 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:18.279 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:21.956 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:21.956 [http-nio-8080-exec-6] DEBUG org.elective.controller.NewSubtopicServlet - Creating subtopic...
+16:01:22.436 [http-nio-8080-exec-6] DEBUG org.elective.logic.SubtopicManager - Created subtopic: Subtopic{courseId=1, subtopicId=34, subtopicName='Default name'}; for course id: 1
+16:01:22.459 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:22.459 [http-nio-8080-exec-7] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+16:01:22.465 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:01:22.475 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}, Subtopic{courseId=1, subtopicId=34, subtopicName='Default name'}]
+16:01:29.990 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:29.990 [http-nio-8080-exec-8] DEBUG org.elective.controller.ContentRedactorServlet - Updating course content...
+16:01:30.006 [http-nio-8080-exec-8] DEBUG org.elective.logic.SubtopicManager - subtopic properties: Subtopic{courseId=1, subtopicId=34, subtopicName='Default name'}
+16:01:30.026 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:30.026 [http-nio-8080-exec-9] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+16:01:30.028 [http-nio-8080-exec-9] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:01:30.030 [http-nio-8080-exec-9] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}, Subtopic{courseId=1, subtopicId=34, subtopicName='Default name'}]
+16:01:33.166 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:33.166 [http-nio-8080-exec-10] DEBUG org.elective.controller.DeleteSubtopicServlet - Deleting subtopic...
+16:01:33.180 [http-nio-8080-exec-10] DEBUG org.elective.logic.SubtopicManager - Successfully deleting
+16:01:33.191 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:01:33.191 [http-nio-8080-exec-1] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+16:01:33.193 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:01:33.194 [http-nio-8080-exec-1] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}]
+16:02:58.784 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:03:04.085 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:04.086 [http-nio-8080-exec-1] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+16:03:04.540 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:03:04.552 [http-nio-8080-exec-1] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}]
+16:03:05.852 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:05.852 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:05.852 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:07.626 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:07.626 [http-nio-8080-exec-6] DEBUG org.elective.controller.PaginationServlet - Change page...
+16:03:07.626 [http-nio-8080-exec-6] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+16:03:07.644 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:12.090 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:12.090 [http-nio-8080-exec-8] DEBUG org.elective.controller.PaginationServlet - Change page...
+16:03:12.090 [http-nio-8080-exec-8] DEBUG org.elective.controller.PaginationServlet - new page key: 2
+16:03:12.107 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:15.374 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:15.374 [http-nio-8080-exec-10] DEBUG org.elective.controller.ContentRedactorServlet - Updating course content...
+16:03:15.395 [http-nio-8080-exec-10] DEBUG org.elective.logic.SubtopicManager - subtopic properties: Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}
+16:03:15.406 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:15.406 [http-nio-8080-exec-1] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+16:03:15.408 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:03:15.410 [http-nio-8080-exec-1] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=33, subtopicName='Default name'}]
+16:03:16.711 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:16.711 [http-nio-8080-exec-3] DEBUG org.elective.controller.DeleteSubtopicServlet - Deleting subtopic...
+16:03:16.727 [http-nio-8080-exec-3] DEBUG org.elective.logic.SubtopicManager - Successfully deleting
+16:03:16.740 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:16.741 [http-nio-8080-exec-4] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+16:03:16.743 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:03:16.744 [http-nio-8080-exec-4] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}]
+16:03:19.595 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:19.595 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - Change page...
+16:03:19.596 [http-nio-8080-exec-2] DEBUG org.elective.controller.PaginationServlet - new page key: 1
+16:03:19.608 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:21.707 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:21.707 [http-nio-8080-exec-6] DEBUG org.elective.controller.NewSubtopicServlet - Creating subtopic...
+16:03:21.733 [http-nio-8080-exec-6] DEBUG org.elective.logic.SubtopicManager - Created subtopic: Subtopic{courseId=1, subtopicId=35, subtopicName='Default name'}; for course id: 1
+16:03:21.745 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:21.745 [http-nio-8080-exec-7] DEBUG org.elective.controller.ContentRedactorServlet - Loading redactor page...
+16:03:21.746 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:03:21.748 [http-nio-8080-exec-7] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=35, subtopicName='Default name'}]
+16:03:30.342 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:30.343 [http-nio-8080-exec-10] DEBUG org.elective.controller.ViewCourseServlet - Loading course page...
+16:03:30.345 [http-nio-8080-exec-10] DEBUG org.elective.logic.CourseManager - course properties: Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}
+16:03:30.348 [http-nio-8080-exec-10] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:03:30.367 [http-nio-8080-exec-10] DEBUG org.elective.logic.UserManager - find user: User{id=4, firstName='ivan', lastName='petrov', roleId=3, email='ivan_petrov@test.org', blocked=false}
+16:03:30.376 [http-nio-8080-exec-10] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=35, subtopicName='Default name'}]
+16:03:30.379 [http-nio-8080-exec-10] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=3, completion='uncompleted'}
+16:03:30.382 [http-nio-8080-exec-10] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=31, completion='uncompleted'}
+16:03:30.384 [http-nio-8080-exec-10] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=4, subtopicId=35, completion='uncompleted'}
+16:03:30.385 [http-nio-8080-exec-10] DEBUG org.elective.controller.ViewCourseServlet - Loading successfully
+16:03:30.387 [http-nio-8080-exec-10] DEBUG org.elective.logic.UserManager - find user: User{id=6, firstName='student', lastName='test', roleId=3, email='student@test.org', blocked=false}
+16:03:30.389 [http-nio-8080-exec-10] DEBUG org.elective.logic.SubtopicManager - subtopics properties: [Subtopic{courseId=1, subtopicId=3, subtopicName='Acceptance'}, Subtopic{courseId=1, subtopicId=31, subtopicName='Тема на русском языке'}, Subtopic{courseId=1, subtopicId=35, subtopicName='Default name'}]
+16:03:30.390 [http-nio-8080-exec-10] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=3, completion='completed'}
+16:03:30.392 [http-nio-8080-exec-10] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=31, completion='completed'}
+16:03:30.394 [http-nio-8080-exec-10] DEBUG org.elective.logic.StudentsSubtopicManager - subtopic properties: StudentsSubtopic{studentId=6, subtopicId=35, completion='uncompleted'}
+16:03:30.394 [http-nio-8080-exec-10] DEBUG org.elective.controller.ViewCourseServlet - Loading successfully
+16:03:37.240 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:37.240 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:03:37.241 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:03:37.243 [http-nio-8080-exec-1] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:03:37.245 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:37.247 [http-nio-8080-exec-1] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:03:37.248 [http-nio-8080-exec-1] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:03:44.044 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:44.044 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:03:44.047 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:44.051 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:03:46.270 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:46.270 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:03:46.272 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:46.272 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:03:47.435 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:47.436 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:03:47.439 [http-nio-8080-exec-2] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:47.439 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:48.828 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:48.828 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:03:48.831 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:48.831 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:49.841 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:49.841 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:03:49.842 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:49.843 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:51.001 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:51.001 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:03:51.003 [http-nio-8080-exec-8] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:51.003 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:03:55.509 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:03:55.509 [http-nio-8080-exec-9] DEBUG org.elective.controller.SearchServlet - Searching by pattern: java
+16:03:55.511 [http-nio-8080-exec-9] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:04:07.391 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:04:07.392 [http-nio-8080-exec-10] DEBUG org.elective.controller.SearchServlet - Searching by pattern: c++
+16:04:07.394 [http-nio-8080-exec-10] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}]
+16:04:19.750 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:04:19.750 [http-nio-8080-exec-3] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:04:19.752 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:04:19.753 [http-nio-8080-exec-3] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:04:19.754 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:04:19.755 [http-nio-8080-exec-3] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:04:19.756 [http-nio-8080-exec-3] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:10:33.247 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:11:53.382 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:12:03.369 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:03.370 [http-nio-8080-exec-1] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:12:03.791 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:12:03.795 [http-nio-8080-exec-1] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:12:03.805 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:03.816 [http-nio-8080-exec-1] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:12:03.821 [http-nio-8080-exec-1] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:12:05.490 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:14.782 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:14.782 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:12:14.786 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:14.788 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:12:20.558 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:20.558 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:12:20.560 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:20.561 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:12:37.541 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:37.541 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:12:37.543 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:37.544 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:12:41.877 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:41.877 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:12:41.880 [http-nio-8080-exec-8] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:41.880 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:12:43.887 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:43.887 [http-nio-8080-exec-9] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:12:43.889 [http-nio-8080-exec-9] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:43.889 [http-nio-8080-exec-9] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:12:48.523 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:48.523 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:12:48.526 [http-nio-8080-exec-10] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:48.527 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:12:51.161 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:51.161 [http-nio-8080-exec-2] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:12:51.162 [http-nio-8080-exec-2] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:12:51.165 [http-nio-8080-exec-2] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:12:51.166 [http-nio-8080-exec-2] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:51.167 [http-nio-8080-exec-2] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:12:51.168 [http-nio-8080-exec-2] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:12:58.567 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:12:58.567 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:12:58.570 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:12:58.570 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:13:02.340 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:13:02.341 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:13:02.343 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:13:02.343 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:13:07.157 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:13:07.157 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:13:07.160 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:13:07.161 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:14:17.464 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:14:20.985 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:14:20.986 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:14:21.375 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:14:21.383 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:16:22.832 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:16:22.833 [http-nio-8080-exec-4] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:16:22.835 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:16:22.839 [http-nio-8080-exec-4] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:16:22.847 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:16:22.856 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:16:22.863 [http-nio-8080-exec-4] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:16:22.918 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:22:46.801 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:23:00.528 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:00.529 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:23:00.925 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:23:00.936 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:23:02.406 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:06.914 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:06.914 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:23:06.918 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:23:06.918 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:23:09.697 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:09.697 [http-nio-8080-exec-4] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:23:09.700 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:23:09.703 [http-nio-8080-exec-4] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:23:09.712 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:23:09.720 [http-nio-8080-exec-4] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:23:09.726 [http-nio-8080-exec-4] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:23:48.618 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.618 [http-nio-8080-exec-7] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:23:48.620 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:23:48.621 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:23:48.622 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:23:48.623 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:23:48.624 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:23:48.673 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.674 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.676 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.676 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.676 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:48.676 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:53.228 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:53.228 [http-nio-8080-exec-5] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:23:53.230 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:23:53.231 [http-nio-8080-exec-5] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:23:53.232 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:23:53.233 [http-nio-8080-exec-5] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:23:53.235 [http-nio-8080-exec-5] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:23:59.146 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:23:59.146 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:23:59.148 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:23:59.149 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:26:39.568 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:26:44.568 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:26:44.569 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:26:44.970 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:26:44.980 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:26:46.440 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:26:46.440 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:26:46.441 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:26:51.536 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:26:51.537 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:26:51.540 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:26:51.540 [http-nio-8080-exec-6] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:26:53.988 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:26:53.988 [http-nio-8080-exec-7] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:26:53.990 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:26:53.994 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:26:54.002 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:26:54.010 [http-nio-8080-exec-7] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:26:54.015 [http-nio-8080-exec-7] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:26:58.241 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:26:58.241 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:26:58.244 [http-nio-8080-exec-8] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:26:58.244 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:29:32.238 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:29:37.665 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:29:37.665 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:29:38.059 [http-nio-8080-exec-2] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:29:38.070 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:29:39.560 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:29:39.562 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:29:39.563 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:29:39.564 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:29:39.565 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:29:39.566 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:06.886 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:30:15.445 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:15.447 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:30:15.847 [http-nio-8080-exec-2] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:30:15.859 [http-nio-8080-exec-2] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:30:17.351 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:17.352 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:17.352 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:55.937 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:55.964 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:55.964 [http-nio-8080-exec-2] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:30:55.980 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:59.106 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:59.106 [http-nio-8080-exec-1] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+16:30:59.106 [http-nio-8080-exec-1] DEBUG org.elective.controller.AuthorisationServlet - email: admin@test.org
+16:30:59.116 [http-nio-8080-exec-1] DEBUG org.elective.logic.UserManager - find user: User{id=1, firstName='admin', lastName='admin', roleId=1, email='admin@test.org', blocked=false}
+16:30:59.121 [http-nio-8080-exec-1] DEBUG org.elective.controller.AuthorisationServlet - log in completed
+16:30:59.145 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:30:59.145 [http-nio-8080-exec-6] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:30:59.147 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:30:59.149 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:30:59.151 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+16:30:59.154 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+16:30:59.157 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=6, courseId=7, registrationDate=2022-10-31, grade=0}]
+16:30:59.162 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+16:30:59.164 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:30:59.166 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=5, courseId=2, registrationDate=2021-12-10, grade=0}]
+16:30:59.167 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+16:30:59.168 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+16:30:59.170 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=5, courseId=3, registrationDate=2021-12-21, grade=3}]
+16:30:59.171 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: []
+16:30:59.173 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=4, registrationDate=2021-10-12, grade=5}]
+16:30:59.174 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=6, courseId=11, registrationDate=2022-11-03, grade=0}]
+16:30:59.176 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+16:30:59.177 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+16:30:59.179 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+16:30:59.181 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:30:59.182 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+16:30:59.184 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+16:30:59.186 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+16:30:59.187 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+16:30:59.189 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}
+16:30:59.190 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}
+16:30:59.191 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}
+16:31:04.026 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:04.026 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:04.029 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+16:31:04.031 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+16:31:09.883 [http-nio-8080-exec-8] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:09.883 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:09.886 [http-nio-8080-exec-8] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+16:31:09.886 [http-nio-8080-exec-8] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:31:13.089 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:13.089 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:13.091 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+16:31:13.092 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:31:27.311 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+16:31:31.358 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:31.358 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:31.748 [http-nio-8080-exec-1] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+16:31:31.760 [http-nio-8080-exec-1] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}]
+16:31:33.225 [http-nio-8080-exec-2] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:33.231 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:33.233 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:33.234 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:33.235 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:33.235 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:42.090 [http-nio-8080-exec-9] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:42.091 [http-nio-8080-exec-9] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:42.094 [http-nio-8080-exec-9] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+16:31:42.094 [http-nio-8080-exec-9] DEBUG org.elective.controller.FilterServlet - courses after filter: []
+16:31:45.178 [http-nio-8080-exec-10] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:45.178 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:45.181 [http-nio-8080-exec-10] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=5, teacherId=2, name='boxing', topic='new topic', duration=110}, Course{id=7, teacherId=3, name='c++', topic='it', duration=140}, Course{id=8, teacherId=3, name='c++', topic='it', duration=160}, Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}, Course{id=2, teacherId=2, name='Game Dev C# Developer Course', topic='it', duration=190}, Course{id=9, teacherId=3, name='kung-fu', topic='punch', duration=130}, Course{id=6, teacherId=2, name='sambo', topic='punch', duration=170}, Course{id=3, teacherId=2, name='The Complete 2022 Web Development Bootcamp', topic='it', duration=180}, Course{id=10, teacherId=3, name='Training course from Onepunchman', topic='punch', duration=100}, Course{id=4, teacherId=2, name='UI/UX Design Essential Training', topic='it', duration=150}, Course{id=11, teacherId=8, name='Русский курс', topic='new topic', duration=115}]
+16:31:45.182 [http-nio-8080-exec-10] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:31:48.125 [http-nio-8080-exec-1] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:48.151 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:48.151 [http-nio-8080-exec-4] DEBUG org.elective.filters.SecurityFilter - No one is authorised
+16:31:48.162 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:51.501 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:51.501 [http-nio-8080-exec-5] DEBUG org.elective.controller.AuthorisationServlet - Log in...
+16:31:51.501 [http-nio-8080-exec-5] DEBUG org.elective.controller.AuthorisationServlet - email: teacher@test.org
+16:31:51.508 [http-nio-8080-exec-5] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:31:51.514 [http-nio-8080-exec-5] DEBUG org.elective.controller.AuthorisationServlet - log in completed
+16:31:51.546 [http-nio-8080-exec-6] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:51.546 [http-nio-8080-exec-6] DEBUG org.elective.controller.IndexServlet - Loading catalog...
+16:31:51.547 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - find topics: [it, new topic, punch]
+16:31:51.549 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find teachers: [User{id=2, firstName='bill', lastName='gayts', roleId=2, email='bill_gayts@test.org', blocked=false}, User{id=3, firstName='bruce', lastName='lee', roleId=2, email='bruce_lee@test.org', blocked=false}, User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}, User{id=10, firstName='Апаит', lastName='Тпаоен', roleId=2, email='teacher2@test.org', blocked=false}, User{id=8, firstName='Иван', lastName='Петрович', roleId=2, email='rusteacher@test.org', blocked=false}, User{id=9, firstName='Петр', lastName='Иванович', roleId=2, email='2rusteacher@test.org', blocked=false}]
+16:31:51.552 [http-nio-8080-exec-6] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:31:51.558 [http-nio-8080-exec-6] DEBUG org.elective.logic.StudentsCourseManager - find courses: [StudentsCourse{studentId=4, courseId=1, registrationDate=2021-10-21, grade=0}, StudentsCourse{studentId=6, courseId=1, registrationDate=2022-10-04, grade=4}]
+16:31:51.563 [http-nio-8080-exec-6] DEBUG org.elective.logic.UserManager - find user: User{id=7, firstName='teacher', lastName='test', roleId=2, email='teacher@test.org', blocked=false}
+16:31:56.867 [http-nio-8080-exec-4] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:56.867 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:56.869 [http-nio-8080-exec-4] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:31:56.870 [http-nio-8080-exec-4] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:31:59.394 [http-nio-8080-exec-3] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:31:59.394 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:31:59.397 [http-nio-8080-exec-3] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:31:59.397 [http-nio-8080-exec-3] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:32:01.582 [http-nio-8080-exec-5] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:32:01.582 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:32:01.585 [http-nio-8080-exec-5] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:32:01.585 [http-nio-8080-exec-5] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:32:06.119 [http-nio-8080-exec-7] INFO  org.elective.filters.EncodingFilter - Encoding was set
+16:32:06.120 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - Starting filtering...
+16:32:06.122 [http-nio-8080-exec-7] DEBUG org.elective.logic.CourseManager - courses properties: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]
+16:32:06.123 [http-nio-8080-exec-7] DEBUG org.elective.controller.FilterServlet - courses after filter: [Course{id=1, teacherId=7, name='Full Java Course For Beginners', topic='it', duration=120}]

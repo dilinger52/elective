@@ -1,0 +1,5 @@
+13:02:03.390 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+13:31:50.953 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+13:32:55.431 [main] DEBUG org.elective.listeners.AppContextListener - Application started
+13:39:05.372 [main] ERROR org.elective.logic.SubtopicManager - java.lang.IllegalStateException: CannotObtainADataSource
+13:57:54.800 [main] ERROR org.elective.logic.SubtopicManager - java.lang.NullPointerException

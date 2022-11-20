@@ -4,6 +4,7 @@ import org.elective.database.DBException;
 import org.elective.database.dao.CourseDAO;
 import org.elective.database.dao.DAOFactory;
 import org.elective.database.entity.Course;
+import org.elective.logic.CourseManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -18,6 +19,7 @@ import java.util.stream.Collectors;
 import static org.elective.database.dao.mysql.MysqlCourseDAO.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
+
 
 public class MysqlCourseDAOTest {
     CourseDAO courseDAO;

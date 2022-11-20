@@ -17,9 +17,7 @@
                 <fmt:message key="catalog.head.description" />
             </p>
         </div>
-        <form action="search_by_name" method="get" id="search">
-            <input class="search_input" type="search" placeholder='<fmt:message key="catalog.search.placeholder" />' name="pattern"/>
-        </form>
+            <input form="filter" class="search_input" type="search" placeholder='<fmt:message key="catalog.search.placeholder" />' name="pattern"/>
     </div>
     <div class="content">
         <jsp:include page="filter.jsp" />
