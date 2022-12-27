@@ -4,133 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68598ab2-23cb-4f4e-9c56-fa64ccef8fc4" name="Changes" comment="5">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_duct_tape_duct_tape_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_database_commons_1_17_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_jdbc_1_17_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_junit_jupiter_1_17_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_mysql_1_17_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_17_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0110c38e00615a9d9719506f6c695ca5a8ab37cd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01c3ef046ce091d89a8fba5815f0926d37207ef5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/051b0ac501a865704d2b6b36f8cfabfa311becc2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f3318ffb080f735f8052358bb28598d596d157f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f432f15ded1e8e42ecebdb4f888c0a43165de4f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/144153753f374eb9489c9541cec360d1352f04b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fb414c0e8cf0637017e7a4e326c50c395d3f6da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23dd05681e033d07c15195715749ec9485f2d549" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d303f2d78260f264f22103074d365cc1d7eacc6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3819c16e4a27752a128752c506287183b0c69775" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e6f66ca4006d544386a27f2876cff0f862a9c72" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/4069bb83d28e480d635d49fc3e6cda2181ab423c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49a9d9fc2847a6f53b934990ff831456aac0f288" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d616cdec3211694704dfcaf8a1a110ab3f1d519" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53249aa8b813d992f273d7a068b14e2c0ad6a823" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a7a06186fe2333e34b80da4de4857e0c848063c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c692c98cca596316268042636805d04e4f7ff74" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5dfed46eb33d85d0571e1bc677e20e1f0d8a36bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60adf65f3b2fbf9efd5c5555ec6d40044c02d5a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65ed4797daa5d12da73cac58d9743c9d3c9aed8f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66c023e02c50d37975ae7231d95eeb9b933f3265" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68bfc0c581a0220e7f3d73c91591cb63c5cc22d8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ec23da5ffb548936b179a610f9ec8ee42cd2350" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f5b8251b03fbf8f4a8767b14006eaa5202d5907" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/776a62a425526537a97fc3e09cc0752b42863267" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a4bddac688099b6342b90a9c0fcb03acf46c51e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7aa67f2284360a043ddf6fa6c4b3f8b4a1e7110b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c3e98d388fc6fc053e1b3ddf428b19e33b60513" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c7e726702e701bf4b7b939ecd109778527f7440" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/868d185365fa77a9fde3bffef5485fe1e360c869" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/9182f9f87c805deb28f5d51eb34eae31a71046fd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/9489121a5936bcac77a14c9e77da821724c64447" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a2a8d9634abeb83bd7d14b7173ae6990c61bba4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a3852b5a7020df33141584727af49b71a20ab0a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a66f3a40b5bde9fce3573ade828e429f974f5fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a06227809326f73496f2717a21b26e27887fe92e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9c495786c5403a9aa4ce9e05db678ee155d8343" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c05252bf3e9b0452d8f0cec086709ca5ee0d6e63" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c51d7b9657d175ab92501451b944ff889dc05476" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cba3df22242d379bdb72d00919d2e8d49101d1bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d09446e4ad1a2376dfda7a4fcf545f79819703c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d468315eaa83dbaa1a6ee4f8727691e97d8c7759" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9544822ef6c1e1bd74fcb69ea4c273fc0575905" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc85901b0ba32d70389266f25d77279026fa97d6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd51f7041d5a8d7bb17c79a85099a350e198ae09" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0d1335880b3afc4110a94ad83457812a2a1a6f6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3be469893734ed6621f94d103335519d7f1b821" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e55eab2c2bf9d18df7a01923d5ed32c3cd73e999" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f05a828fd877e430436a285f5cc0bad3ff695b87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f280a546a2ef56c5bd79c762b2847d135d687411" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f95aad1d0d89a287088724309e348c538d492856" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb0d5db3b9211802ea465227f397840555c0a3a4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-11-03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-11-04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-11-08.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-2022-11-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/CourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/MailManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/StudentsCourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/StudentsSubtopicManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/SubtopicManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbfb0d2e9b2b9fbf9d54374577c894a38643c6d0" beforeDir="false" />
+    <list default="true" id="68598ab2-23cb-4f4e-9c56-fa64ccef8fc4" name="Changes" comment="6">
+      <change afterPath="$PROJECT_DIR$/application-2022-12-26.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d9c46b7b33a222f24fa6dac6b3dd59863ac491f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65ed4797daa5d12da73cac58d9743c9d3c9aed8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/868d185365fa77a9fde3bffef5485fe1e360c869" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a2a8d9634abeb83bd7d14b7173ae6990c61bba4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f95aad1d0d89a287088724309e348c538d492856" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBStart.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DBStart.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/elective.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/AuthorisationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/AuthorisationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/ConfirmEmailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/ConfirmEmailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/ContentRedactorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/ContentRedactorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/CourseContentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/CourseContentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/CreateCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/CreateCourseServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/CreateTeacherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/CreateTeacherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/DeleteCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/DeleteCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/DeleteSubtopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/DeleteSubtopicServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/FilterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/FilterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/JoinCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/JoinCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/LogOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/LogOutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/NewSubtopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/NewSubtopicServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/PaginationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/PaginationServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/PersonalCoursesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/PersonalCoursesServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/RateStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/RateStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/SearchServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/StudentsPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/StudentsPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/controller/ViewCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/controller/ViewCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/utils/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/utils/Pagination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/utils/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/utils/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/authorisation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/authorisation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/catalog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/catalog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/confirmEmail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/confirmEmail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/personalCourses.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/personalCourses.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/elective/controller/FilterServletTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elective/utils/FilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlCourseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elective/database/dao/mysql/MysqlCourseDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/elective/utils/PaginationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elective/utils/PaginationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/elective/utils/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elective/utils/SortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/utils/Pagination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/utils/Pagination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/elective/utils/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/elective/utils/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/text_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/elective/database/dao/mysql/MysqlCourseDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/elective/database/dao/mysql/MysqlCourseDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/elective/servlets/FilterServletTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/elective/utils/PaginationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/elective/utils/PaginationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/elective/utils/SortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/elective/utils/SortingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/logic/StudentsSubtopicManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/StudentsSubtopicManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elective/logic/SubtopicManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elective/logic/SubtopicManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +105,7 @@
       <recent name="org.elective.DBManager.dao.mysql" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat">
     <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
       <option name="passParentEnvironments" value="true" />
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
@@ -322,9 +211,9 @@
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="tomcatInfo">
         <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.65" />
-          <option name="path" value="E:/Programs/apache-tomcat-9.0.65" />
-          <option name="version" value="9.0.65.0" />
+          <option name="name" value="Apache Tomcat/9.0.70" />
+          <option name="path" value="$PROJECT_DIR$/../../../../Program Files/apache-tomcat-9.0.70" />
+          <option name="version" value="9.0.70.0" />
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
@@ -408,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667327078665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="6">
+      <created>1668947765540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668947765540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,7 +329,8 @@
     <MESSAGE value="2" />
     <MESSAGE value="3" />
     <MESSAGE value="5" />
-    <option name="LAST_COMMIT_MESSAGE" value="5" />
+    <MESSAGE value="6" />
+    <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,104 +343,6 @@
           <properties class="java.lang.NoSuchMethodException" package="java.lang" />
           <option name="timeStamp" value="23" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>87</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>88</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>108</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="89" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/elective/utils/Filter.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -552,25 +351,25 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/elective$FilterTest_testFilterName.ic" NAME="FilterTest.testFilterName Coverage Results" MODIFIED="1667906146190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.elective.utils.*</FILTER>
+    <SUITE FILE_PATH="coverage/elective$MysqlCourseDAOTest.ic" NAME="MysqlCourseDAOTest Coverage Results" MODIFIED="1666260449561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/elective$PaginationTest_testGetNewPageKey.ic" NAME="PaginationTest.testGetNewPageKey Coverage Results" MODIFIED="1667907091845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.elective.utils.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/elective$PaginationTest_testPageConstructor.ic" NAME="PaginationTest.testPageConstructor Coverage Results" MODIFIED="1666363271815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.elective.servlets.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/elective$MysqlCourseDAOTest.ic" NAME="MysqlCourseDAOTest Coverage Results" MODIFIED="1666260449561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/elective$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1666078669659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/elective$MysqlUserDAOTest_testGetAllTeachers.ic" NAME="MysqlUserDAOTest.testGetAllTeachers Coverage Results" MODIFIED="1666355779753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/elective$Test.ic" NAME="Test Coverage Results" MODIFIED="1668946301910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/elective$Test.ic" NAME="Test Coverage Results" MODIFIED="1672054575136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/elective$FilterTest_testFilterName.ic" NAME="FilterTest.testFilterName Coverage Results" MODIFIED="1667906146190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.elective.utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/elective$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1666078669659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/elective$MysqlStudentsCourseDAOTest.ic" NAME="MysqlStudentsCourseDAOTest Coverage Results" MODIFIED="1666609618878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.elective.DBManager.dao.mysql.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/elective$PaginationTest_testPageConstructor.ic" NAME="PaginationTest.testPageConstructor Coverage Results" MODIFIED="1666363271815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.elective.servlets.*</FILTER>
     </SUITE>
   </component>
 </project>

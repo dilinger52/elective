@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `elective`.`user` (
   CONSTRAINT `fk_user_role`
     FOREIGN KEY (`role_id`)
     REFERENCES `elective`.`role` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION);
 
 
@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS `elective`.`course` (
   CONSTRAINT `fk_course_user1`
     FOREIGN KEY (`teacher_id`)
     REFERENCES `elective`.`user` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION);
 
 
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS `elective`.`students_courses` (
   CONSTRAINT `fk_students_courses_user1`
     FOREIGN KEY (`student_id`)
     REFERENCES `elective`.`user` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION);
 
 
@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS `elective`.`course_subtopics` (
   CONSTRAINT `fk_course_subtopics_course1`
     FOREIGN KEY (`course_id`)
     REFERENCES `elective`.`course` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION);
 
 
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS `elective`.`students_subtopic` (
   CONSTRAINT `fk_course_subtopics_has_user_user1`
     FOREIGN KEY (`student_id`)
     REFERENCES `elective`.`user` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION);
 
 

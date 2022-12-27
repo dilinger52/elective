@@ -70,9 +70,8 @@ public class SubtopicManager {
 
     public static Map<Integer, Integer> getStudentsSubtopicsNum(List<Course> courses) throws DBException {
         Map<Integer, Integer> result = new HashMap<>();
-        int i = 0;
         for (Course course : courses) {
-            result.put(i++, findSubtopicsByCourse(course.getId()).size());
+            result.put(course.getId(), findSubtopicsByCourse(course.getId()).size());
         }
         return result;
     }

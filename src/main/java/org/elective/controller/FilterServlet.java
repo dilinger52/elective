@@ -47,7 +47,9 @@ public class FilterServlet extends HttpServlet {
         String[] teachers = req.getParameterValues("teacher");
         String[] completions = req.getParameterValues("completion");
         String sortingPattern = req.getParameter("sorting_pattern");
+        if (sortingPattern == null) sortingPattern = "0";
         String pattern = req.getParameter("pattern");
+        if (pattern == null) pattern = "";
         HttpSession session = req.getSession();
         String path = (String) session.getAttribute("path");
         User user = (User) session.getAttribute("user");

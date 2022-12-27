@@ -95,9 +95,8 @@ public class StudentsSubtopicManager {
 
     public static Map<Integer, Integer> getFinishedSubtopicsNum(List<Course> courses, User student) throws DBException {
         Map<Integer, Integer> result = new HashMap<>();
-        int i = 0;
         for (Course course : courses) {
-            result.put(i++, getFinishedSubtopics(student.getId(), course.getId()).size());
+            result.put(course.getId(), getFinishedSubtopics(student.getId(), course.getId()).size());
         }
         return result;
     }

@@ -52,7 +52,7 @@ public class PersonalCoursesServlet extends HttpServlet {
         List<Course> courses;
         Map<Integer, String> coursesTeacher;
         Map<Integer, Date> coursesRegistrationDate;
-        Map<Integer, Integer> studentsSubtopicNum;
+        Map<Integer, Integer> studentsSubtopicsNum;
         Map<Integer, Integer> finishedSubtopicsNum;
         Map<Integer, Long> coursesGrade;
         try {
@@ -61,7 +61,7 @@ public class PersonalCoursesServlet extends HttpServlet {
             courses = CourseManager.findCoursesByStudent(student.getId());
             coursesTeacher = getCoursesTeacher(courses);
             coursesRegistrationDate = getCoursesRegistrationDate(courses, student);
-            studentsSubtopicNum = getStudentsSubtopicsNum(courses);
+            studentsSubtopicsNum = getStudentsSubtopicsNum(courses);
             finishedSubtopicsNum = getFinishedSubtopicsNum(courses, student);
             coursesGrade = getCoursesGrade(courses, student);
 
@@ -82,7 +82,7 @@ public class PersonalCoursesServlet extends HttpServlet {
         session.setAttribute("coursesTeacher", coursesTeacher);
         session.setAttribute("coursesRegistrationDate", coursesRegistrationDate);
         session.setAttribute("finishedSubtopicsNum", finishedSubtopicsNum);
-        session.setAttribute("studentsSubtopicNum", studentsSubtopicNum);
+        session.setAttribute("studentsSubtopicsNum", studentsSubtopicsNum);
         session.setAttribute("coursesGrade", coursesGrade);
         session.setAttribute("pages", pages);
         session.setAttribute("pageKey", 0);

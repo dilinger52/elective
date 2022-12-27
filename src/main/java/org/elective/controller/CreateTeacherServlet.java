@@ -55,7 +55,7 @@ public class CreateTeacherServlet extends HttpServlet {
         session.removeAttribute(CONFPASS);
 
         if (!firstName.matches("[A-ZА-Я][a-zа-я]+")) {
-            session.setAttribute(CreateTeacherServlet.FIRST_NAME, "FirstNameMustStartsWithUppercase");
+            session.setAttribute("firstName", "FirstNameMustStartsWithUppercase");
             logger.debug("firstName must starts with uppercase");
             resp.sendRedirect(req.getContextPath() + CREATE_TEACHER_PAGE);
             return;
